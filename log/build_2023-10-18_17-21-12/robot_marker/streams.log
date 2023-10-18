@@ -1,0 +1,35 @@
+[1.196s] Invoking command in '/home/parallels/robotics-2110435/challenge_1/src/robot_marker': PYTHONPATH=/home/parallels/robotics-2110435/build/robot_marker/prefix_override:/home/parallels/robotics-2110435/install/robot_marker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robot_marker build --build-base /home/parallels/robotics-2110435/build/robot_marker/build install --record /home/parallels/robotics-2110435/build/robot_marker/install.log --single-version-externally-managed
+[1.347s] running egg_info
+[1.347s] creating ../../../build/robot_marker/robot_marker.egg-info
+[1.347s] writing ../../../build/robot_marker/robot_marker.egg-info/PKG-INFO
+[1.347s] writing dependency_links to ../../../build/robot_marker/robot_marker.egg-info/dependency_links.txt
+[1.347s] writing entry points to ../../../build/robot_marker/robot_marker.egg-info/entry_points.txt
+[1.347s] writing requirements to ../../../build/robot_marker/robot_marker.egg-info/requires.txt
+[1.347s] writing top-level names to ../../../build/robot_marker/robot_marker.egg-info/top_level.txt
+[1.347s] writing manifest file '../../../build/robot_marker/robot_marker.egg-info/SOURCES.txt'
+[1.347s] reading manifest file '../../../build/robot_marker/robot_marker.egg-info/SOURCES.txt'
+[1.348s] writing manifest file '../../../build/robot_marker/robot_marker.egg-info/SOURCES.txt'
+[1.348s] running build
+[1.348s] running build_py
+[1.348s] creating /home/parallels/robotics-2110435/build/robot_marker/build
+[1.348s] creating /home/parallels/robotics-2110435/build/robot_marker/build/lib
+[1.348s] creating /home/parallels/robotics-2110435/build/robot_marker/build/lib/robot_marker
+[1.348s] copying robot_marker/__init__.py -> /home/parallels/robotics-2110435/build/robot_marker/build/lib/robot_marker
+[1.348s] running install
+[1.348s] running install_lib
+[1.348s] creating /home/parallels/robotics-2110435/install/robot_marker/lib/python3.10/site-packages/robot_marker
+[1.348s] copying /home/parallels/robotics-2110435/build/robot_marker/build/lib/robot_marker/__init__.py -> /home/parallels/robotics-2110435/install/robot_marker/lib/python3.10/site-packages/robot_marker
+[1.348s] byte-compiling /home/parallels/robotics-2110435/install/robot_marker/lib/python3.10/site-packages/robot_marker/__init__.py to __init__.cpython-310.pyc
+[1.348s] running install_data
+[1.348s] creating /home/parallels/robotics-2110435/install/robot_marker/share/ament_index
+[1.348s] creating /home/parallels/robotics-2110435/install/robot_marker/share/ament_index/resource_index
+[1.348s] creating /home/parallels/robotics-2110435/install/robot_marker/share/ament_index/resource_index/packages
+[1.348s] copying resource/robot_marker -> /home/parallels/robotics-2110435/install/robot_marker/share/ament_index/resource_index/packages
+[1.348s] copying package.xml -> /home/parallels/robotics-2110435/install/robot_marker/share/robot_marker
+[1.349s] running install_egg_info
+[1.349s] Copying ../../../build/robot_marker/robot_marker.egg-info to /home/parallels/robotics-2110435/install/robot_marker/lib/python3.10/site-packages/robot_marker-0.0.0-py3.10.egg-info
+[1.349s] running install_scripts
+[1.349s] writing list of installed files to '/home/parallels/robotics-2110435/build/robot_marker/install.log'
+[1.349s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.349s]   warnings.warn(
+[1.452s] Invoked command in '/home/parallels/robotics-2110435/challenge_1/src/robot_marker' returned '0': PYTHONPATH=/home/parallels/robotics-2110435/build/robot_marker/prefix_override:/home/parallels/robotics-2110435/install/robot_marker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robot_marker build --build-base /home/parallels/robotics-2110435/build/robot_marker/build install --record /home/parallels/robotics-2110435/build/robot_marker/install.log --single-version-externally-managed

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../build/turtle_square/turtle_square.egg-info
+writing ../../../build/turtle_square/turtle_square.egg-info/PKG-INFO
+writing dependency_links to ../../../build/turtle_square/turtle_square.egg-info/dependency_links.txt
+writing entry points to ../../../build/turtle_square/turtle_square.egg-info/entry_points.txt
+writing requirements to ../../../build/turtle_square/turtle_square.egg-info/requires.txt
+writing top-level names to ../../../build/turtle_square/turtle_square.egg-info/top_level.txt
+writing manifest file '../../../build/turtle_square/turtle_square.egg-info/SOURCES.txt'
+reading manifest file '../../../build/turtle_square/turtle_square.egg-info/SOURCES.txt'
+writing manifest file '../../../build/turtle_square/turtle_square.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/parallels/robotics-2110435/build/turtle_square/build
+creating /home/parallels/robotics-2110435/build/turtle_square/build/lib
+creating /home/parallels/robotics-2110435/build/turtle_square/build/lib/turtle_square
+copying turtle_square/__init__.py -> /home/parallels/robotics-2110435/build/turtle_square/build/lib/turtle_square
+copying turtle_square/my_robot_square.py -> /home/parallels/robotics-2110435/build/turtle_square/build/lib/turtle_square
+running install
+running install_lib
+creating /home/parallels/robotics-2110435/install/turtle_square/lib/python3.10/site-packages/turtle_square
+copying /home/parallels/robotics-2110435/build/turtle_square/build/lib/turtle_square/__init__.py -> /home/parallels/robotics-2110435/install/turtle_square/lib/python3.10/site-packages/turtle_square
+copying /home/parallels/robotics-2110435/build/turtle_square/build/lib/turtle_square/my_robot_square.py -> /home/parallels/robotics-2110435/install/turtle_square/lib/python3.10/site-packages/turtle_square
+byte-compiling /home/parallels/robotics-2110435/install/turtle_square/lib/python3.10/site-packages/turtle_square/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/parallels/robotics-2110435/install/turtle_square/lib/python3.10/site-packages/turtle_square/my_robot_square.py to my_robot_square.cpython-310.pyc
+running install_data
+creating /home/parallels/robotics-2110435/install/turtle_square/share/ament_index
+creating /home/parallels/robotics-2110435/install/turtle_square/share/ament_index/resource_index
+creating /home/parallels/robotics-2110435/install/turtle_square/share/ament_index/resource_index/packages
+copying resource/turtle_square -> /home/parallels/robotics-2110435/install/turtle_square/share/ament_index/resource_index/packages
+copying package.xml -> /home/parallels/robotics-2110435/install/turtle_square/share/turtle_square
+running install_egg_info
+Copying ../../../build/turtle_square/turtle_square.egg-info to /home/parallels/robotics-2110435/install/turtle_square/lib/python3.10/site-packages/turtle_square-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_square_node script to /home/parallels/robotics-2110435/install/turtle_square/lib/turtle_square
+writing list of installed files to '/home/parallels/robotics-2110435/build/turtle_square/install.log'

@@ -1,0 +1,1 @@
+libgstreamer1.0-dev;libgstreamer-plugins-base1.0-dev;class_loader;cv_bridge;rclcpp;rclcpp_components;image_transport;sensor_msgs;camera_calibration_parsers;camera_info_manager;ament_cmake_gtest;ament_lint_auto;ament_lint_common

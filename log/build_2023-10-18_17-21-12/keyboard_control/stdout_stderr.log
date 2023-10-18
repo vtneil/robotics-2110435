@@ -1,0 +1,41 @@
+running egg_info
+creating ../../../build/keyboard_control/keyboard_control.egg-info
+writing ../../../build/keyboard_control/keyboard_control.egg-info/PKG-INFO
+writing dependency_links to ../../../build/keyboard_control/keyboard_control.egg-info/dependency_links.txt
+writing entry points to ../../../build/keyboard_control/keyboard_control.egg-info/entry_points.txt
+writing requirements to ../../../build/keyboard_control/keyboard_control.egg-info/requires.txt
+writing top-level names to ../../../build/keyboard_control/keyboard_control.egg-info/top_level.txt
+writing manifest file '../../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+reading manifest file '../../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+writing manifest file '../../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/parallels/robotics-2110435/build/keyboard_control/build
+creating /home/parallels/robotics-2110435/build/keyboard_control/build/lib
+creating /home/parallels/robotics-2110435/build/keyboard_control/build/lib/keyboard_control
+copying keyboard_control/vel_mux.py -> /home/parallels/robotics-2110435/build/keyboard_control/build/lib/keyboard_control
+copying keyboard_control/__init__.py -> /home/parallels/robotics-2110435/build/keyboard_control/build/lib/keyboard_control
+copying keyboard_control/keyboard_control.py -> /home/parallels/robotics-2110435/build/keyboard_control/build/lib/keyboard_control
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/parallels/robotics-2110435/install/keyboard_control/lib/python3.10/site-packages/keyboard_control
+copying /home/parallels/robotics-2110435/build/keyboard_control/build/lib/keyboard_control/vel_mux.py -> /home/parallels/robotics-2110435/install/keyboard_control/lib/python3.10/site-packages/keyboard_control
+copying /home/parallels/robotics-2110435/build/keyboard_control/build/lib/keyboard_control/__init__.py -> /home/parallels/robotics-2110435/install/keyboard_control/lib/python3.10/site-packages/keyboard_control
+copying /home/parallels/robotics-2110435/build/keyboard_control/build/lib/keyboard_control/keyboard_control.py -> /home/parallels/robotics-2110435/install/keyboard_control/lib/python3.10/site-packages/keyboard_control
+byte-compiling /home/parallels/robotics-2110435/install/keyboard_control/lib/python3.10/site-packages/keyboard_control/vel_mux.py to vel_mux.cpython-310.pyc
+byte-compiling /home/parallels/robotics-2110435/install/keyboard_control/lib/python3.10/site-packages/keyboard_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/parallels/robotics-2110435/install/keyboard_control/lib/python3.10/site-packages/keyboard_control/keyboard_control.py to keyboard_control.cpython-310.pyc
+running install_data
+creating /home/parallels/robotics-2110435/install/keyboard_control/share/ament_index
+creating /home/parallels/robotics-2110435/install/keyboard_control/share/ament_index/resource_index
+creating /home/parallels/robotics-2110435/install/keyboard_control/share/ament_index/resource_index/packages
+copying resource/keyboard_control -> /home/parallels/robotics-2110435/install/keyboard_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/parallels/robotics-2110435/install/keyboard_control/share/keyboard_control
+running install_egg_info
+Copying ../../../build/keyboard_control/keyboard_control.egg-info to /home/parallels/robotics-2110435/install/keyboard_control/lib/python3.10/site-packages/keyboard_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing keyboard_control script to /home/parallels/robotics-2110435/install/keyboard_control/lib/keyboard_control
+Installing vel_mux script to /home/parallels/robotics-2110435/install/keyboard_control/lib/keyboard_control
+writing list of installed files to '/home/parallels/robotics-2110435/build/keyboard_control/install.log'

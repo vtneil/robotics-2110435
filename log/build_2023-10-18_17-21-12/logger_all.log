@@ -1,0 +1,686 @@
+[0.449s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.449s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff833630a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff83361570>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff83361570>>)
+[0.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.481s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/parallels/robotics-2110435'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extension 'ignore_ament_install'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extension 'colcon_pkg'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extensions ['colcon_meta']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extension 'colcon_meta'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extension 'ros'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extensions ['cmake', 'python']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extension 'cmake'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extension 'python'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extensions ['python_setup_py']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extension 'python_setup_py'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/build) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/build) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/build) ignored
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/install) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/install) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/install) ignored
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/log) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/log) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/log) ignored
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src) by extensions ['ros']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src) by extension 'ros'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src) by extensions ['cmake', 'python']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src) by extension 'cmake'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src) by extension 'python'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src) by extensions ['python_setup_py']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src) by extension 'python_setup_py'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src/robot_marker) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src/robot_marker) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src/robot_marker) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src/robot_marker) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src/robot_marker) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src/robot_marker) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src/robot_marker) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src/robot_marker) by extensions ['ros']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1/src/robot_marker) by extension 'ros'
+[0.490s] DEBUG:colcon.colcon_core.package_identification:Package 'challenge_1/src/robot_marker' with type 'ros.ament_python' and name 'robot_marker'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws) by extension 'ignore'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws) by extension 'ignore_ament_install'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws) by extensions ['colcon_pkg']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws) by extension 'colcon_pkg'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws) by extension 'ros'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws) by extensions ['cmake', 'python']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws) by extension 'cmake'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws) by extension 'python'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws) by extensions ['python_setup_py']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws) by extension 'python_setup_py'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/build) by extension 'ignore'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/build) ignored
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/install) by extension 'ignore'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/install) ignored
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/log) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/log) ignored
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src) by extension 'ignore_ament_install'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src) by extensions ['colcon_pkg']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src) by extension 'colcon_pkg'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src) by extensions ['colcon_meta']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src) by extension 'colcon_meta'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src) by extensions ['ros']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src) by extension 'ros'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src) by extensions ['cmake', 'python']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src) by extension 'cmake'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src) by extension 'python'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src) by extensions ['python_setup_py']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src) by extension 'python_setup_py'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/build) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/build) ignored
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/install) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/install) ignored
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/log) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/log) ignored
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/turtle_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/turtle_pkg) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/turtle_pkg) by extension 'ignore_ament_install'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/turtle_pkg) by extensions ['colcon_pkg']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/turtle_pkg) by extension 'colcon_pkg'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/turtle_pkg) by extensions ['colcon_meta']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/turtle_pkg) by extension 'colcon_meta'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/turtle_pkg) by extensions ['ros']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/turtle_pkg) by extension 'ros'
+[0.492s] DEBUG:colcon.colcon_core.package_identification:Package 'robot_ws/src/turtle_pkg' with type 'ros.ament_python' and name 'turtle_pkg'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/turtle_square_stm) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/turtle_square_stm) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/turtle_square_stm) by extension 'ignore_ament_install'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/turtle_square_stm) by extensions ['colcon_pkg']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/turtle_square_stm) by extension 'colcon_pkg'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/turtle_square_stm) by extensions ['colcon_meta']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/turtle_square_stm) by extension 'colcon_meta'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/turtle_square_stm) by extensions ['ros']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(robot_ws/src/turtle_square_stm) by extension 'ros'
+[0.492s] DEBUG:colcon.colcon_core.package_identification:Package 'robot_ws/src/turtle_square_stm' with type 'ros.ament_python' and name 'turtle_square'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ignore_ament_install'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['colcon_pkg']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'colcon_pkg'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['colcon_meta']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'colcon_meta'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['ros']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ros'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['cmake', 'python']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'cmake'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'python'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['python_setup_py']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'python_setup_py'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/build) ignored
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/install) ignored
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/log) ignored
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ignore_ament_install'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['colcon_pkg']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'colcon_pkg'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['colcon_meta']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'colcon_meta'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['ros']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ros'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['cmake', 'python']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'cmake'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'python'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['python_setup_py']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'python_setup_py'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/gscam) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/gscam) by extension 'ignore'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/gscam) by extension 'ignore_ament_install'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/gscam) by extensions ['colcon_pkg']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/gscam) by extension 'colcon_pkg'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/gscam) by extensions ['colcon_meta']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/gscam) by extension 'colcon_meta'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/gscam) by extensions ['ros']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/gscam) by extension 'ros'
+[0.493s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/gscam' with type 'ros.ament_cmake' and name 'gscam'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws) by extension 'ignore_ament_install'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws) by extensions ['colcon_pkg']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws) by extension 'ros'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws) by extensions ['cmake', 'python']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws) by extension 'cmake'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws) by extension 'python'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws) by extensions ['python_setup_py']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws) by extension 'python_setup_py'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/install) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/install) ignored
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/log) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/log) ignored
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src) by extension 'ignore_ament_install'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src) by extensions ['colcon_pkg']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src) by extension 'ros'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src) by extensions ['cmake', 'python']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src) by extension 'cmake'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src) by extension 'python'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src) by extensions ['python_setup_py']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src) by extension 'python_setup_py'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/aruco_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/aruco_controller) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/aruco_controller) by extension 'ignore_ament_install'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/aruco_controller) by extensions ['colcon_pkg']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/aruco_controller) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/aruco_controller) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/aruco_controller) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/aruco_controller) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/aruco_controller) by extension 'ros'
+[0.495s] DEBUG:colcon.colcon_core.package_identification:Package 'tracking_ws/src/aruco_controller' with type 'ros.ament_cmake' and name 'aruco_controller'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/aruco_following_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/aruco_following_controller) by extension 'ignore'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/aruco_following_controller) by extension 'ignore_ament_install'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/aruco_following_controller) by extensions ['colcon_pkg']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/aruco_following_controller) by extension 'colcon_pkg'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/aruco_following_controller) by extensions ['colcon_meta']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/aruco_following_controller) by extension 'colcon_meta'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/aruco_following_controller) by extensions ['ros']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/aruco_following_controller) by extension 'ros'
+[0.495s] DEBUG:colcon.colcon_core.package_identification:Package 'tracking_ws/src/aruco_following_controller' with type 'ros.ament_python' and name 'aruco_following_controller'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/build) by extension 'ignore'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/build) ignored
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/install) by extension 'ignore'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/install) ignored
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/keyboard_control) by extensions ['ignore', 'ignore_ament_install']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/keyboard_control) by extension 'ignore'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/keyboard_control) by extension 'ignore_ament_install'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/keyboard_control) by extensions ['colcon_pkg']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/keyboard_control) by extension 'colcon_pkg'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/keyboard_control) by extensions ['colcon_meta']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/keyboard_control) by extension 'colcon_meta'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/keyboard_control) by extensions ['ros']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/keyboard_control) by extension 'ros'
+[0.496s] DEBUG:colcon.colcon_core.package_identification:Package 'tracking_ws/src/keyboard_control' with type 'ros.ament_python' and name 'keyboard_control'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/log) by extension 'ignore'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/log) ignored
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/web_video_server) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/web_video_server) by extension 'ignore'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/web_video_server) by extension 'ignore_ament_install'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/web_video_server) by extensions ['colcon_pkg']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/web_video_server) by extension 'colcon_pkg'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/web_video_server) by extensions ['colcon_meta']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/web_video_server) by extension 'colcon_meta'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/web_video_server) by extensions ['ros']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(tracking_ws/src/web_video_server) by extension 'ros'
+[0.496s] DEBUG:colcon.colcon_core.package_identification:Package 'tracking_ws/src/web_video_server' with type 'ros.ament_cmake' and name 'web_video_server'
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.553s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/parallels/robotics-2110435/tracking_ws/install
+[0.559s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/parallels/robotics-2110435/challenge_1/install
+[0.565s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/parallels/robotics-2110435/robot_ws/install
+[0.577s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/parallels/my_robot_ws/install
+[0.583s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/parallels/robotics-2110435/ros2_ws/install
+[0.590s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 308 installed packages in /opt/ros/humble
+[0.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.636s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'cmake_args' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'cmake_target' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.637s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.637s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parallels/robotics-2110435/build/aruco_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parallels/robotics-2110435/install/aruco_controller', 'merge_install': False, 'path': '/home/parallels/robotics-2110435/tracking_ws/src/aruco_controller', 'symlink_install': False, 'test_result_base': None}
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'aruco_following_controller' build argument 'cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'aruco_following_controller' build argument 'cmake_target' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'aruco_following_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'aruco_following_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'aruco_following_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'aruco_following_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'aruco_following_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'aruco_following_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'aruco_following_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.643s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_following_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parallels/robotics-2110435/build/aruco_following_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parallels/robotics-2110435/install/aruco_following_controller', 'merge_install': False, 'path': '/home/parallels/robotics-2110435/tracking_ws/src/aruco_following_controller', 'symlink_install': False, 'test_result_base': None}
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'cmake_args' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'cmake_target' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'cmake_clean_first' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'cmake_force_configure' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'ament_cmake_args' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'gscam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.649s] DEBUG:colcon.colcon_core.verb:Building package 'gscam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parallels/robotics-2110435/build/gscam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parallels/robotics-2110435/install/gscam', 'merge_install': False, 'path': '/home/parallels/robotics-2110435/ros2_ws/src/gscam', 'symlink_install': False, 'test_result_base': None}
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_args' from command line to 'None'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_target' from command line to 'None'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.655s] DEBUG:colcon.colcon_core.verb:Building package 'keyboard_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parallels/robotics-2110435/build/keyboard_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parallels/robotics-2110435/install/keyboard_control', 'merge_install': False, 'path': '/home/parallels/robotics-2110435/tracking_ws/src/keyboard_control', 'symlink_install': False, 'test_result_base': None}
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'robot_marker' build argument 'cmake_args' from command line to 'None'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'robot_marker' build argument 'cmake_target' from command line to 'None'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'robot_marker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'robot_marker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'robot_marker' build argument 'cmake_clean_first' from command line to 'False'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'robot_marker' build argument 'cmake_force_configure' from command line to 'False'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'robot_marker' build argument 'ament_cmake_args' from command line to 'None'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'robot_marker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.661s] Level 5:colcon.colcon_core.verb:set package 'robot_marker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.661s] DEBUG:colcon.colcon_core.verb:Building package 'robot_marker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parallels/robotics-2110435/build/robot_marker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parallels/robotics-2110435/install/robot_marker', 'merge_install': False, 'path': '/home/parallels/robotics-2110435/challenge_1/src/robot_marker', 'symlink_install': False, 'test_result_base': None}
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'turtle_pkg' build argument 'cmake_args' from command line to 'None'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'turtle_pkg' build argument 'cmake_target' from command line to 'None'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'turtle_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'turtle_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'turtle_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'turtle_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'turtle_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'turtle_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.668s] Level 5:colcon.colcon_core.verb:set package 'turtle_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.668s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parallels/robotics-2110435/build/turtle_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parallels/robotics-2110435/install/turtle_pkg', 'merge_install': False, 'path': '/home/parallels/robotics-2110435/robot_ws/src/turtle_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'turtle_square' build argument 'cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'turtle_square' build argument 'cmake_target' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'turtle_square' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'turtle_square' build argument 'cmake_clean_cache' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'turtle_square' build argument 'cmake_clean_first' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'turtle_square' build argument 'cmake_force_configure' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'turtle_square' build argument 'ament_cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'turtle_square' build argument 'catkin_cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'turtle_square' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.674s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_square' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parallels/robotics-2110435/build/turtle_square', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parallels/robotics-2110435/install/turtle_square', 'merge_install': False, 'path': '/home/parallels/robotics-2110435/robot_ws/src/turtle_square_stm', 'symlink_install': False, 'test_result_base': None}
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_args' from command line to 'None'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_target' from command line to 'None'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.680s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.680s] DEBUG:colcon.colcon_core.verb:Building package 'web_video_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/parallels/robotics-2110435/build/web_video_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/parallels/robotics-2110435/install/web_video_server', 'merge_install': False, 'path': '/home/parallels/robotics-2110435/tracking_ws/src/web_video_server', 'symlink_install': False, 'test_result_base': None}
+[0.686s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.692s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.692s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/parallels/robotics-2110435/tracking_ws/src/aruco_controller' with build type 'ament_cmake'
+[0.692s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/parallels/robotics-2110435/tracking_ws/src/aruco_controller'
+[0.701s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.702s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.702s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.749s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/parallels/robotics-2110435/tracking_ws/src/aruco_following_controller' with build type 'ament_python'
+[0.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_following_controller', 'ament_prefix_path')
+[0.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/aruco_following_controller/share/aruco_following_controller/hook/ament_prefix_path.ps1'
+[0.756s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/robotics-2110435/install/aruco_following_controller/share/aruco_following_controller/hook/ament_prefix_path.dsv'
+[0.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/aruco_following_controller/share/aruco_following_controller/hook/ament_prefix_path.sh'
+[0.763s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.763s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.809s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/parallels/robotics-2110435/ros2_ws/src/gscam' with build type 'ament_cmake'
+[0.809s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/parallels/robotics-2110435/ros2_ws/src/gscam'
+[0.815s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.815s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.861s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/parallels/robotics-2110435/tracking_ws/src/keyboard_control' with build type 'ament_python'
+[0.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_control', 'ament_prefix_path')
+[0.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/keyboard_control/share/keyboard_control/hook/ament_prefix_path.ps1'
+[0.868s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/robotics-2110435/install/keyboard_control/share/keyboard_control/hook/ament_prefix_path.dsv'
+[0.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/keyboard_control/share/keyboard_control/hook/ament_prefix_path.sh'
+[0.875s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.875s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.921s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/parallels/robotics-2110435/challenge_1/src/robot_marker' with build type 'ament_python'
+[0.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_marker', 'ament_prefix_path')
+[0.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/robot_marker/share/robot_marker/hook/ament_prefix_path.ps1'
+[0.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/robotics-2110435/install/robot_marker/share/robot_marker/hook/ament_prefix_path.dsv'
+[0.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/robot_marker/share/robot_marker/hook/ament_prefix_path.sh'
+[0.936s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.936s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.986s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/parallels/robotics-2110435/robot_ws/src/turtle_pkg' with build type 'ament_python'
+[0.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_pkg', 'ament_prefix_path')
+[0.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/turtle_pkg/share/turtle_pkg/hook/ament_prefix_path.ps1'
+[0.993s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/robotics-2110435/install/turtle_pkg/share/turtle_pkg/hook/ament_prefix_path.dsv'
+[0.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/turtle_pkg/share/turtle_pkg/hook/ament_prefix_path.sh'
+[1.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/robotics-2110435/build/aruco_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robotics-2110435/tracking_ws/install/keyboard_control:/home/parallels/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/parallels/robotics-2110435/tracking_ws/src/aruco_controller -DCMAKE_INSTALL_PREFIX=/home/parallels/robotics-2110435/install/aruco_controller
+[1.198s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/parallels/robotics-2110435/tracking_ws/src/aruco_following_controller'
+[1.205s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.205s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/robotics-2110435/build/gscam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robotics-2110435/tracking_ws/install/keyboard_control:/home/parallels/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/parallels/robotics-2110435/ros2_ws/src/gscam -DCMAKE_INSTALL_PREFIX=/home/parallels/robotics-2110435/install/gscam
+[1.391s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/parallels/robotics-2110435/tracking_ws/src/keyboard_control'
+[1.398s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.398s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.584s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/parallels/robotics-2110435/challenge_1/src/robot_marker'
+[1.592s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.592s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.790s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/parallels/robotics-2110435/robot_ws/src/turtle_pkg'
+[1.798s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.798s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/robotics-2110435/tracking_ws/src/keyboard_control': PYTHONPATH=/home/parallels/robotics-2110435/build/keyboard_control/prefix_override:/home/parallels/robotics-2110435/install/keyboard_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/keyboard_control build --build-base /home/parallels/robotics-2110435/build/keyboard_control/build install --record /home/parallels/robotics-2110435/build/keyboard_control/install.log --single-version-externally-managed
+[2.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/robotics-2110435/robot_ws/src/turtle_pkg': PYTHONPATH=/home/parallels/robotics-2110435/build/turtle_pkg/prefix_override:/home/parallels/robotics-2110435/install/turtle_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtle_pkg build --build-base /home/parallels/robotics-2110435/build/turtle_pkg/build install --record /home/parallels/robotics-2110435/build/turtle_pkg/install.log --single-version-externally-managed
+[2.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/robotics-2110435/tracking_ws/src/aruco_following_controller': PYTHONPATH=/home/parallels/robotics-2110435/build/aruco_following_controller/prefix_override:/home/parallels/robotics-2110435/install/aruco_following_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/aruco_following_controller build --build-base /home/parallels/robotics-2110435/build/aruco_following_controller/build install --record /home/parallels/robotics-2110435/build/aruco_following_controller/install.log --single-version-externally-managed
+[2.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/robotics-2110435/challenge_1/src/robot_marker': PYTHONPATH=/home/parallels/robotics-2110435/build/robot_marker/prefix_override:/home/parallels/robotics-2110435/install/robot_marker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robot_marker build --build-base /home/parallels/robotics-2110435/build/robot_marker/build install --record /home/parallels/robotics-2110435/build/robot_marker/install.log --single-version-externally-managed
+[2.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/robotics-2110435/build/aruco_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robotics-2110435/tracking_ws/install/keyboard_control:/home/parallels/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/parallels/robotics-2110435/tracking_ws/src/aruco_controller -DCMAKE_INSTALL_PREFIX=/home/parallels/robotics-2110435/install/aruco_controller
+[2.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/robotics-2110435/build/aruco_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robotics-2110435/tracking_ws/install/keyboard_control:/home/parallels/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/parallels/robotics-2110435/build/aruco_controller -- -j6 -l6
+[2.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/robotics-2110435/tracking_ws/src/keyboard_control' returned '0': PYTHONPATH=/home/parallels/robotics-2110435/build/keyboard_control/prefix_override:/home/parallels/robotics-2110435/install/keyboard_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/keyboard_control build --build-base /home/parallels/robotics-2110435/build/keyboard_control/build install --record /home/parallels/robotics-2110435/build/keyboard_control/install.log --single-version-externally-managed
+[2.289s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/keyboard_control' for CMake module files
+[2.289s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/keyboard_control' for CMake config files
+[2.290s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/keyboard_control/lib'
+[2.290s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/keyboard_control/bin'
+[2.290s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/keyboard_control/lib/pkgconfig/keyboard_control.pc'
+[2.290s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/keyboard_control/lib/python3.10/site-packages'
+[2.290s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_control', 'pythonpath')
+[2.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/keyboard_control/share/keyboard_control/hook/pythonpath.ps1'
+[2.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/robotics-2110435/install/keyboard_control/share/keyboard_control/hook/pythonpath.dsv'
+[2.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/keyboard_control/share/keyboard_control/hook/pythonpath.sh'
+[2.297s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/keyboard_control/bin'
+[2.297s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard_control)
+[2.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/keyboard_control/share/keyboard_control/package.ps1'
+[2.305s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/robotics-2110435/install/keyboard_control/share/keyboard_control/package.dsv'
+[2.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/keyboard_control/share/keyboard_control/package.sh'
+[2.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/keyboard_control/share/keyboard_control/package.bash'
+[2.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/keyboard_control/share/keyboard_control/package.zsh'
+[2.308s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/robotics-2110435/install/keyboard_control/share/colcon-core/packages/keyboard_control)
+[2.308s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/parallels/robotics-2110435/robot_ws/src/turtle_square_stm' with build type 'ament_python'
+[2.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_square', 'ament_prefix_path')
+[2.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/turtle_square/share/turtle_square/hook/ament_prefix_path.ps1'
+[2.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/robotics-2110435/install/turtle_square/share/turtle_square/hook/ament_prefix_path.dsv'
+[2.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/turtle_square/share/turtle_square/hook/ament_prefix_path.sh'
+[2.323s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.323s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/robotics-2110435/challenge_1/src/robot_marker' returned '0': PYTHONPATH=/home/parallels/robotics-2110435/build/robot_marker/prefix_override:/home/parallels/robotics-2110435/install/robot_marker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/robot_marker build --build-base /home/parallels/robotics-2110435/build/robot_marker/build install --record /home/parallels/robotics-2110435/build/robot_marker/install.log --single-version-externally-managed
+[2.381s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/robot_marker' for CMake module files
+[2.381s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/robot_marker' for CMake config files
+[2.382s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/robot_marker/lib'
+[2.382s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/robot_marker/bin'
+[2.382s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/robot_marker/lib/pkgconfig/robot_marker.pc'
+[2.382s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/robot_marker/lib/python3.10/site-packages'
+[2.382s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_marker', 'pythonpath')
+[2.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/robot_marker/share/robot_marker/hook/pythonpath.ps1'
+[2.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/robotics-2110435/install/robot_marker/share/robot_marker/hook/pythonpath.dsv'
+[2.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/robot_marker/share/robot_marker/hook/pythonpath.sh'
+[2.389s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/robot_marker/bin'
+[2.389s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_marker)
+[2.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/robot_marker/share/robot_marker/package.ps1'
+[2.396s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/robotics-2110435/install/robot_marker/share/robot_marker/package.dsv'
+[2.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/robot_marker/share/robot_marker/package.sh'
+[2.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/robot_marker/share/robot_marker/package.bash'
+[2.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/robot_marker/share/robot_marker/package.zsh'
+[2.396s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/robotics-2110435/install/robot_marker/share/colcon-core/packages/robot_marker)
+[2.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/robotics-2110435/robot_ws/src/turtle_pkg' returned '0': PYTHONPATH=/home/parallels/robotics-2110435/build/turtle_pkg/prefix_override:/home/parallels/robotics-2110435/install/turtle_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtle_pkg build --build-base /home/parallels/robotics-2110435/build/turtle_pkg/build install --record /home/parallels/robotics-2110435/build/turtle_pkg/install.log --single-version-externally-managed
+[2.404s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/turtle_pkg' for CMake module files
+[2.404s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/turtle_pkg' for CMake config files
+[2.405s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/turtle_pkg/lib'
+[2.405s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/turtle_pkg/bin'
+[2.405s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/turtle_pkg/lib/pkgconfig/turtle_pkg.pc'
+[2.405s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/turtle_pkg/lib/python3.10/site-packages'
+[2.405s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_pkg', 'pythonpath')
+[2.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/turtle_pkg/share/turtle_pkg/hook/pythonpath.ps1'
+[2.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/robotics-2110435/install/turtle_pkg/share/turtle_pkg/hook/pythonpath.dsv'
+[2.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/turtle_pkg/share/turtle_pkg/hook/pythonpath.sh'
+[2.413s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/turtle_pkg/bin'
+[2.413s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_pkg)
+[2.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/turtle_pkg/share/turtle_pkg/package.ps1'
+[2.420s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/robotics-2110435/install/turtle_pkg/share/turtle_pkg/package.dsv'
+[2.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/turtle_pkg/share/turtle_pkg/package.sh'
+[2.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/turtle_pkg/share/turtle_pkg/package.bash'
+[2.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/turtle_pkg/share/turtle_pkg/package.zsh'
+[2.420s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/robotics-2110435/install/turtle_pkg/share/colcon-core/packages/turtle_pkg)
+[2.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/robotics-2110435/tracking_ws/src/aruco_following_controller' returned '0': PYTHONPATH=/home/parallels/robotics-2110435/build/aruco_following_controller/prefix_override:/home/parallels/robotics-2110435/install/aruco_following_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/aruco_following_controller build --build-base /home/parallels/robotics-2110435/build/aruco_following_controller/build install --record /home/parallels/robotics-2110435/build/aruco_following_controller/install.log --single-version-externally-managed
+[2.428s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/aruco_following_controller' for CMake module files
+[2.428s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/aruco_following_controller' for CMake config files
+[2.429s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/aruco_following_controller/lib'
+[2.429s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/aruco_following_controller/bin'
+[2.429s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/aruco_following_controller/lib/pkgconfig/aruco_following_controller.pc'
+[2.429s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/aruco_following_controller/lib/python3.10/site-packages'
+[2.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_following_controller', 'pythonpath')
+[2.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/aruco_following_controller/share/aruco_following_controller/hook/pythonpath.ps1'
+[2.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/robotics-2110435/install/aruco_following_controller/share/aruco_following_controller/hook/pythonpath.dsv'
+[2.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/aruco_following_controller/share/aruco_following_controller/hook/pythonpath.sh'
+[2.436s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/aruco_following_controller/bin'
+[2.436s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_following_controller)
+[2.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/aruco_following_controller/share/aruco_following_controller/package.ps1'
+[2.450s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/robotics-2110435/install/aruco_following_controller/share/aruco_following_controller/package.dsv'
+[2.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/aruco_following_controller/share/aruco_following_controller/package.sh'
+[2.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/aruco_following_controller/share/aruco_following_controller/package.bash'
+[2.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/aruco_following_controller/share/aruco_following_controller/package.zsh'
+[2.450s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/robotics-2110435/install/aruco_following_controller/share/colcon-core/packages/aruco_following_controller)
+[2.450s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/parallels/robotics-2110435/tracking_ws/src/web_video_server' with build type 'ament_cmake'
+[2.451s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/parallels/robotics-2110435/tracking_ws/src/web_video_server'
+[2.460s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.460s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.646s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/parallels/robotics-2110435/robot_ws/src/turtle_square_stm'
+[2.653s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.653s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/robotics-2110435/build/aruco_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robotics-2110435/tracking_ws/install/keyboard_control:/home/parallels/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/parallels/robotics-2110435/build/aruco_controller -- -j6 -l6
+[2.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/robotics-2110435/build/web_video_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robotics-2110435/tracking_ws/install/keyboard_control:/home/parallels/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/parallels/robotics-2110435/tracking_ws/src/web_video_server -DCMAKE_INSTALL_PREFIX=/home/parallels/robotics-2110435/install/web_video_server
+[2.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/robotics-2110435/build/gscam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robotics-2110435/tracking_ws/install/keyboard_control:/home/parallels/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/parallels/robotics-2110435/ros2_ws/src/gscam -DCMAKE_INSTALL_PREFIX=/home/parallels/robotics-2110435/install/gscam
+[2.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/robotics-2110435/build/gscam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robotics-2110435/tracking_ws/install/keyboard_control:/home/parallels/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/parallels/robotics-2110435/build/gscam -- -j6 -l6
+[2.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/robotics-2110435/build/aruco_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robotics-2110435/tracking_ws/install/keyboard_control:/home/parallels/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/parallels/robotics-2110435/build/aruco_controller
+[2.771s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_controller)
+[2.779s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/aruco_controller' for CMake module files
+[2.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/robotics-2110435/build/aruco_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robotics-2110435/tracking_ws/install/keyboard_control:/home/parallels/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/parallels/robotics-2110435/build/aruco_controller
+[2.779s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/aruco_controller' for CMake config files
+[2.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_controller', 'cmake_prefix_path')
+[2.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/aruco_controller/share/aruco_controller/hook/cmake_prefix_path.ps1'
+[2.787s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/robotics-2110435/install/aruco_controller/share/aruco_controller/hook/cmake_prefix_path.dsv'
+[2.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/aruco_controller/share/aruco_controller/hook/cmake_prefix_path.sh'
+[2.787s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/aruco_controller/lib'
+[2.787s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/aruco_controller/bin'
+[2.787s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/aruco_controller/lib/pkgconfig/aruco_controller.pc'
+[2.787s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/aruco_controller/lib/python3.10/site-packages'
+[2.788s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/aruco_controller/bin'
+[2.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/aruco_controller/share/aruco_controller/package.ps1'
+[2.796s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/robotics-2110435/install/aruco_controller/share/aruco_controller/package.dsv'
+[2.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/aruco_controller/share/aruco_controller/package.sh'
+[2.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/aruco_controller/share/aruco_controller/package.bash'
+[2.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/aruco_controller/share/aruco_controller/package.zsh'
+[2.797s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/robotics-2110435/install/aruco_controller/share/colcon-core/packages/aruco_controller)
+[2.834s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_controller)
+[2.842s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/aruco_controller' for CMake module files
+[2.842s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/aruco_controller' for CMake config files
+[2.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_controller', 'cmake_prefix_path')
+[2.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/aruco_controller/share/aruco_controller/hook/cmake_prefix_path.ps1'
+[2.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/robotics-2110435/install/aruco_controller/share/aruco_controller/hook/cmake_prefix_path.dsv'
+[2.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/aruco_controller/share/aruco_controller/hook/cmake_prefix_path.sh'
+[2.851s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/aruco_controller/lib'
+[2.851s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/aruco_controller/bin'
+[2.851s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/aruco_controller/lib/pkgconfig/aruco_controller.pc'
+[2.851s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/aruco_controller/lib/python3.10/site-packages'
+[2.851s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/aruco_controller/bin'
+[2.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/aruco_controller/share/aruco_controller/package.ps1'
+[2.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/robotics-2110435/install/aruco_controller/share/aruco_controller/package.dsv'
+[2.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/aruco_controller/share/aruco_controller/package.sh'
+[2.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/aruco_controller/share/aruco_controller/package.bash'
+[2.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/aruco_controller/share/aruco_controller/package.zsh'
+[2.859s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/robotics-2110435/install/aruco_controller/share/colcon-core/packages/aruco_controller)
+[2.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/robotics-2110435/robot_ws/src/turtle_square_stm': PYTHONPATH=/home/parallels/robotics-2110435/build/turtle_square/prefix_override:/home/parallels/robotics-2110435/install/turtle_square/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtle_square build --build-base /home/parallels/robotics-2110435/build/turtle_square/build install --record /home/parallels/robotics-2110435/build/turtle_square/install.log --single-version-externally-managed
+[3.080s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/turtle_square' for CMake module files
+[3.080s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/turtle_square' for CMake config files
+[3.081s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/turtle_square/lib'
+[3.081s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/turtle_square/bin'
+[3.081s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/turtle_square/lib/pkgconfig/turtle_square.pc'
+[3.081s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/turtle_square/lib/python3.10/site-packages'
+[3.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_square', 'pythonpath')
+[3.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/robotics-2110435/robot_ws/src/turtle_square_stm' returned '0': PYTHONPATH=/home/parallels/robotics-2110435/build/turtle_square/prefix_override:/home/parallels/robotics-2110435/install/turtle_square/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtle_square build --build-base /home/parallels/robotics-2110435/build/turtle_square/build install --record /home/parallels/robotics-2110435/build/turtle_square/install.log --single-version-externally-managed
+[3.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/turtle_square/share/turtle_square/hook/pythonpath.ps1'
+[3.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/robotics-2110435/install/turtle_square/share/turtle_square/hook/pythonpath.dsv'
+[3.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/turtle_square/share/turtle_square/hook/pythonpath.sh'
+[3.089s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/turtle_square/bin'
+[3.089s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_square)
+[3.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/turtle_square/share/turtle_square/package.ps1'
+[3.096s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/robotics-2110435/install/turtle_square/share/turtle_square/package.dsv'
+[3.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/turtle_square/share/turtle_square/package.sh'
+[3.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/turtle_square/share/turtle_square/package.bash'
+[3.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/turtle_square/share/turtle_square/package.zsh'
+[3.097s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/robotics-2110435/install/turtle_square/share/colcon-core/packages/turtle_square)
+[4.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/robotics-2110435/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robotics-2110435/tracking_ws/install/keyboard_control:/home/parallels/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/parallels/robotics-2110435/tracking_ws/src/web_video_server -DCMAKE_INSTALL_PREFIX=/home/parallels/robotics-2110435/install/web_video_server
+[4.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/robotics-2110435/build/web_video_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robotics-2110435/tracking_ws/install/keyboard_control:/home/parallels/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/parallels/robotics-2110435/build/web_video_server -- -j6 -l6
+[14.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/robotics-2110435/build/gscam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robotics-2110435/tracking_ws/install/keyboard_control:/home/parallels/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/parallels/robotics-2110435/build/gscam -- -j6 -l6
+[14.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/robotics-2110435/build/gscam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robotics-2110435/tracking_ws/install/keyboard_control:/home/parallels/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/parallels/robotics-2110435/build/gscam
+[14.590s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gscam)
+[14.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/robotics-2110435/build/gscam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robotics-2110435/tracking_ws/install/keyboard_control:/home/parallels/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/parallels/robotics-2110435/build/gscam
+[14.618s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/gscam' for CMake module files
+[14.619s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/gscam' for CMake config files
+[14.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('gscam', 'cmake_prefix_path')
+[14.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/gscam/share/gscam/hook/cmake_prefix_path.ps1'
+[14.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/robotics-2110435/install/gscam/share/gscam/hook/cmake_prefix_path.dsv'
+[14.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/gscam/share/gscam/hook/cmake_prefix_path.sh'
+[14.627s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/gscam/lib'
+[14.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('gscam', 'ld_library_path_lib')
+[14.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/gscam/share/gscam/hook/ld_library_path_lib.ps1'
+[14.635s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/robotics-2110435/install/gscam/share/gscam/hook/ld_library_path_lib.dsv'
+[14.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/gscam/share/gscam/hook/ld_library_path_lib.sh'
+[14.635s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/gscam/bin'
+[14.635s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/gscam/lib/pkgconfig/gscam.pc'
+[14.635s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/gscam/lib/python3.10/site-packages'
+[14.636s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/gscam/bin'
+[14.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/gscam/share/gscam/package.ps1'
+[14.643s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/robotics-2110435/install/gscam/share/gscam/package.dsv'
+[14.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/gscam/share/gscam/package.sh'
+[14.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/gscam/share/gscam/package.bash'
+[14.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/gscam/share/gscam/package.zsh'
+[14.644s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/robotics-2110435/install/gscam/share/colcon-core/packages/gscam)
+[14.679s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gscam)
+[14.686s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/gscam' for CMake module files
+[14.687s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/gscam' for CMake config files
+[14.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('gscam', 'cmake_prefix_path')
+[14.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/gscam/share/gscam/hook/cmake_prefix_path.ps1'
+[14.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/robotics-2110435/install/gscam/share/gscam/hook/cmake_prefix_path.dsv'
+[14.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/gscam/share/gscam/hook/cmake_prefix_path.sh'
+[14.695s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/gscam/lib'
+[14.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('gscam', 'ld_library_path_lib')
+[14.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/gscam/share/gscam/hook/ld_library_path_lib.ps1'
+[14.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/robotics-2110435/install/gscam/share/gscam/hook/ld_library_path_lib.dsv'
+[14.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/gscam/share/gscam/hook/ld_library_path_lib.sh'
+[14.702s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/gscam/bin'
+[14.702s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/gscam/lib/pkgconfig/gscam.pc'
+[14.703s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/gscam/lib/python3.10/site-packages'
+[14.703s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/gscam/bin'
+[14.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/gscam/share/gscam/package.ps1'
+[14.710s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/robotics-2110435/install/gscam/share/gscam/package.dsv'
+[14.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/gscam/share/gscam/package.sh'
+[14.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/gscam/share/gscam/package.bash'
+[14.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/gscam/share/gscam/package.zsh'
+[14.711s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/robotics-2110435/install/gscam/share/colcon-core/packages/gscam)
+[18.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/robotics-2110435/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robotics-2110435/tracking_ws/install/keyboard_control:/home/parallels/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/parallels/robotics-2110435/build/web_video_server -- -j6 -l6
+[18.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/parallels/robotics-2110435/build/web_video_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robotics-2110435/tracking_ws/install/keyboard_control:/home/parallels/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/parallels/robotics-2110435/build/web_video_server
+[18.545s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(web_video_server)
+[18.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/parallels/robotics-2110435/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/robotics-2110435/tracking_ws/install/keyboard_control:/home/parallels/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/parallels/robotics-2110435/build/web_video_server
+[18.553s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/web_video_server' for CMake module files
+[18.553s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/web_video_server' for CMake config files
+[18.553s] Level 1:colcon.colcon_core.shell:create_environment_hook('web_video_server', 'cmake_prefix_path')
+[18.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.ps1'
+[18.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/robotics-2110435/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.dsv'
+[18.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.sh'
+[18.561s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/web_video_server/lib'
+[18.561s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/web_video_server/bin'
+[18.561s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/web_video_server/lib/pkgconfig/web_video_server.pc'
+[18.561s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/web_video_server/lib/python3.10/site-packages'
+[18.561s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/web_video_server/bin'
+[18.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/web_video_server/share/web_video_server/package.ps1'
+[18.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/robotics-2110435/install/web_video_server/share/web_video_server/package.dsv'
+[18.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/web_video_server/share/web_video_server/package.sh'
+[18.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/web_video_server/share/web_video_server/package.bash'
+[18.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/web_video_server/share/web_video_server/package.zsh'
+[18.568s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/robotics-2110435/install/web_video_server/share/colcon-core/packages/web_video_server)
+[18.611s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(web_video_server)
+[18.617s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/web_video_server' for CMake module files
+[18.618s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/web_video_server' for CMake config files
+[18.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('web_video_server', 'cmake_prefix_path')
+[18.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.ps1'
+[18.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/parallels/robotics-2110435/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.dsv'
+[18.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/parallels/robotics-2110435/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.sh'
+[18.625s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/web_video_server/lib'
+[18.625s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/web_video_server/bin'
+[18.625s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/web_video_server/lib/pkgconfig/web_video_server.pc'
+[18.625s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/web_video_server/lib/python3.10/site-packages'
+[18.625s] Level 1:colcon.colcon_core.environment:checking '/home/parallels/robotics-2110435/install/web_video_server/bin'
+[18.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/web_video_server/share/web_video_server/package.ps1'
+[18.632s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/parallels/robotics-2110435/install/web_video_server/share/web_video_server/package.dsv'
+[18.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/web_video_server/share/web_video_server/package.sh'
+[18.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/web_video_server/share/web_video_server/package.bash'
+[18.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/parallels/robotics-2110435/install/web_video_server/share/web_video_server/package.zsh'
+[18.632s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/parallels/robotics-2110435/install/web_video_server/share/colcon-core/packages/web_video_server)
+[18.633s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.633s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.633s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[18.633s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.646s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.646s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.646s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.662s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.670s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/parallels/robotics-2110435/install/local_setup.ps1'
+[18.671s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/parallels/robotics-2110435/install/_local_setup_util_ps1.py'
+[18.672s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/parallels/robotics-2110435/install/setup.ps1'
+[18.681s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/parallels/robotics-2110435/install/local_setup.sh'
+[18.682s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/parallels/robotics-2110435/install/_local_setup_util_sh.py'
+[18.682s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/parallels/robotics-2110435/install/setup.sh'
+[18.691s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/parallels/robotics-2110435/install/local_setup.bash'
+[18.691s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/parallels/robotics-2110435/install/setup.bash'
+[18.699s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/parallels/robotics-2110435/install/local_setup.zsh'
+[18.699s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/parallels/robotics-2110435/install/setup.zsh'

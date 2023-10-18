@@ -1,0 +1,39 @@
+[0.598s] Invoking command in '/home/parallels/robotics-2110435/robot_ws/src/turtle_square_stm': PYTHONPATH=/home/parallels/robotics-2110435/build/turtle_square/prefix_override:/home/parallels/robotics-2110435/install/turtle_square/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtle_square build --build-base /home/parallels/robotics-2110435/build/turtle_square/build install --record /home/parallels/robotics-2110435/build/turtle_square/install.log --single-version-externally-managed
+[0.731s] running egg_info
+[0.731s] creating ../../../build/turtle_square/turtle_square.egg-info
+[0.731s] writing ../../../build/turtle_square/turtle_square.egg-info/PKG-INFO
+[0.731s] writing dependency_links to ../../../build/turtle_square/turtle_square.egg-info/dependency_links.txt
+[0.731s] writing entry points to ../../../build/turtle_square/turtle_square.egg-info/entry_points.txt
+[0.731s] writing requirements to ../../../build/turtle_square/turtle_square.egg-info/requires.txt
+[0.731s] writing top-level names to ../../../build/turtle_square/turtle_square.egg-info/top_level.txt
+[0.731s] writing manifest file '../../../build/turtle_square/turtle_square.egg-info/SOURCES.txt'
+[0.733s] reading manifest file '../../../build/turtle_square/turtle_square.egg-info/SOURCES.txt'
+[0.733s] writing manifest file '../../../build/turtle_square/turtle_square.egg-info/SOURCES.txt'
+[0.733s] running build
+[0.733s] running build_py
+[0.733s] creating /home/parallels/robotics-2110435/build/turtle_square/build
+[0.733s] creating /home/parallels/robotics-2110435/build/turtle_square/build/lib
+[0.733s] creating /home/parallels/robotics-2110435/build/turtle_square/build/lib/turtle_square
+[0.733s] copying turtle_square/__init__.py -> /home/parallels/robotics-2110435/build/turtle_square/build/lib/turtle_square
+[0.733s] copying turtle_square/my_robot_square.py -> /home/parallels/robotics-2110435/build/turtle_square/build/lib/turtle_square
+[0.734s] running install
+[0.734s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.734s]   warnings.warn(
+[0.734s] running install_lib
+[0.735s] creating /home/parallels/robotics-2110435/install/turtle_square/lib/python3.10/site-packages/turtle_square
+[0.735s] copying /home/parallels/robotics-2110435/build/turtle_square/build/lib/turtle_square/__init__.py -> /home/parallels/robotics-2110435/install/turtle_square/lib/python3.10/site-packages/turtle_square
+[0.735s] copying /home/parallels/robotics-2110435/build/turtle_square/build/lib/turtle_square/my_robot_square.py -> /home/parallels/robotics-2110435/install/turtle_square/lib/python3.10/site-packages/turtle_square
+[0.735s] byte-compiling /home/parallels/robotics-2110435/install/turtle_square/lib/python3.10/site-packages/turtle_square/__init__.py to __init__.cpython-310.pyc
+[0.735s] byte-compiling /home/parallels/robotics-2110435/install/turtle_square/lib/python3.10/site-packages/turtle_square/my_robot_square.py to my_robot_square.cpython-310.pyc
+[0.736s] running install_data
+[0.736s] creating /home/parallels/robotics-2110435/install/turtle_square/share/ament_index
+[0.736s] creating /home/parallels/robotics-2110435/install/turtle_square/share/ament_index/resource_index
+[0.736s] creating /home/parallels/robotics-2110435/install/turtle_square/share/ament_index/resource_index/packages
+[0.736s] copying resource/turtle_square -> /home/parallels/robotics-2110435/install/turtle_square/share/ament_index/resource_index/packages
+[0.736s] copying package.xml -> /home/parallels/robotics-2110435/install/turtle_square/share/turtle_square
+[0.736s] running install_egg_info
+[0.737s] Copying ../../../build/turtle_square/turtle_square.egg-info to /home/parallels/robotics-2110435/install/turtle_square/lib/python3.10/site-packages/turtle_square-0.0.0-py3.10.egg-info
+[0.738s] running install_scripts
+[0.750s] Installing turtle_square_node script to /home/parallels/robotics-2110435/install/turtle_square/lib/turtle_square
+[0.750s] writing list of installed files to '/home/parallels/robotics-2110435/build/turtle_square/install.log'
+[0.774s] Invoked command in '/home/parallels/robotics-2110435/robot_ws/src/turtle_square_stm' returned '0': PYTHONPATH=/home/parallels/robotics-2110435/build/turtle_square/prefix_override:/home/parallels/robotics-2110435/install/turtle_square/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/turtle_square build --build-base /home/parallels/robotics-2110435/build/turtle_square/build install --record /home/parallels/robotics-2110435/build/turtle_square/install.log --single-version-externally-managed
