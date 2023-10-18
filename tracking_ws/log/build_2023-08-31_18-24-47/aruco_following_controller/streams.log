@@ -1,0 +1,21 @@
+[1.368s] Invoking command in '/home/khadas/tracking_robot_workspace/src/aruco_following_controller': PYTHONPATH=/home/khadas/tracking_robot_workspace/build/aruco_following_controller/prefix_override:/home/khadas/tracking_robot_workspace/install/aruco_following_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_following_controller build --build-base /home/khadas/tracking_robot_workspace/build/aruco_following_controller/build install --record /home/khadas/tracking_robot_workspace/build/aruco_following_controller/install.log --single-version-externally-managed
+[1.713s] running egg_info
+[1.714s] writing ../../build/aruco_following_controller/aruco_following_controller.egg-info/PKG-INFO
+[1.715s] writing dependency_links to ../../build/aruco_following_controller/aruco_following_controller.egg-info/dependency_links.txt
+[1.716s] writing entry points to ../../build/aruco_following_controller/aruco_following_controller.egg-info/entry_points.txt
+[1.716s] writing requirements to ../../build/aruco_following_controller/aruco_following_controller.egg-info/requires.txt
+[1.717s] writing top-level names to ../../build/aruco_following_controller/aruco_following_controller.egg-info/top_level.txt
+[1.718s] reading manifest file '../../build/aruco_following_controller/aruco_following_controller.egg-info/SOURCES.txt'
+[1.721s] writing manifest file '../../build/aruco_following_controller/aruco_following_controller.egg-info/SOURCES.txt'
+[1.721s] running build
+[1.722s] running build_py
+[1.722s] running install
+[1.723s] running install_lib
+[1.725s] running install_data
+[1.727s] running install_egg_info
+[1.729s] removing '/home/khadas/tracking_robot_workspace/install/aruco_following_controller/lib/python3.10/site-packages/aruco_following_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[1.730s] Copying ../../build/aruco_following_controller/aruco_following_controller.egg-info to /home/khadas/tracking_robot_workspace/install/aruco_following_controller/lib/python3.10/site-packages/aruco_following_controller-0.0.0-py3.10.egg-info
+[1.731s] running install_scripts
+[1.760s] Installing controller script to /home/khadas/tracking_robot_workspace/install/aruco_following_controller/lib/aruco_following_controller
+[1.761s] writing list of installed files to '/home/khadas/tracking_robot_workspace/build/aruco_following_controller/install.log'
+[1.831s] Invoked command in '/home/khadas/tracking_robot_workspace/src/aruco_following_controller' returned '0': PYTHONPATH=/home/khadas/tracking_robot_workspace/build/aruco_following_controller/prefix_override:/home/khadas/tracking_robot_workspace/install/aruco_following_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_following_controller build --build-base /home/khadas/tracking_robot_workspace/build/aruco_following_controller/build install --record /home/khadas/tracking_robot_workspace/build/aruco_following_controller/install.log --single-version-externally-managed

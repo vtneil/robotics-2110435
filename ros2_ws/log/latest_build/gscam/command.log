@@ -1,0 +1,6 @@
+Invoking command in '/home/khadas/ros2_workspace/build/gscam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/khadas/ros2_workspace/src/gscam -DCMAKE_INSTALL_PREFIX=/home/khadas/ros2_workspace/install/gscam
+Invoked command in '/home/khadas/ros2_workspace/build/gscam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/khadas/ros2_workspace/src/gscam -DCMAKE_INSTALL_PREFIX=/home/khadas/ros2_workspace/install/gscam
+Invoking command in '/home/khadas/ros2_workspace/build/gscam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/khadas/ros2_workspace/build/gscam -- -j8 -l8
+Invoked command in '/home/khadas/ros2_workspace/build/gscam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/khadas/ros2_workspace/build/gscam -- -j8 -l8
+Invoking command in '/home/khadas/ros2_workspace/build/gscam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/khadas/ros2_workspace/build/gscam
+Invoked command in '/home/khadas/ros2_workspace/build/gscam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/khadas/ros2_workspace/build/gscam

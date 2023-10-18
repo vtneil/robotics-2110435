@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/robot_marker/robot_marker.egg-info
+writing ../../build/robot_marker/robot_marker.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_marker/robot_marker.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_marker/robot_marker.egg-info/entry_points.txt
+writing requirements to ../../build/robot_marker/robot_marker.egg-info/requires.txt
+writing top-level names to ../../build/robot_marker/robot_marker.egg-info/top_level.txt
+writing manifest file '../../build/robot_marker/robot_marker.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_marker/robot_marker.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_marker/robot_marker.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/parallels/robotics-2110435/challenge_1/build/robot_marker/build
+creating /home/parallels/robotics-2110435/challenge_1/build/robot_marker/build/lib
+creating /home/parallels/robotics-2110435/challenge_1/build/robot_marker/build/lib/robot_marker
+copying robot_marker/__init__.py -> /home/parallels/robotics-2110435/challenge_1/build/robot_marker/build/lib/robot_marker
+running install
+running install_lib
+creating /home/parallels/robotics-2110435/challenge_1/install/robot_marker/lib/python3.10/site-packages/robot_marker
+copying /home/parallels/robotics-2110435/challenge_1/build/robot_marker/build/lib/robot_marker/__init__.py -> /home/parallels/robotics-2110435/challenge_1/install/robot_marker/lib/python3.10/site-packages/robot_marker
+byte-compiling /home/parallels/robotics-2110435/challenge_1/install/robot_marker/lib/python3.10/site-packages/robot_marker/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/parallels/robotics-2110435/challenge_1/install/robot_marker/share/ament_index
+creating /home/parallels/robotics-2110435/challenge_1/install/robot_marker/share/ament_index/resource_index
+creating /home/parallels/robotics-2110435/challenge_1/install/robot_marker/share/ament_index/resource_index/packages
+copying resource/robot_marker -> /home/parallels/robotics-2110435/challenge_1/install/robot_marker/share/ament_index/resource_index/packages
+copying package.xml -> /home/parallels/robotics-2110435/challenge_1/install/robot_marker/share/robot_marker
+running install_egg_info
+Copying ../../build/robot_marker/robot_marker.egg-info to /home/parallels/robotics-2110435/challenge_1/install/robot_marker/lib/python3.10/site-packages/robot_marker-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/parallels/robotics-2110435/challenge_1/build/robot_marker/install.log'

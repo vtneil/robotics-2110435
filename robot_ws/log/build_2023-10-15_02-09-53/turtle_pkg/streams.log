@@ -1,0 +1,39 @@
+[0.431s] Invoking command in '/home/parallels/robot_ws/src/turtle_pkg': PYTHONPATH=/home/parallels/robot_ws/build/turtle_pkg/prefix_override:/home/parallels/robot_ws/install/turtle_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_pkg build --build-base /home/parallels/robot_ws/build/turtle_pkg/build install --record /home/parallels/robot_ws/build/turtle_pkg/install.log --single-version-externally-managed
+[0.543s] running egg_info
+[0.543s] creating ../../build/turtle_pkg/turtle_pkg.egg-info
+[0.543s] writing ../../build/turtle_pkg/turtle_pkg.egg-info/PKG-INFO
+[0.543s] writing dependency_links to ../../build/turtle_pkg/turtle_pkg.egg-info/dependency_links.txt
+[0.543s] writing entry points to ../../build/turtle_pkg/turtle_pkg.egg-info/entry_points.txt
+[0.543s] writing requirements to ../../build/turtle_pkg/turtle_pkg.egg-info/requires.txt
+[0.543s] writing top-level names to ../../build/turtle_pkg/turtle_pkg.egg-info/top_level.txt
+[0.543s] writing manifest file '../../build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+[0.544s] reading manifest file '../../build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+[0.544s] writing manifest file '../../build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+[0.544s] running build
+[0.544s] running build_py
+[0.545s] creating /home/parallels/robot_ws/build/turtle_pkg/build
+[0.545s] creating /home/parallels/robot_ws/build/turtle_pkg/build/lib
+[0.545s] creating /home/parallels/robot_ws/build/turtle_pkg/build/lib/turtle_pkg
+[0.545s] copying turtle_pkg/turtle_sq.py -> /home/parallels/robot_ws/build/turtle_pkg/build/lib/turtle_pkg
+[0.545s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.545s]   warnings.warn(
+[0.545s] copying turtle_pkg/__init__.py -> /home/parallels/robot_ws/build/turtle_pkg/build/lib/turtle_pkg
+[0.545s] running install
+[0.545s] running install_lib
+[0.545s] creating /home/parallels/robot_ws/install/turtle_pkg/lib/python3.10/site-packages/turtle_pkg
+[0.545s] copying /home/parallels/robot_ws/build/turtle_pkg/build/lib/turtle_pkg/turtle_sq.py -> /home/parallels/robot_ws/install/turtle_pkg/lib/python3.10/site-packages/turtle_pkg
+[0.545s] copying /home/parallels/robot_ws/build/turtle_pkg/build/lib/turtle_pkg/__init__.py -> /home/parallels/robot_ws/install/turtle_pkg/lib/python3.10/site-packages/turtle_pkg
+[0.546s] byte-compiling /home/parallels/robot_ws/install/turtle_pkg/lib/python3.10/site-packages/turtle_pkg/turtle_sq.py to turtle_sq.cpython-310.pyc
+[0.546s] byte-compiling /home/parallels/robot_ws/install/turtle_pkg/lib/python3.10/site-packages/turtle_pkg/__init__.py to __init__.cpython-310.pyc
+[0.546s] running install_data
+[0.546s] creating /home/parallels/robot_ws/install/turtle_pkg/share/ament_index
+[0.546s] creating /home/parallels/robot_ws/install/turtle_pkg/share/ament_index/resource_index
+[0.546s] creating /home/parallels/robot_ws/install/turtle_pkg/share/ament_index/resource_index/packages
+[0.546s] copying resource/turtle_pkg -> /home/parallels/robot_ws/install/turtle_pkg/share/ament_index/resource_index/packages
+[0.546s] copying package.xml -> /home/parallels/robot_ws/install/turtle_pkg/share/turtle_pkg
+[0.546s] running install_egg_info
+[0.547s] Copying ../../build/turtle_pkg/turtle_pkg.egg-info to /home/parallels/robot_ws/install/turtle_pkg/lib/python3.10/site-packages/turtle_pkg-0.0.0-py3.10.egg-info
+[0.548s] running install_scripts
+[0.559s] Installing turtle_sq script to /home/parallels/robot_ws/install/turtle_pkg/lib/turtle_pkg
+[0.559s] writing list of installed files to '/home/parallels/robot_ws/build/turtle_pkg/install.log'
+[0.572s] Invoked command in '/home/parallels/robot_ws/src/turtle_pkg' returned '0': PYTHONPATH=/home/parallels/robot_ws/build/turtle_pkg/prefix_override:/home/parallels/robot_ws/install/turtle_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_pkg build --build-base /home/parallels/robot_ws/build/turtle_pkg/build install --record /home/parallels/robot_ws/build/turtle_pkg/install.log --single-version-externally-managed

@@ -1,0 +1,308 @@
+[0.425s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.425s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7faca06560>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7faca05ff0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7faca05ff0>>)
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.455s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/khadas/tracking_robot_workspace'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_controller) by extension 'ignore'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_controller) by extension 'ignore_ament_install'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_controller) by extensions ['colcon_pkg']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_controller) by extension 'colcon_pkg'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_controller) by extensions ['colcon_meta']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_controller) by extension 'colcon_meta'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_controller) by extensions ['ros']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_controller) by extension 'ros'
+[0.476s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_controller' with type 'ros.ament_cmake' and name 'aruco_controller'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_following_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_following_controller) by extension 'ignore'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_following_controller) by extension 'ignore_ament_install'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_following_controller) by extensions ['colcon_pkg']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_following_controller) by extension 'colcon_pkg'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_following_controller) by extensions ['colcon_meta']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_following_controller) by extension 'colcon_meta'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_following_controller) by extensions ['ros']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_following_controller) by extension 'ros'
+[0.478s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_following_controller' with type 'ros.ament_python' and name 'aruco_following_controller'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'ignore_ament_install'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extensions ['colcon_pkg']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'colcon_meta'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extensions ['ros']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/keyboard_control) by extension 'ros'
+[0.479s] DEBUG:colcon.colcon_core.package_identification:Package 'src/keyboard_control' with type 'ros.ament_python' and name 'keyboard_control'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_video_server) by extension 'ros'
+[0.482s] DEBUG:colcon.colcon_core.package_identification:Package 'src/web_video_server' with type 'ros.ament_cmake' and name 'web_video_server'
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.511s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.515s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 278 installed packages in /opt/ros/humble
+[0.517s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'cmake_args' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'cmake_target' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.593s] Level 5:colcon.colcon_core.verb:set package 'aruco_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.593s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/khadas/tracking_robot_workspace/build/aruco_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/khadas/tracking_robot_workspace/install/aruco_controller', 'merge_install': False, 'path': '/home/khadas/tracking_robot_workspace/src/aruco_controller', 'symlink_install': False, 'test_result_base': None}
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'aruco_following_controller' build argument 'cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'aruco_following_controller' build argument 'cmake_target' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'aruco_following_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'aruco_following_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'aruco_following_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'aruco_following_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'aruco_following_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'aruco_following_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.595s] Level 5:colcon.colcon_core.verb:set package 'aruco_following_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.595s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_following_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/khadas/tracking_robot_workspace/build/aruco_following_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/khadas/tracking_robot_workspace/install/aruco_following_controller', 'merge_install': False, 'path': '/home/khadas/tracking_robot_workspace/src/aruco_following_controller', 'symlink_install': False, 'test_result_base': None}
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_args' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_target' from command line to 'None'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.596s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.597s] Level 5:colcon.colcon_core.verb:set package 'keyboard_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.597s] DEBUG:colcon.colcon_core.verb:Building package 'keyboard_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/khadas/tracking_robot_workspace/build/keyboard_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/khadas/tracking_robot_workspace/install/keyboard_control', 'merge_install': False, 'path': '/home/khadas/tracking_robot_workspace/src/keyboard_control', 'symlink_install': False, 'test_result_base': None}
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_target' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.598s] Level 5:colcon.colcon_core.verb:set package 'web_video_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.598s] DEBUG:colcon.colcon_core.verb:Building package 'web_video_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/khadas/tracking_robot_workspace/build/web_video_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/khadas/tracking_robot_workspace/install/web_video_server', 'merge_install': False, 'path': '/home/khadas/tracking_robot_workspace/src/web_video_server', 'symlink_install': False, 'test_result_base': None}
+[0.599s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.603s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.603s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/khadas/tracking_robot_workspace/src/aruco_controller' with build type 'ament_cmake'
+[0.603s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/khadas/tracking_robot_workspace/src/aruco_controller'
+[0.609s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.609s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.609s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.614s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/khadas/tracking_robot_workspace/src/aruco_following_controller' with build type 'ament_python'
+[0.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_following_controller', 'ament_prefix_path')
+[0.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khadas/tracking_robot_workspace/install/aruco_following_controller/share/aruco_following_controller/hook/ament_prefix_path.ps1'
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khadas/tracking_robot_workspace/install/aruco_following_controller/share/aruco_following_controller/hook/ament_prefix_path.dsv'
+[0.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khadas/tracking_robot_workspace/install/aruco_following_controller/share/aruco_following_controller/hook/ament_prefix_path.sh'
+[0.620s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.620s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.624s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/khadas/tracking_robot_workspace/src/keyboard_control' with build type 'ament_python'
+[0.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_control', 'ament_prefix_path')
+[0.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khadas/tracking_robot_workspace/install/keyboard_control/share/keyboard_control/hook/ament_prefix_path.ps1'
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khadas/tracking_robot_workspace/install/keyboard_control/share/keyboard_control/hook/ament_prefix_path.dsv'
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khadas/tracking_robot_workspace/install/keyboard_control/share/keyboard_control/hook/ament_prefix_path.sh'
+[0.628s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.628s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.633s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/khadas/tracking_robot_workspace/src/web_video_server' with build type 'ament_cmake'
+[0.633s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/khadas/tracking_robot_workspace/src/web_video_server'
+[0.634s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.634s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khadas/tracking_robot_workspace/build/aruco_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/khadas/tracking_robot_workspace/src/aruco_controller -DCMAKE_INSTALL_PREFIX=/home/khadas/tracking_robot_workspace/install/aruco_controller
+[1.022s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/khadas/tracking_robot_workspace/src/aruco_following_controller'
+[1.024s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.024s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.387s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/khadas/tracking_robot_workspace/src/keyboard_control'
+[1.389s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.389s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khadas/tracking_robot_workspace/build/web_video_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/khadas/tracking_robot_workspace/src/web_video_server -DCMAKE_INSTALL_PREFIX=/home/khadas/tracking_robot_workspace/install/web_video_server
+[1.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khadas/tracking_robot_workspace/src/aruco_following_controller': PYTHONPATH=/home/khadas/tracking_robot_workspace/build/aruco_following_controller/prefix_override:/home/khadas/tracking_robot_workspace/install/aruco_following_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_following_controller build --build-base /home/khadas/tracking_robot_workspace/build/aruco_following_controller/build install --record /home/khadas/tracking_robot_workspace/build/aruco_following_controller/install.log --single-version-externally-managed
+[1.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khadas/tracking_robot_workspace/src/keyboard_control': PYTHONPATH=/home/khadas/tracking_robot_workspace/build/keyboard_control/prefix_override:/home/khadas/tracking_robot_workspace/install/keyboard_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/keyboard_control build --build-base /home/khadas/tracking_robot_workspace/build/keyboard_control/build install --record /home/khadas/tracking_robot_workspace/build/keyboard_control/install.log --single-version-externally-managed
+[2.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khadas/tracking_robot_workspace/src/aruco_following_controller' returned '0': PYTHONPATH=/home/khadas/tracking_robot_workspace/build/aruco_following_controller/prefix_override:/home/khadas/tracking_robot_workspace/install/aruco_following_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_following_controller build --build-base /home/khadas/tracking_robot_workspace/build/aruco_following_controller/build install --record /home/khadas/tracking_robot_workspace/build/aruco_following_controller/install.log --single-version-externally-managed
+[2.436s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/aruco_following_controller' for CMake module files
+[2.438s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/aruco_following_controller' for CMake config files
+[2.441s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/aruco_following_controller/lib'
+[2.443s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/aruco_following_controller/bin'
+[2.443s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/aruco_following_controller/lib/pkgconfig/aruco_following_controller.pc'
+[2.444s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/aruco_following_controller/lib/python3.10/site-packages'
+[2.445s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_following_controller', 'pythonpath')
+[2.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khadas/tracking_robot_workspace/install/aruco_following_controller/share/aruco_following_controller/hook/pythonpath.ps1'
+[2.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khadas/tracking_robot_workspace/install/aruco_following_controller/share/aruco_following_controller/hook/pythonpath.dsv'
+[2.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khadas/tracking_robot_workspace/install/aruco_following_controller/share/aruco_following_controller/hook/pythonpath.sh'
+[2.457s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/aruco_following_controller/bin'
+[2.458s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_following_controller)
+[2.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/aruco_following_controller/share/aruco_following_controller/package.ps1'
+[2.463s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khadas/tracking_robot_workspace/install/aruco_following_controller/share/aruco_following_controller/package.dsv'
+[2.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/aruco_following_controller/share/aruco_following_controller/package.sh'
+[2.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/aruco_following_controller/share/aruco_following_controller/package.bash'
+[2.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/aruco_following_controller/share/aruco_following_controller/package.zsh'
+[2.467s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khadas/tracking_robot_workspace/install/aruco_following_controller/share/colcon-core/packages/aruco_following_controller)
+[2.470s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/keyboard_control' for CMake module files
+[2.472s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/keyboard_control' for CMake config files
+[2.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khadas/tracking_robot_workspace/src/keyboard_control' returned '0': PYTHONPATH=/home/khadas/tracking_robot_workspace/build/keyboard_control/prefix_override:/home/khadas/tracking_robot_workspace/install/keyboard_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/keyboard_control build --build-base /home/khadas/tracking_robot_workspace/build/keyboard_control/build install --record /home/khadas/tracking_robot_workspace/build/keyboard_control/install.log --single-version-externally-managed
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/keyboard_control/lib'
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/keyboard_control/bin'
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/keyboard_control/lib/pkgconfig/keyboard_control.pc'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/keyboard_control/lib/python3.10/site-packages'
+[2.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_control', 'pythonpath')
+[2.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khadas/tracking_robot_workspace/install/keyboard_control/share/keyboard_control/hook/pythonpath.ps1'
+[2.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khadas/tracking_robot_workspace/install/keyboard_control/share/keyboard_control/hook/pythonpath.dsv'
+[2.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khadas/tracking_robot_workspace/install/keyboard_control/share/keyboard_control/hook/pythonpath.sh'
+[2.478s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/keyboard_control/bin'
+[2.478s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard_control)
+[2.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/keyboard_control/share/keyboard_control/package.ps1'
+[2.481s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khadas/tracking_robot_workspace/install/keyboard_control/share/keyboard_control/package.dsv'
+[2.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/keyboard_control/share/keyboard_control/package.sh'
+[2.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/keyboard_control/share/keyboard_control/package.bash'
+[2.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/keyboard_control/share/keyboard_control/package.zsh'
+[2.483s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khadas/tracking_robot_workspace/install/keyboard_control/share/colcon-core/packages/keyboard_control)
+[3.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khadas/tracking_robot_workspace/build/aruco_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/khadas/tracking_robot_workspace/src/aruco_controller -DCMAKE_INSTALL_PREFIX=/home/khadas/tracking_robot_workspace/install/aruco_controller
+[3.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khadas/tracking_robot_workspace/build/aruco_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/khadas/tracking_robot_workspace/build/aruco_controller -- -j8 -l8
+[4.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khadas/tracking_robot_workspace/build/aruco_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/khadas/tracking_robot_workspace/build/aruco_controller -- -j8 -l8
+[4.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khadas/tracking_robot_workspace/build/aruco_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/khadas/tracking_robot_workspace/build/aruco_controller
+[4.336s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_controller)
+[4.346s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/aruco_controller' for CMake module files
+[4.353s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/aruco_controller' for CMake config files
+[4.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khadas/tracking_robot_workspace/build/aruco_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/khadas/tracking_robot_workspace/build/aruco_controller
+[4.357s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_controller', 'cmake_prefix_path')
+[4.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/hook/cmake_prefix_path.ps1'
+[4.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/hook/cmake_prefix_path.dsv'
+[4.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/hook/cmake_prefix_path.sh'
+[4.368s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/aruco_controller/lib'
+[4.368s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/aruco_controller/bin'
+[4.369s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/aruco_controller/lib/pkgconfig/aruco_controller.pc'
+[4.370s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/aruco_controller/lib/python3.10/site-packages'
+[4.371s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/aruco_controller/bin'
+[4.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/package.ps1'
+[4.379s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/package.dsv'
+[4.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/package.sh'
+[4.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/package.bash'
+[4.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/package.zsh'
+[4.384s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khadas/tracking_robot_workspace/install/aruco_controller/share/colcon-core/packages/aruco_controller)
+[4.444s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aruco_controller)
+[4.446s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/aruco_controller' for CMake module files
+[4.447s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/aruco_controller' for CMake config files
+[4.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('aruco_controller', 'cmake_prefix_path')
+[4.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/hook/cmake_prefix_path.ps1'
+[4.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/hook/cmake_prefix_path.dsv'
+[4.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/hook/cmake_prefix_path.sh'
+[4.450s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/aruco_controller/lib'
+[4.451s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/aruco_controller/bin'
+[4.451s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/aruco_controller/lib/pkgconfig/aruco_controller.pc'
+[4.451s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/aruco_controller/lib/python3.10/site-packages'
+[4.451s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/aruco_controller/bin'
+[4.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/package.ps1'
+[4.454s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/package.dsv'
+[4.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/package.sh'
+[4.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/package.bash'
+[4.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/package.zsh'
+[4.456s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khadas/tracking_robot_workspace/install/aruco_controller/share/colcon-core/packages/aruco_controller)
+[5.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khadas/tracking_robot_workspace/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/khadas/tracking_robot_workspace/src/web_video_server -DCMAKE_INSTALL_PREFIX=/home/khadas/tracking_robot_workspace/install/web_video_server
+[5.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khadas/tracking_robot_workspace/build/web_video_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/khadas/tracking_robot_workspace/build/web_video_server -- -j8 -l8
+[35.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khadas/tracking_robot_workspace/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/khadas/tracking_robot_workspace/build/web_video_server -- -j8 -l8
+[36.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/khadas/tracking_robot_workspace/build/web_video_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/khadas/tracking_robot_workspace/build/web_video_server
+[36.139s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(web_video_server)
+[36.150s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/web_video_server' for CMake module files
+[36.156s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/web_video_server' for CMake config files
+[36.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('web_video_server', 'cmake_prefix_path')
+[36.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.ps1'
+[36.168s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.dsv'
+[36.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.sh'
+[36.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/khadas/tracking_robot_workspace/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/khadas/tracking_robot_workspace/build/web_video_server
+[36.173s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/web_video_server/lib'
+[36.173s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/web_video_server/bin'
+[36.173s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/web_video_server/lib/pkgconfig/web_video_server.pc'
+[36.174s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/web_video_server/lib/python3.10/site-packages'
+[36.175s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/web_video_server/bin'
+[36.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/package.ps1'
+[36.183s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/package.dsv'
+[36.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/package.sh'
+[36.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/package.bash'
+[36.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/package.zsh'
+[36.188s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khadas/tracking_robot_workspace/install/web_video_server/share/colcon-core/packages/web_video_server)
+[36.303s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(web_video_server)
+[36.313s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/web_video_server' for CMake module files
+[36.315s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/web_video_server' for CMake config files
+[36.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('web_video_server', 'cmake_prefix_path')
+[36.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.ps1'
+[36.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.dsv'
+[36.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/hook/cmake_prefix_path.sh'
+[36.327s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/web_video_server/lib'
+[36.327s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/web_video_server/bin'
+[36.327s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/web_video_server/lib/pkgconfig/web_video_server.pc'
+[36.328s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/web_video_server/lib/python3.10/site-packages'
+[36.329s] Level 1:colcon.colcon_core.environment:checking '/home/khadas/tracking_robot_workspace/install/web_video_server/bin'
+[36.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/package.ps1'
+[36.337s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/package.dsv'
+[36.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/package.sh'
+[36.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/package.bash'
+[36.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/package.zsh'
+[36.339s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/khadas/tracking_robot_workspace/install/web_video_server/share/colcon-core/packages/web_video_server)
+[36.340s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[36.340s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[36.340s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[36.340s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[36.359s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[36.359s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[36.359s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[36.399s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[36.401s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/khadas/tracking_robot_workspace/install/local_setup.ps1'
+[36.402s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/khadas/tracking_robot_workspace/install/_local_setup_util_ps1.py'
+[36.404s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/khadas/tracking_robot_workspace/install/setup.ps1'
+[36.406s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/khadas/tracking_robot_workspace/install/local_setup.sh'
+[36.406s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/khadas/tracking_robot_workspace/install/_local_setup_util_sh.py'
+[36.407s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/khadas/tracking_robot_workspace/install/setup.sh'
+[36.409s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/khadas/tracking_robot_workspace/install/local_setup.bash'
+[36.409s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/khadas/tracking_robot_workspace/install/setup.bash'
+[36.410s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/khadas/tracking_robot_workspace/install/local_setup.zsh'
+[36.411s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/khadas/tracking_robot_workspace/install/setup.zsh'

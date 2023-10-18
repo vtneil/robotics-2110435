@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/turtle_square/turtle_square.egg-info/PKG-INFO
+../../build/turtle_square/turtle_square.egg-info/SOURCES.txt
+../../build/turtle_square/turtle_square.egg-info/dependency_links.txt
+../../build/turtle_square/turtle_square.egg-info/entry_points.txt
+../../build/turtle_square/turtle_square.egg-info/requires.txt
+../../build/turtle_square/turtle_square.egg-info/top_level.txt
+../../build/turtle_square/turtle_square.egg-info/zip-safe
+resource/turtle_square
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+turtle_square/__init__.py
+turtle_square/my_robot_square.py

@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/aruco_following_controller/aruco_following_controller.egg-info
+writing ../../build/aruco_following_controller/aruco_following_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/aruco_following_controller/aruco_following_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/aruco_following_controller/aruco_following_controller.egg-info/entry_points.txt
+writing requirements to ../../build/aruco_following_controller/aruco_following_controller.egg-info/requires.txt
+writing top-level names to ../../build/aruco_following_controller/aruco_following_controller.egg-info/top_level.txt
+writing manifest file '../../build/aruco_following_controller/aruco_following_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/aruco_following_controller/aruco_following_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/aruco_following_controller/aruco_following_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/khadas/tracking_robot_workspace/build/aruco_following_controller/build
+creating /home/khadas/tracking_robot_workspace/build/aruco_following_controller/build/lib
+creating /home/khadas/tracking_robot_workspace/build/aruco_following_controller/build/lib/aruco_following_controller
+copying aruco_following_controller/__init__.py -> /home/khadas/tracking_robot_workspace/build/aruco_following_controller/build/lib/aruco_following_controller
+copying aruco_following_controller/robot_controller.py -> /home/khadas/tracking_robot_workspace/build/aruco_following_controller/build/lib/aruco_following_controller
+copying aruco_following_controller/control_law.py -> /home/khadas/tracking_robot_workspace/build/aruco_following_controller/build/lib/aruco_following_controller
+running install
+running install_lib
+creating /home/khadas/tracking_robot_workspace/install/aruco_following_controller/lib/python3.10/site-packages/aruco_following_controller
+copying /home/khadas/tracking_robot_workspace/build/aruco_following_controller/build/lib/aruco_following_controller/__init__.py -> /home/khadas/tracking_robot_workspace/install/aruco_following_controller/lib/python3.10/site-packages/aruco_following_controller
+copying /home/khadas/tracking_robot_workspace/build/aruco_following_controller/build/lib/aruco_following_controller/robot_controller.py -> /home/khadas/tracking_robot_workspace/install/aruco_following_controller/lib/python3.10/site-packages/aruco_following_controller
+copying /home/khadas/tracking_robot_workspace/build/aruco_following_controller/build/lib/aruco_following_controller/control_law.py -> /home/khadas/tracking_robot_workspace/install/aruco_following_controller/lib/python3.10/site-packages/aruco_following_controller
+byte-compiling /home/khadas/tracking_robot_workspace/install/aruco_following_controller/lib/python3.10/site-packages/aruco_following_controller/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/khadas/tracking_robot_workspace/install/aruco_following_controller/lib/python3.10/site-packages/aruco_following_controller/robot_controller.py to robot_controller.cpython-310.pyc
+byte-compiling /home/khadas/tracking_robot_workspace/install/aruco_following_controller/lib/python3.10/site-packages/aruco_following_controller/control_law.py to control_law.cpython-310.pyc
+running install_data
+creating /home/khadas/tracking_robot_workspace/install/aruco_following_controller/share/ament_index
+creating /home/khadas/tracking_robot_workspace/install/aruco_following_controller/share/ament_index/resource_index
+creating /home/khadas/tracking_robot_workspace/install/aruco_following_controller/share/ament_index/resource_index/packages
+copying resource/aruco_following_controller -> /home/khadas/tracking_robot_workspace/install/aruco_following_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/khadas/tracking_robot_workspace/install/aruco_following_controller/share/aruco_following_controller
+creating /home/khadas/tracking_robot_workspace/install/aruco_following_controller/share/aruco_following_controller/param
+copying param/controller_params.yaml -> /home/khadas/tracking_robot_workspace/install/aruco_following_controller/share/aruco_following_controller/param
+creating /home/khadas/tracking_robot_workspace/install/aruco_following_controller/share/aruco_following_controller/launch
+copying launch/controller.launch.py -> /home/khadas/tracking_robot_workspace/install/aruco_following_controller/share/aruco_following_controller/launch
+copying launch/static_tf.launch.py -> /home/khadas/tracking_robot_workspace/install/aruco_following_controller/share/aruco_following_controller/launch
+running install_egg_info
+Copying ../../build/aruco_following_controller/aruco_following_controller.egg-info to /home/khadas/tracking_robot_workspace/install/aruco_following_controller/lib/python3.10/site-packages/aruco_following_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing controller script to /home/khadas/tracking_robot_workspace/install/aruco_following_controller/lib/aruco_following_controller
+writing list of installed files to '/home/khadas/tracking_robot_workspace/build/aruco_following_controller/install.log'

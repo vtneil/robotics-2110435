@@ -1,0 +1,114 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'gstreamer-1.0'
+--   Found gstreamer-1.0, version 1.20.3
+-- Checking for module 'gstreamer-app-1.0'
+--   Found gstreamer-app-1.0, version 1.20.1
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)
+-- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 16.0.5 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found camera_calibration_parsers: 3.1.7 (/opt/ros/humble/share/camera_calibration_parsers/cmake)
+-- Found camera_info_manager: 3.1.7 (/opt/ros/humble/share/camera_info_manager/cmake)
+-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/khadas/ros2_workspace/src/gscam/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/khadas/ros2_workspace/build/gscam
+[ 20%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 20%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 30%] Building CXX object CMakeFiles/gscam.dir/src/gscam.cpp.o
+[ 40%] Building CXX object CMakeFiles/gscam_node.dir/rclcpp_components/node_main_gscam_node.cpp.o
+[ 50%] Linking CXX static library libgtest_main.a
+[ 50%] Built target gtest_main
+[ 60%] Linking CXX static library libgtest.a
+[ 70%] Linking CXX executable gscam_node
+[ 70%] Built target gtest
+[ 70%] Built target gscam_node
+[ 80%] Linking CXX shared library libgscam.so
+[ 80%] Built target gscam
+[ 90%] Building CXX object CMakeFiles/smoke_test.dir/test/smoke_test.cpp.o
+[100%] Linking CXX executable smoke_test
+[100%] Built target smoke_test
+-- Install configuration: ""
+-- Installing: /home/khadas/ros2_workspace/install/gscam/lib/gscam/gscam_node
+-- Set runtime path of "/home/khadas/ros2_workspace/install/gscam/lib/gscam/gscam_node" to ""
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/environment/library_path.sh
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/environment/library_path.dsv
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/ament_index/resource_index/package_run_dependencies/gscam
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/ament_index/resource_index/parent_prefix_path/gscam
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/environment/ament_prefix_path.sh
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/environment/ament_prefix_path.dsv
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/environment/path.sh
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/environment/path.dsv
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/local_setup.bash
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/local_setup.sh
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/local_setup.zsh
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/local_setup.dsv
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/package.dsv
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/ament_index/resource_index/packages/gscam
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/ament_index/resource_index/rclcpp_components/gscam
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/cmake/export_gscamExport.cmake
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/cmake/export_gscamExport-noconfig.cmake
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/cmake/gscamConfig.cmake
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/cmake/gscamConfig-version.cmake
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/package.xml
+-- Installing: /home/khadas/ros2_workspace/install/gscam/lib/libgscam.so
+-- Set runtime path of "/home/khadas/ros2_workspace/install/gscam/lib/libgscam.so" to ""
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/examples
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/examples/videofile.launch.xml
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/examples/v4ljpeg.launch.xml
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/examples/decklink.launch.xml
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/examples/component_pipeline_launch.py
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/examples/v4l.launch.xml
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/examples/osx.launch.xml
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/examples/minoru.launch.xml
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/examples/uncalibrated_parameters.ini
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/cfg
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/cfg/camera_parameters.ini
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/cfg/params.yaml
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/launch
+-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/launch/node_param_launch.py

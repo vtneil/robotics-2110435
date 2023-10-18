@@ -1,0 +1,220 @@
+[0.000000] (-) TimerEvent: {}
+[0.000148] (gscam) JobQueued: {'identifier': 'gscam', 'dependencies': OrderedDict()}
+[0.000170] (gscam) JobStarted: {'identifier': 'gscam'}
+[0.042701] (gscam) JobProgress: {'identifier': 'gscam', 'progress': 'cmake'}
+[0.043089] (gscam) Command: {'cmd': ['/usr/bin/cmake', '/home/parallels/robotics-2110435/ros2_ws/src/gscam', '-DCMAKE_INSTALL_PREFIX=/home/parallels/robotics-2110435/ros2_ws/install/gscam'], 'cwd': '/home/parallels/robotics-2110435/ros2_ws/build/gscam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', ''), ('USER', 'parallels'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HISTIGNORE', 'exit:ls:bg:fg:history:clear'), ('LESS', '-R'), ('HOME', '/home/parallels'), ('OLDPWD', '/home/parallels/robotics-2110435'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('SYSTEMD_EXEC_PID', '3418'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/parallels/robotics-2110435/challenge_1/install:/home/parallels/robotics-2110435/robot_ws/install:/home/parallels/my_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'parallels'), ('OSH', '/home/parallels/.oh-my-bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parallels'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '~/pycharm-2023.2.2/bin:~/pycharm-2023.2.2/bin:~/pycharm-2023.2.2/bin:~/pycharm-2023.2.2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vt-ubuntu:@/tmp/.ICE-unix/2646,unix/vt-ubuntu:/tmp/.ICE-unix/2646'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e80cbca1_1b24_4038_9d8c_ff6215a7cec3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('HISTSIZE', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.63ZJC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '3'), ('AMENT_PREFIX_PATH', '/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/parallels/robotics-2110435/ros2_ws/build/gscam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/parallels/robotics-2110435/challenge_1/install/robot_marker/lib/python3.10/site-packages:/home/parallels/robotics-2110435/robot_ws/install/turtle_square/lib/python3.10/site-packages:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg/lib/python3.10/site-packages:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco/lib/python3.10/site-packages:/home/parallels/my_robot_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.086254] (gscam) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.100348] (-) TimerEvent: {}
+[0.125485] (gscam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.130396] (gscam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.179672] (gscam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.184451] (gscam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.184656] (gscam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.184915] (gscam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.186786] (gscam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.200630] (-) TimerEvent: {}
+[0.239695] (gscam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.244635] (gscam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.244833] (gscam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.245280] (gscam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.248476] (gscam) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.248960] (gscam) StdoutLine: {'line': b"-- Checking for module 'gstreamer-1.0'\n"}
+[0.260606] (gscam) StdoutLine: {'line': b'--   Found gstreamer-1.0, version 1.20.3\n'}
+[0.283672] (gscam) StdoutLine: {'line': b"-- Checking for module 'gstreamer-app-1.0'\n"}
+[0.291225] (gscam) StdoutLine: {'line': b'--   Found gstreamer-app-1.0, version 1.20.1\n'}
+[0.300791] (-) TimerEvent: {}
+[0.314277] (gscam) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.401263] (-) TimerEvent: {}
+[0.414781] (gscam) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.466762] (gscam) StdoutLine: {'line': b'-- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)\n'}
+[0.481540] (gscam) StdoutLine: {'line': b'-- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[0.501463] (-) TimerEvent: {}
+[0.507023] (gscam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.510513] (gscam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.516210] (gscam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.525323] (gscam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.536507] (gscam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.586953] (gscam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.588772] (gscam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.601817] (-) TimerEvent: {}
+[0.658549] (gscam) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.679301] (gscam) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.702344] (-) TimerEvent: {}
+[0.713844] (gscam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.720390] (gscam) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.772755] (gscam) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.772928] (gscam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.802849] (-) TimerEvent: {}
+[0.823688] (gscam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.824492] (gscam) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.903719] (-) TimerEvent: {}
+[1.004277] (-) TimerEvent: {}
+[1.084840] (gscam) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.105278] (-) TimerEvent: {}
+[1.134148] (gscam) StdoutLine: {'line': b'-- Found camera_calibration_parsers: 3.1.7 (/opt/ros/humble/share/camera_calibration_parsers/cmake)\n'}
+[1.151258] (gscam) StdoutLine: {'line': b'-- Found camera_info_manager: 3.1.7 (/opt/ros/humble/share/camera_info_manager/cmake)\n'}
+[1.165409] (gscam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.205646] (-) TimerEvent: {}
+[1.219291] (gscam) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.224926] (gscam) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.227186] (gscam) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.227465] (gscam) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/parallels/robotics-2110435/ros2_ws/src/gscam/include\n'}
+[1.227510] (gscam) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.229600] (gscam) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.229659] (gscam) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.230177] (gscam) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.230957] (gscam) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.231512] (gscam) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.233664] (gscam) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.233748] (gscam) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.234355] (gscam) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.237859] (gscam) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.251842] (gscam) StdoutLine: {'line': b'-- Generating done\n'}
+[1.253188] (gscam) StdoutLine: {'line': b'-- Build files have been written to: /home/parallels/robotics-2110435/ros2_ws/build/gscam\n'}
+[1.258994] (gscam) CommandEnded: {'returncode': 0}
+[1.260198] (gscam) JobProgress: {'identifier': 'gscam', 'progress': 'build'}
+[1.260232] (gscam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/parallels/robotics-2110435/ros2_ws/build/gscam', '--', '-j6', '-l6'], 'cwd': '/home/parallels/robotics-2110435/ros2_ws/build/gscam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', ''), ('USER', 'parallels'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HISTIGNORE', 'exit:ls:bg:fg:history:clear'), ('LESS', '-R'), ('HOME', '/home/parallels'), ('OLDPWD', '/home/parallels/robotics-2110435'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('SYSTEMD_EXEC_PID', '3418'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/parallels/robotics-2110435/challenge_1/install:/home/parallels/robotics-2110435/robot_ws/install:/home/parallels/my_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'parallels'), ('OSH', '/home/parallels/.oh-my-bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parallels'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '~/pycharm-2023.2.2/bin:~/pycharm-2023.2.2/bin:~/pycharm-2023.2.2/bin:~/pycharm-2023.2.2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vt-ubuntu:@/tmp/.ICE-unix/2646,unix/vt-ubuntu:/tmp/.ICE-unix/2646'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e80cbca1_1b24_4038_9d8c_ff6215a7cec3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('HISTSIZE', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.63ZJC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '3'), ('AMENT_PREFIX_PATH', '/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/parallels/robotics-2110435/ros2_ws/build/gscam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/parallels/robotics-2110435/challenge_1/install/robot_marker/lib/python3.10/site-packages:/home/parallels/robotics-2110435/robot_ws/install/turtle_square/lib/python3.10/site-packages:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg/lib/python3.10/site-packages:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco/lib/python3.10/site-packages:/home/parallels/my_robot_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[1.297507] (gscam) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[1.297698] (gscam) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[1.297749] (gscam) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/gscam_node.dir/rclcpp_components/node_main_gscam_node.cpp.o\x1b[0m\n'}
+[1.299281] (gscam) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/gscam.dir/src/gscam.cpp.o\x1b[0m\n'}
+[1.305729] (-) TimerEvent: {}
+[1.405961] (-) TimerEvent: {}
+[1.506461] (-) TimerEvent: {}
+[1.606921] (-) TimerEvent: {}
+[1.707711] (-) TimerEvent: {}
+[1.808090] (-) TimerEvent: {}
+[1.819457] (gscam) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[1.852862] (gscam) StdoutLine: {'line': b'[ 50%] Built target gtest_main\n'}
+[1.908222] (-) TimerEvent: {}
+[2.010607] (-) TimerEvent: {}
+[2.115467] (-) TimerEvent: {}
+[2.216554] (-) TimerEvent: {}
+[2.317024] (-) TimerEvent: {}
+[2.419759] (-) TimerEvent: {}
+[2.522567] (-) TimerEvent: {}
+[2.626824] (-) TimerEvent: {}
+[2.732083] (-) TimerEvent: {}
+[2.834406] (-) TimerEvent: {}
+[2.934682] (-) TimerEvent: {}
+[3.034156] (gscam) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable gscam_node\x1b[0m\n'}
+[3.034911] (-) TimerEvent: {}
+[3.094288] (gscam) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[3.116460] (gscam) StdoutLine: {'line': b'[ 70%] Built target gscam_node\n'}
+[3.134702] (gscam) StdoutLine: {'line': b'[ 70%] Built target gtest\n'}
+[3.135016] (-) TimerEvent: {}
+[3.237452] (-) TimerEvent: {}
+[3.337865] (-) TimerEvent: {}
+[3.438338] (-) TimerEvent: {}
+[3.542043] (-) TimerEvent: {}
+[3.644444] (-) TimerEvent: {}
+[3.745559] (-) TimerEvent: {}
+[3.847004] (-) TimerEvent: {}
+[3.948580] (-) TimerEvent: {}
+[4.049112] (-) TimerEvent: {}
+[4.149824] (-) TimerEvent: {}
+[4.192426] (gscam) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libgscam.so\x1b[0m\n'}
+[4.250405] (-) TimerEvent: {}
+[4.350967] (gscam) StdoutLine: {'line': b'[ 80%] Built target gscam\n'}
+[4.351081] (-) TimerEvent: {}
+[4.365787] (gscam) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/smoke_test.dir/test/smoke_test.cpp.o\x1b[0m\n'}
+[4.451279] (-) TimerEvent: {}
+[4.551973] (-) TimerEvent: {}
+[4.654413] (-) TimerEvent: {}
+[4.755765] (-) TimerEvent: {}
+[4.858980] (-) TimerEvent: {}
+[4.959238] (-) TimerEvent: {}
+[5.059703] (-) TimerEvent: {}
+[5.160121] (-) TimerEvent: {}
+[5.261288] (-) TimerEvent: {}
+[5.361761] (-) TimerEvent: {}
+[5.462162] (-) TimerEvent: {}
+[5.563093] (-) TimerEvent: {}
+[5.664466] (-) TimerEvent: {}
+[5.764889] (-) TimerEvent: {}
+[5.867421] (-) TimerEvent: {}
+[5.968340] (-) TimerEvent: {}
+[6.069040] (-) TimerEvent: {}
+[6.169457] (-) TimerEvent: {}
+[6.270234] (-) TimerEvent: {}
+[6.371232] (-) TimerEvent: {}
+[6.473285] (-) TimerEvent: {}
+[6.573602] (-) TimerEvent: {}
+[6.674299] (-) TimerEvent: {}
+[6.774735] (-) TimerEvent: {}
+[6.875314] (-) TimerEvent: {}
+[6.976047] (-) TimerEvent: {}
+[7.076593] (-) TimerEvent: {}
+[7.177017] (-) TimerEvent: {}
+[7.277316] (-) TimerEvent: {}
+[7.377711] (-) TimerEvent: {}
+[7.478178] (-) TimerEvent: {}
+[7.580079] (-) TimerEvent: {}
+[7.681020] (-) TimerEvent: {}
+[7.781418] (-) TimerEvent: {}
+[7.882130] (-) TimerEvent: {}
+[7.982990] (-) TimerEvent: {}
+[8.083510] (-) TimerEvent: {}
+[8.183845] (-) TimerEvent: {}
+[8.284544] (-) TimerEvent: {}
+[8.384803] (-) TimerEvent: {}
+[8.485009] (-) TimerEvent: {}
+[8.585421] (-) TimerEvent: {}
+[8.685728] (-) TimerEvent: {}
+[8.786232] (-) TimerEvent: {}
+[8.886498] (gscam) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable smoke_test\x1b[0m\n'}
+[8.886613] (-) TimerEvent: {}
+[8.986844] (-) TimerEvent: {}
+[9.087281] (-) TimerEvent: {}
+[9.188236] (-) TimerEvent: {}
+[9.218125] (gscam) StdoutLine: {'line': b'[100%] Built target smoke_test\n'}
+[9.227110] (gscam) CommandEnded: {'returncode': 0}
+[9.252426] (gscam) JobProgress: {'identifier': 'gscam', 'progress': 'install'}
+[9.259385] (gscam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/parallels/robotics-2110435/ros2_ws/build/gscam'], 'cwd': '/home/parallels/robotics-2110435/ros2_ws/build/gscam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', ''), ('USER', 'parallels'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HISTIGNORE', 'exit:ls:bg:fg:history:clear'), ('LESS', '-R'), ('HOME', '/home/parallels'), ('OLDPWD', '/home/parallels/robotics-2110435'), ('DESKTOP_SESSION', 'ubuntu'), ('LSCOLORS', 'Gxfxcxdxdxegedabagacad'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'less'), ('SYSTEMD_EXEC_PID', '3418'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/parallels/robotics-2110435/challenge_1/install:/home/parallels/robotics-2110435/robot_ws/install:/home/parallels/my_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'parallels'), ('OSH', '/home/parallels/.oh-my-bash'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parallels'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '~/pycharm-2023.2.2/bin:~/pycharm-2023.2.2/bin:~/pycharm-2023.2.2/bin:~/pycharm-2023.2.2/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vt-ubuntu:@/tmp/.ICE-unix/2646,unix/vt-ubuntu:/tmp/.ICE-unix/2646'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e80cbca1_1b24_4038_9d8c_ff6215a7cec3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('HISTSIZE', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.63ZJC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '3'), ('AMENT_PREFIX_PATH', '/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/parallels/robotics-2110435/ros2_ws/build/gscam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/parallels/robotics-2110435/challenge_1/install/robot_marker/lib/python3.10/site-packages:/home/parallels/robotics-2110435/robot_ws/install/turtle_square/lib/python3.10/site-packages:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg/lib/python3.10/site-packages:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco/lib/python3.10/site-packages:/home/parallels/my_robot_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/parallels/robotics-2110435/challenge_1/install/robot_marker:/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/robotics-2110435/robot_ws/install/ros2_aruco:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[9.264809] (gscam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.264988] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/lib/gscam/gscam_node\n'}
+[9.265440] (gscam) StdoutLine: {'line': b'-- Set runtime path of "/home/parallels/robotics-2110435/ros2_ws/install/gscam/lib/gscam/gscam_node" to ""\n'}
+[9.265487] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/environment/library_path.sh\n'}
+[9.265585] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/environment/library_path.dsv\n'}
+[9.265668] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/ament_index/resource_index/package_run_dependencies/gscam\n'}
+[9.265830] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/ament_index/resource_index/parent_prefix_path/gscam\n'}
+[9.265885] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/environment/ament_prefix_path.sh\n'}
+[9.265915] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/environment/ament_prefix_path.dsv\n'}
+[9.266014] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/environment/path.sh\n'}
+[9.266113] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/environment/path.dsv\n'}
+[9.266164] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/local_setup.bash\n'}
+[9.266238] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/local_setup.sh\n'}
+[9.266288] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/local_setup.zsh\n'}
+[9.266360] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/local_setup.dsv\n'}
+[9.266403] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/package.dsv\n'}
+[9.266481] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/ament_index/resource_index/packages/gscam\n'}
+[9.266570] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/ament_index/resource_index/rclcpp_components/gscam\n'}
+[9.266639] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/cmake/export_gscamExport.cmake\n'}
+[9.266709] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/cmake/export_gscamExport-noconfig.cmake\n'}
+[9.266781] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.266855] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.266930] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.267008] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.267108] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/cmake/gscamConfig.cmake\n'}
+[9.267140] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/cmake/gscamConfig-version.cmake\n'}
+[9.267201] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/package.xml\n'}
+[9.267338] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/lib/libgscam.so\n'}
+[9.268905] (gscam) StdoutLine: {'line': b'-- Set runtime path of "/home/parallels/robotics-2110435/ros2_ws/install/gscam/lib/libgscam.so" to ""\n'}
+[9.268994] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/examples\n'}
+[9.269038] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/examples/component_pipeline_launch.py\n'}
+[9.269068] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/examples/decklink.launch.xml\n'}
+[9.269163] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/examples/v4ljpeg.launch.xml\n'}
+[9.269209] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/examples/v4l.launch.xml\n'}
+[9.269237] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/examples/uncalibrated_parameters.ini\n'}
+[9.269277] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/examples/videofile.launch.xml\n'}
+[9.269360] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/examples/minoru.launch.xml\n'}
+[9.269391] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/examples/osx.launch.xml\n'}
+[9.269479] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/cfg\n'}
+[9.269524] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/cfg/camera_parameters.ini\n'}
+[9.269612] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/cfg/params.yaml\n'}
+[9.269649] (gscam) StdoutLine: {'line': b'-- Up-to-date: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/launch\n'}
+[9.269679] (gscam) StdoutLine: {'line': b'-- Installing: /home/parallels/robotics-2110435/ros2_ws/install/gscam/share/gscam/launch/node_param_launch.py\n'}
+[9.271093] (gscam) CommandEnded: {'returncode': 0}
+[9.289248] (-) TimerEvent: {}
+[9.360470] (gscam) JobEnded: {'identifier': 'gscam', 'rc': 0}
+[9.360979] (-) EventReactorShutdown: {}

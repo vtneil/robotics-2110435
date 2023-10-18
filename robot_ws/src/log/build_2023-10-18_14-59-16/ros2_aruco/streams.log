@@ -1,0 +1,47 @@
+[0.967s] Invoking command in '/home/parallels/robotics-2110435/robot_ws/src/ros2_aruco/ros2_aruco': PYTHONPATH=/home/parallels/robotics-2110435/robot_ws/src/build/ros2_aruco/prefix_override:/home/parallels/robotics-2110435/robot_ws/src/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_aruco build --build-base /home/parallels/robotics-2110435/robot_ws/src/build/ros2_aruco/build install --record /home/parallels/robotics-2110435/robot_ws/src/build/ros2_aruco/install.log --single-version-externally-managed
+[1.086s] running egg_info
+[1.086s] creating ../../build/ros2_aruco/ros2_aruco.egg-info
+[1.086s] writing ../../build/ros2_aruco/ros2_aruco.egg-info/PKG-INFO
+[1.086s] writing dependency_links to ../../build/ros2_aruco/ros2_aruco.egg-info/dependency_links.txt
+[1.086s] writing entry points to ../../build/ros2_aruco/ros2_aruco.egg-info/entry_points.txt
+[1.086s] writing requirements to ../../build/ros2_aruco/ros2_aruco.egg-info/requires.txt
+[1.086s] writing top-level names to ../../build/ros2_aruco/ros2_aruco.egg-info/top_level.txt
+[1.087s] writing manifest file '../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[1.088s] reading manifest file '../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[1.088s] writing manifest file '../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[1.088s] running build
+[1.088s] running build_py
+[1.089s] creating /home/parallels/robotics-2110435/robot_ws/src/build/ros2_aruco/build
+[1.089s] creating /home/parallels/robotics-2110435/robot_ws/src/build/ros2_aruco/build/lib
+[1.089s] creating /home/parallels/robotics-2110435/robot_ws/src/build/ros2_aruco/build/lib/ros2_aruco
+[1.089s] copying ros2_aruco/__init__.py -> /home/parallels/robotics-2110435/robot_ws/src/build/ros2_aruco/build/lib/ros2_aruco
+[1.089s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.089s]   warnings.warn(
+[1.089s] copying ros2_aruco/aruco_node.py -> /home/parallels/robotics-2110435/robot_ws/src/build/ros2_aruco/build/lib/ros2_aruco
+[1.089s] copying ros2_aruco/aruco_generate_marker.py -> /home/parallels/robotics-2110435/robot_ws/src/build/ros2_aruco/build/lib/ros2_aruco
+[1.089s] running install
+[1.089s] running install_lib
+[1.089s] creating /home/parallels/robotics-2110435/robot_ws/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[1.090s] copying /home/parallels/robotics-2110435/robot_ws/src/build/ros2_aruco/build/lib/ros2_aruco/__init__.py -> /home/parallels/robotics-2110435/robot_ws/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[1.090s] copying /home/parallels/robotics-2110435/robot_ws/src/build/ros2_aruco/build/lib/ros2_aruco/aruco_node.py -> /home/parallels/robotics-2110435/robot_ws/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[1.090s] copying /home/parallels/robotics-2110435/robot_ws/src/build/ros2_aruco/build/lib/ros2_aruco/aruco_generate_marker.py -> /home/parallels/robotics-2110435/robot_ws/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[1.090s] byte-compiling /home/parallels/robotics-2110435/robot_ws/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/__init__.py to __init__.cpython-310.pyc
+[1.090s] byte-compiling /home/parallels/robotics-2110435/robot_ws/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/aruco_node.py to aruco_node.cpython-310.pyc
+[1.090s] byte-compiling /home/parallels/robotics-2110435/robot_ws/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/aruco_generate_marker.py to aruco_generate_marker.cpython-310.pyc
+[1.091s] running install_data
+[1.091s] creating /home/parallels/robotics-2110435/robot_ws/src/install/ros2_aruco/share/ament_index
+[1.091s] creating /home/parallels/robotics-2110435/robot_ws/src/install/ros2_aruco/share/ament_index/resource_index
+[1.091s] creating /home/parallels/robotics-2110435/robot_ws/src/install/ros2_aruco/share/ament_index/resource_index/packages
+[1.091s] copying resource/ros2_aruco -> /home/parallels/robotics-2110435/robot_ws/src/install/ros2_aruco/share/ament_index/resource_index/packages
+[1.092s] copying package.xml -> /home/parallels/robotics-2110435/robot_ws/src/install/ros2_aruco/share/ros2_aruco
+[1.092s] creating /home/parallels/robotics-2110435/robot_ws/src/install/ros2_aruco/share/ros2_aruco/launch
+[1.092s] copying launch/aruco_recognition.launch.py -> /home/parallels/robotics-2110435/robot_ws/src/install/ros2_aruco/share/ros2_aruco/launch
+[1.092s] creating /home/parallels/robotics-2110435/robot_ws/src/install/ros2_aruco/share/ros2_aruco/config
+[1.092s] copying config/aruco_parameters.yaml -> /home/parallels/robotics-2110435/robot_ws/src/install/ros2_aruco/share/ros2_aruco/config
+[1.092s] running install_egg_info
+[1.092s] Copying ../../build/ros2_aruco/ros2_aruco.egg-info to /home/parallels/robotics-2110435/robot_ws/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco-0.1.0-py3.10.egg-info
+[1.093s] running install_scripts
+[1.106s] Installing aruco_generate_marker script to /home/parallels/robotics-2110435/robot_ws/src/install/ros2_aruco/lib/ros2_aruco
+[1.106s] Installing aruco_node script to /home/parallels/robotics-2110435/robot_ws/src/install/ros2_aruco/lib/ros2_aruco
+[1.106s] writing list of installed files to '/home/parallels/robotics-2110435/robot_ws/src/build/ros2_aruco/install.log'
+[1.156s] Invoked command in '/home/parallels/robotics-2110435/robot_ws/src/ros2_aruco/ros2_aruco' returned '0': PYTHONPATH=/home/parallels/robotics-2110435/robot_ws/src/build/ros2_aruco/prefix_override:/home/parallels/robotics-2110435/robot_ws/src/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_aruco build --build-base /home/parallels/robotics-2110435/robot_ws/src/build/ros2_aruco/build install --record /home/parallels/robotics-2110435/robot_ws/src/build/ros2_aruco/install.log --single-version-externally-managed

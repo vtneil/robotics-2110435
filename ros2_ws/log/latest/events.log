@@ -1,0 +1,399 @@
+[0.000000] (-) TimerEvent: {}
+[0.000211] (gscam) JobQueued: {'identifier': 'gscam', 'dependencies': OrderedDict()}
+[0.000327] (gscam) JobStarted: {'identifier': 'gscam'}
+[0.016927] (gscam) JobProgress: {'identifier': 'gscam', 'progress': 'cmake'}
+[0.017302] (gscam) Command: {'cmd': ['/usr/bin/cmake', '/home/khadas/ros2_workspace/src/gscam', '-DCMAKE_INSTALL_PREFIX=/home/khadas/ros2_workspace/install/gscam'], 'cwd': '/home/khadas/ros2_workspace/build/gscam', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'khadas'), ('SSH_CLIENT', '192.168.1.105 53932 22'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/khadas'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'th_TH.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'khadas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXSKbicV/agent.7222'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('PWD', '/home/khadas/ros2_workspace/build/gscam'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.105 53932 192.168.1.108 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097573] (-) TimerEvent: {}
+[0.197730] (-) TimerEvent: {}
+[0.297994] (-) TimerEvent: {}
+[0.377541] (gscam) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.398168] (-) TimerEvent: {}
+[0.498529] (-) TimerEvent: {}
+[0.598959] (-) TimerEvent: {}
+[0.655323] (gscam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.686751] (gscam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.699121] (-) TimerEvent: {}
+[0.799465] (-) TimerEvent: {}
+[0.886054] (gscam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.899628] (-) TimerEvent: {}
+[0.922999] (gscam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.924023] (gscam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.925005] (gscam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.930524] (gscam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.999843] (-) TimerEvent: {}
+[1.100200] (-) TimerEvent: {}
+[1.145587] (gscam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.184271] (gscam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.185902] (gscam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.187832] (gscam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.200365] (-) TimerEvent: {}
+[1.202267] (gscam) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.202987] (gscam) StdoutLine: {'line': b"-- Checking for module 'gstreamer-1.0'\n"}
+[1.243972] (gscam) StdoutLine: {'line': b'--   Found gstreamer-1.0, version 1.20.3\n'}
+[1.300517] (-) TimerEvent: {}
+[1.353284] (gscam) StdoutLine: {'line': b"-- Checking for module 'gstreamer-app-1.0'\n"}
+[1.389827] (gscam) StdoutLine: {'line': b'--   Found gstreamer-app-1.0, version 1.20.1\n'}
+[1.400625] (-) TimerEvent: {}
+[1.500917] (-) TimerEvent: {}
+[1.506877] (gscam) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.601139] (-) TimerEvent: {}
+[1.701543] (-) TimerEvent: {}
+[1.801952] (-) TimerEvent: {}
+[1.866347] (gscam) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.902155] (-) TimerEvent: {}
+[2.002585] (-) TimerEvent: {}
+[2.076560] (gscam) StdoutLine: {'line': b'-- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)\n'}
+[2.102774] (-) TimerEvent: {}
+[2.113549] (gscam) StdoutLine: {'line': b'-- Found image_transport: 3.1.7 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[2.180541] (gscam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.188889] (gscam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.202964] (-) TimerEvent: {}
+[2.204624] (gscam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.229744] (gscam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.256338] (gscam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.303187] (-) TimerEvent: {}
+[2.371234] (gscam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.375908] (gscam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.403377] (-) TimerEvent: {}
+[2.503820] (-) TimerEvent: {}
+[2.577542] (gscam) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.604054] (-) TimerEvent: {}
+[2.620471] (gscam) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.692305] (gscam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.704171] (-) TimerEvent: {}
+[2.709311] (gscam) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.804382] (-) TimerEvent: {}
+[2.904481] (gscam) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.905053] (-) TimerEvent: {}
+[2.905151] (gscam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.005271] (-) TimerEvent: {}
+[3.103548] (gscam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.105352] (-) TimerEvent: {}
+[3.107258] (gscam) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.205624] (-) TimerEvent: {}
+[3.306080] (-) TimerEvent: {}
+[3.406551] (-) TimerEvent: {}
+[3.507009] (-) TimerEvent: {}
+[3.607436] (-) TimerEvent: {}
+[3.661642] (gscam) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.5 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[3.707631] (-) TimerEvent: {}
+[3.753690] (gscam) StdoutLine: {'line': b'-- Found camera_calibration_parsers: 3.1.7 (/opt/ros/humble/share/camera_calibration_parsers/cmake)\n'}
+[3.782600] (gscam) StdoutLine: {'line': b'-- Found camera_info_manager: 3.1.7 (/opt/ros/humble/share/camera_info_manager/cmake)\n'}
+[3.808146] (gscam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.808633] (-) TimerEvent: {}
+[3.909038] (-) TimerEvent: {}
+[3.944934] (gscam) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[3.959222] (gscam) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.967711] (gscam) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.968595] (gscam) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/khadas/ros2_workspace/src/gscam/include\n'}
+[3.968972] (gscam) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.973138] (gscam) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.973571] (gscam) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.974468] (gscam) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.976282] (gscam) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.977610] (gscam) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.982290] (gscam) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.982671] (gscam) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.983669] (gscam) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.990521] (gscam) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.009251] (-) TimerEvent: {}
+[4.021927] (gscam) StdoutLine: {'line': b'-- Generating done\n'}
+[4.025035] (gscam) StdoutLine: {'line': b'-- Build files have been written to: /home/khadas/ros2_workspace/build/gscam\n'}
+[4.044775] (gscam) CommandEnded: {'returncode': 0}
+[4.047112] (gscam) JobProgress: {'identifier': 'gscam', 'progress': 'build'}
+[4.050467] (gscam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/khadas/ros2_workspace/build/gscam', '--', '-j8', '-l8'], 'cwd': '/home/khadas/ros2_workspace/build/gscam', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'khadas'), ('SSH_CLIENT', '192.168.1.105 53932 22'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/khadas'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'th_TH.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'khadas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXSKbicV/agent.7222'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('PWD', '/home/khadas/ros2_workspace/build/gscam'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.105 53932 192.168.1.108 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.109463] (-) TimerEvent: {}
+[4.163426] (gscam) StdoutLine: {'line': b'[ 20%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\n'}
+[4.164076] (gscam) StdoutLine: {'line': b'[ 20%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\n'}
+[4.190387] (gscam) StdoutLine: {'line': b'[ 30%] Building CXX object CMakeFiles/gscam.dir/src/gscam.cpp.o\n'}
+[4.199393] (gscam) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/gscam_node.dir/rclcpp_components/node_main_gscam_node.cpp.o\n'}
+[4.209661] (-) TimerEvent: {}
+[4.310225] (-) TimerEvent: {}
+[4.410735] (-) TimerEvent: {}
+[4.511269] (-) TimerEvent: {}
+[4.611839] (-) TimerEvent: {}
+[4.712422] (-) TimerEvent: {}
+[4.813046] (-) TimerEvent: {}
+[4.913623] (-) TimerEvent: {}
+[5.014250] (-) TimerEvent: {}
+[5.114888] (-) TimerEvent: {}
+[5.215540] (-) TimerEvent: {}
+[5.316199] (-) TimerEvent: {}
+[5.416853] (-) TimerEvent: {}
+[5.517523] (-) TimerEvent: {}
+[5.618180] (-) TimerEvent: {}
+[5.718784] (-) TimerEvent: {}
+[5.734328] (gscam) StdoutLine: {'line': b'[ 50%] Linking CXX static library libgtest_main.a\n'}
+[5.819083] (-) TimerEvent: {}
+[5.843748] (gscam) StdoutLine: {'line': b'[ 50%] Built target gtest_main\n'}
+[5.919387] (-) TimerEvent: {}
+[6.019993] (-) TimerEvent: {}
+[6.120579] (-) TimerEvent: {}
+[6.221170] (-) TimerEvent: {}
+[6.321751] (-) TimerEvent: {}
+[6.422320] (-) TimerEvent: {}
+[6.522887] (-) TimerEvent: {}
+[6.623466] (-) TimerEvent: {}
+[6.724042] (-) TimerEvent: {}
+[6.824629] (-) TimerEvent: {}
+[6.925208] (-) TimerEvent: {}
+[7.025798] (-) TimerEvent: {}
+[7.126390] (-) TimerEvent: {}
+[7.227015] (-) TimerEvent: {}
+[7.327598] (-) TimerEvent: {}
+[7.428194] (-) TimerEvent: {}
+[7.528777] (-) TimerEvent: {}
+[7.629369] (-) TimerEvent: {}
+[7.729994] (-) TimerEvent: {}
+[7.830543] (-) TimerEvent: {}
+[7.931124] (-) TimerEvent: {}
+[8.031748] (-) TimerEvent: {}
+[8.132358] (-) TimerEvent: {}
+[8.232927] (-) TimerEvent: {}
+[8.333495] (-) TimerEvent: {}
+[8.434076] (-) TimerEvent: {}
+[8.534654] (-) TimerEvent: {}
+[8.635237] (-) TimerEvent: {}
+[8.735805] (-) TimerEvent: {}
+[8.836367] (-) TimerEvent: {}
+[8.936934] (-) TimerEvent: {}
+[9.037491] (-) TimerEvent: {}
+[9.135397] (gscam) StdoutLine: {'line': b'[ 60%] Linking CXX static library libgtest.a\n'}
+[9.137585] (-) TimerEvent: {}
+[9.237875] (-) TimerEvent: {}
+[9.257132] (gscam) StdoutLine: {'line': b'[ 70%] Linking CXX executable gscam_node\n'}
+[9.302817] (gscam) StdoutLine: {'line': b'[ 70%] Built target gtest\n'}
+[9.338180] (-) TimerEvent: {}
+[9.438750] (-) TimerEvent: {}
+[9.539278] (-) TimerEvent: {}
+[9.559675] (gscam) StdoutLine: {'line': b'[ 70%] Built target gscam_node\n'}
+[9.639566] (-) TimerEvent: {}
+[9.740110] (-) TimerEvent: {}
+[9.840658] (-) TimerEvent: {}
+[9.941195] (-) TimerEvent: {}
+[10.041735] (-) TimerEvent: {}
+[10.142268] (-) TimerEvent: {}
+[10.242809] (-) TimerEvent: {}
+[10.343390] (-) TimerEvent: {}
+[10.443939] (-) TimerEvent: {}
+[10.544497] (-) TimerEvent: {}
+[10.645025] (-) TimerEvent: {}
+[10.745552] (-) TimerEvent: {}
+[10.846084] (-) TimerEvent: {}
+[10.946619] (-) TimerEvent: {}
+[11.047121] (-) TimerEvent: {}
+[11.147638] (-) TimerEvent: {}
+[11.248159] (-) TimerEvent: {}
+[11.348670] (-) TimerEvent: {}
+[11.449176] (-) TimerEvent: {}
+[11.549705] (-) TimerEvent: {}
+[11.650266] (-) TimerEvent: {}
+[11.750796] (-) TimerEvent: {}
+[11.851326] (-) TimerEvent: {}
+[11.951828] (-) TimerEvent: {}
+[12.052334] (-) TimerEvent: {}
+[12.152836] (-) TimerEvent: {}
+[12.253363] (-) TimerEvent: {}
+[12.353915] (-) TimerEvent: {}
+[12.437458] (gscam) StdoutLine: {'line': b'[ 80%] Linking CXX shared library libgscam.so\n'}
+[12.454065] (-) TimerEvent: {}
+[12.554576] (-) TimerEvent: {}
+[12.655207] (-) TimerEvent: {}
+[12.755799] (-) TimerEvent: {}
+[12.856324] (-) TimerEvent: {}
+[12.956857] (-) TimerEvent: {}
+[13.004520] (gscam) StdoutLine: {'line': b'[ 80%] Built target gscam\n'}
+[13.057055] (-) TimerEvent: {}
+[13.065468] (gscam) StdoutLine: {'line': b'[ 90%] Building CXX object CMakeFiles/smoke_test.dir/test/smoke_test.cpp.o\n'}
+[13.157298] (-) TimerEvent: {}
+[13.257797] (-) TimerEvent: {}
+[13.358288] (-) TimerEvent: {}
+[13.458774] (-) TimerEvent: {}
+[13.559300] (-) TimerEvent: {}
+[13.659833] (-) TimerEvent: {}
+[13.760386] (-) TimerEvent: {}
+[13.860920] (-) TimerEvent: {}
+[13.961422] (-) TimerEvent: {}
+[14.061950] (-) TimerEvent: {}
+[14.162482] (-) TimerEvent: {}
+[14.263017] (-) TimerEvent: {}
+[14.363575] (-) TimerEvent: {}
+[14.464116] (-) TimerEvent: {}
+[14.564650] (-) TimerEvent: {}
+[14.665183] (-) TimerEvent: {}
+[14.765718] (-) TimerEvent: {}
+[14.866234] (-) TimerEvent: {}
+[14.966767] (-) TimerEvent: {}
+[15.067211] (-) TimerEvent: {}
+[15.167654] (-) TimerEvent: {}
+[15.268196] (-) TimerEvent: {}
+[15.368734] (-) TimerEvent: {}
+[15.469279] (-) TimerEvent: {}
+[15.569815] (-) TimerEvent: {}
+[15.670368] (-) TimerEvent: {}
+[15.770903] (-) TimerEvent: {}
+[15.871441] (-) TimerEvent: {}
+[15.971958] (-) TimerEvent: {}
+[16.072469] (-) TimerEvent: {}
+[16.172997] (-) TimerEvent: {}
+[16.273523] (-) TimerEvent: {}
+[16.374030] (-) TimerEvent: {}
+[16.474564] (-) TimerEvent: {}
+[16.575093] (-) TimerEvent: {}
+[16.675607] (-) TimerEvent: {}
+[16.776132] (-) TimerEvent: {}
+[16.876696] (-) TimerEvent: {}
+[16.977284] (-) TimerEvent: {}
+[17.077818] (-) TimerEvent: {}
+[17.178358] (-) TimerEvent: {}
+[17.278888] (-) TimerEvent: {}
+[17.379426] (-) TimerEvent: {}
+[17.479979] (-) TimerEvent: {}
+[17.580496] (-) TimerEvent: {}
+[17.681039] (-) TimerEvent: {}
+[17.781585] (-) TimerEvent: {}
+[17.882129] (-) TimerEvent: {}
+[17.982649] (-) TimerEvent: {}
+[18.083194] (-) TimerEvent: {}
+[18.183761] (-) TimerEvent: {}
+[18.284301] (-) TimerEvent: {}
+[18.384836] (-) TimerEvent: {}
+[18.485372] (-) TimerEvent: {}
+[18.585879] (-) TimerEvent: {}
+[18.686400] (-) TimerEvent: {}
+[18.786863] (-) TimerEvent: {}
+[18.887306] (-) TimerEvent: {}
+[18.987810] (-) TimerEvent: {}
+[19.088342] (-) TimerEvent: {}
+[19.188865] (-) TimerEvent: {}
+[19.289383] (-) TimerEvent: {}
+[19.389930] (-) TimerEvent: {}
+[19.490461] (-) TimerEvent: {}
+[19.590983] (-) TimerEvent: {}
+[19.691496] (-) TimerEvent: {}
+[19.792029] (-) TimerEvent: {}
+[19.892577] (-) TimerEvent: {}
+[19.993098] (-) TimerEvent: {}
+[20.093638] (-) TimerEvent: {}
+[20.194167] (-) TimerEvent: {}
+[20.294697] (-) TimerEvent: {}
+[20.395239] (-) TimerEvent: {}
+[20.495781] (-) TimerEvent: {}
+[20.596302] (-) TimerEvent: {}
+[20.696841] (-) TimerEvent: {}
+[20.797380] (-) TimerEvent: {}
+[20.897809] (-) TimerEvent: {}
+[20.998310] (-) TimerEvent: {}
+[21.098813] (-) TimerEvent: {}
+[21.199326] (-) TimerEvent: {}
+[21.299834] (-) TimerEvent: {}
+[21.400370] (-) TimerEvent: {}
+[21.500892] (-) TimerEvent: {}
+[21.601418] (-) TimerEvent: {}
+[21.701939] (-) TimerEvent: {}
+[21.802445] (-) TimerEvent: {}
+[21.902972] (-) TimerEvent: {}
+[22.003492] (-) TimerEvent: {}
+[22.104007] (-) TimerEvent: {}
+[22.204524] (-) TimerEvent: {}
+[22.305058] (-) TimerEvent: {}
+[22.405575] (-) TimerEvent: {}
+[22.506066] (-) TimerEvent: {}
+[22.606667] (-) TimerEvent: {}
+[22.707219] (-) TimerEvent: {}
+[22.807741] (-) TimerEvent: {}
+[22.908274] (-) TimerEvent: {}
+[23.008787] (-) TimerEvent: {}
+[23.109322] (-) TimerEvent: {}
+[23.209851] (-) TimerEvent: {}
+[23.310392] (-) TimerEvent: {}
+[23.410913] (-) TimerEvent: {}
+[23.511440] (-) TimerEvent: {}
+[23.611946] (-) TimerEvent: {}
+[23.712468] (-) TimerEvent: {}
+[23.812994] (-) TimerEvent: {}
+[23.913538] (-) TimerEvent: {}
+[24.014037] (-) TimerEvent: {}
+[24.114561] (-) TimerEvent: {}
+[24.215085] (-) TimerEvent: {}
+[24.315606] (-) TimerEvent: {}
+[24.416131] (-) TimerEvent: {}
+[24.516668] (-) TimerEvent: {}
+[24.617191] (-) TimerEvent: {}
+[24.717705] (-) TimerEvent: {}
+[24.818199] (-) TimerEvent: {}
+[24.918686] (-) TimerEvent: {}
+[25.019168] (-) TimerEvent: {}
+[25.119638] (-) TimerEvent: {}
+[25.220121] (-) TimerEvent: {}
+[25.320603] (-) TimerEvent: {}
+[25.421075] (-) TimerEvent: {}
+[25.521585] (-) TimerEvent: {}
+[25.622127] (-) TimerEvent: {}
+[25.722659] (-) TimerEvent: {}
+[25.817676] (gscam) StdoutLine: {'line': b'[100%] Linking CXX executable smoke_test\n'}
+[25.822810] (-) TimerEvent: {}
+[25.923251] (-) TimerEvent: {}
+[26.023706] (-) TimerEvent: {}
+[26.124187] (-) TimerEvent: {}
+[26.224644] (-) TimerEvent: {}
+[26.325205] (-) TimerEvent: {}
+[26.425766] (-) TimerEvent: {}
+[26.526302] (-) TimerEvent: {}
+[26.626836] (-) TimerEvent: {}
+[26.727389] (-) TimerEvent: {}
+[26.827918] (-) TimerEvent: {}
+[26.896848] (gscam) StdoutLine: {'line': b'[100%] Built target smoke_test\n'}
+[26.928459] (gscam) CommandEnded: {'returncode': 0}
+[26.931126] (-) TimerEvent: {}
+[27.008795] (gscam) JobProgress: {'identifier': 'gscam', 'progress': 'install'}
+[27.031348] (-) TimerEvent: {}
+[27.037941] (gscam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/khadas/ros2_workspace/build/gscam'], 'cwd': '/home/khadas/ros2_workspace/build/gscam', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'khadas'), ('SSH_CLIENT', '192.168.1.105 53932 22'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/khadas'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'th_TH.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'khadas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '8'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXSKbicV/agent.7222'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('LC_MESSAGES', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('PWD', '/home/khadas/ros2_workspace/build/gscam'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.105 53932 192.168.1.108 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[27.061693] (gscam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.062281] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/lib/gscam/gscam_node\n'}
+[27.063857] (gscam) StdoutLine: {'line': b'-- Set runtime path of "/home/khadas/ros2_workspace/install/gscam/lib/gscam/gscam_node" to ""\n'}
+[27.066641] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/environment/library_path.sh\n'}
+[27.067045] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/environment/library_path.dsv\n'}
+[27.067413] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/ament_index/resource_index/package_run_dependencies/gscam\n'}
+[27.067774] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/ament_index/resource_index/parent_prefix_path/gscam\n'}
+[27.068132] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/environment/ament_prefix_path.sh\n'}
+[27.068486] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/environment/ament_prefix_path.dsv\n'}
+[27.068838] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/environment/path.sh\n'}
+[27.069188] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/environment/path.dsv\n'}
+[27.069538] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/local_setup.bash\n'}
+[27.069902] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/local_setup.sh\n'}
+[27.070265] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/local_setup.zsh\n'}
+[27.070952] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/local_setup.dsv\n'}
+[27.073134] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/package.dsv\n'}
+[27.073954] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/ament_index/resource_index/packages/gscam\n'}
+[27.074307] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/ament_index/resource_index/rclcpp_components/gscam\n'}
+[27.074655] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/cmake/export_gscamExport.cmake\n'}
+[27.075002] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/cmake/export_gscamExport-noconfig.cmake\n'}
+[27.075351] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[27.076313] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[27.079257] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[27.079795] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[27.082990] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/cmake/gscamConfig.cmake\n'}
+[27.083687] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/cmake/gscamConfig-version.cmake\n'}
+[27.084095] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/package.xml\n'}
+[27.084601] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/lib/libgscam.so\n'}
+[27.085236] (gscam) StdoutLine: {'line': b'-- Set runtime path of "/home/khadas/ros2_workspace/install/gscam/lib/libgscam.so" to ""\n'}
+[27.085636] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/examples\n'}
+[27.086193] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/examples/videofile.launch.xml\n'}
+[27.086755] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/examples/v4ljpeg.launch.xml\n'}
+[27.087182] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/examples/decklink.launch.xml\n'}
+[27.087846] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/examples/component_pipeline_launch.py\n'}
+[27.088252] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/examples/v4l.launch.xml\n'}
+[27.088661] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/examples/osx.launch.xml\n'}
+[27.089221] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/examples/minoru.launch.xml\n'}
+[27.089717] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/examples/uncalibrated_parameters.ini\n'}
+[27.090417] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/cfg\n'}
+[27.092181] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/cfg/camera_parameters.ini\n'}
+[27.092862] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/cfg/params.yaml\n'}
+[27.093444] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/launch\n'}
+[27.093853] (gscam) StdoutLine: {'line': b'-- Installing: /home/khadas/ros2_workspace/install/gscam/share/gscam/launch/node_param_launch.py\n'}
+[27.094515] (gscam) CommandEnded: {'returncode': 0}
+[27.131668] (-) TimerEvent: {}
+[27.232033] (-) TimerEvent: {}
+[27.244446] (gscam) JobEnded: {'identifier': 'gscam', 'rc': 0}
+[27.245641] (-) EventReactorShutdown: {}

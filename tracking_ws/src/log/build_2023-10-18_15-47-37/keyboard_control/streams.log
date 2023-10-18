@@ -1,0 +1,24 @@
+[0.625s] Invoking command in '/home/parallels/robotics-2110435/tracking_ws/src/keyboard_control': PYTHONPATH=/home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/prefix_override:/home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/keyboard_control build --build-base /home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/build install --record /home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/install.log --single-version-externally-managed
+[0.748s] running egg_info
+[0.748s] writing ../build/keyboard_control/keyboard_control.egg-info/PKG-INFO
+[0.748s] writing dependency_links to ../build/keyboard_control/keyboard_control.egg-info/dependency_links.txt
+[0.748s] writing entry points to ../build/keyboard_control/keyboard_control.egg-info/entry_points.txt
+[0.748s] writing requirements to ../build/keyboard_control/keyboard_control.egg-info/requires.txt
+[0.748s] writing top-level names to ../build/keyboard_control/keyboard_control.egg-info/top_level.txt
+[0.749s] reading manifest file '../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+[0.749s] writing manifest file '../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+[0.749s] running build
+[0.749s] running build_py
+[0.750s] running install
+[0.750s] running install_lib
+[0.750s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.750s]   warnings.warn(
+[0.751s] running install_data
+[0.751s] running install_egg_info
+[0.752s] removing '/home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/lib/python3.10/site-packages/keyboard_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.752s] Copying ../build/keyboard_control/keyboard_control.egg-info to /home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/lib/python3.10/site-packages/keyboard_control-0.0.0-py3.10.egg-info
+[0.753s] running install_scripts
+[0.765s] Installing keyboard_control script to /home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/lib/keyboard_control
+[0.765s] Installing vel_mux script to /home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/lib/keyboard_control
+[0.765s] writing list of installed files to '/home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/install.log'
+[0.778s] Invoked command in '/home/parallels/robotics-2110435/tracking_ws/src/keyboard_control' returned '0': PYTHONPATH=/home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/prefix_override:/home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/keyboard_control build --build-base /home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/build install --record /home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/install.log --single-version-externally-managed

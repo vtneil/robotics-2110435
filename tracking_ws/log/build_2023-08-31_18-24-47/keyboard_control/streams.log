@@ -1,0 +1,28 @@
+[1.360s] Invoking command in '/home/khadas/tracking_robot_workspace/src/keyboard_control': PYTHONPATH=/home/khadas/tracking_robot_workspace/build/keyboard_control/prefix_override:/home/khadas/tracking_robot_workspace/install/keyboard_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/keyboard_control build --build-base /home/khadas/tracking_robot_workspace/build/keyboard_control/build install --record /home/khadas/tracking_robot_workspace/build/keyboard_control/install.log --single-version-externally-managed
+[1.684s] running egg_info
+[1.685s] writing ../../build/keyboard_control/keyboard_control.egg-info/PKG-INFO
+[1.686s] writing dependency_links to ../../build/keyboard_control/keyboard_control.egg-info/dependency_links.txt
+[1.686s] writing entry points to ../../build/keyboard_control/keyboard_control.egg-info/entry_points.txt
+[1.687s] writing requirements to ../../build/keyboard_control/keyboard_control.egg-info/requires.txt
+[1.687s] writing top-level names to ../../build/keyboard_control/keyboard_control.egg-info/top_level.txt
+[1.690s] reading manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+[1.692s] writing manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+[1.692s] running build
+[1.692s] running build_py
+[1.693s] copying keyboard_control/keyboard_control.py -> /home/khadas/tracking_robot_workspace/build/keyboard_control/build/lib/keyboard_control
+[1.693s] copying keyboard_control/vel_mux.py -> /home/khadas/tracking_robot_workspace/build/keyboard_control/build/lib/keyboard_control
+[1.694s] running install
+[1.694s] running install_lib
+[1.695s] copying /home/khadas/tracking_robot_workspace/build/keyboard_control/build/lib/keyboard_control/keyboard_control.py -> /home/khadas/tracking_robot_workspace/install/keyboard_control/lib/python3.10/site-packages/keyboard_control
+[1.696s] copying /home/khadas/tracking_robot_workspace/build/keyboard_control/build/lib/keyboard_control/vel_mux.py -> /home/khadas/tracking_robot_workspace/install/keyboard_control/lib/python3.10/site-packages/keyboard_control
+[1.697s] byte-compiling /home/khadas/tracking_robot_workspace/install/keyboard_control/lib/python3.10/site-packages/keyboard_control/keyboard_control.py to keyboard_control.cpython-310.pyc
+[1.698s] byte-compiling /home/khadas/tracking_robot_workspace/install/keyboard_control/lib/python3.10/site-packages/keyboard_control/vel_mux.py to vel_mux.cpython-310.pyc
+[1.699s] running install_data
+[1.701s] running install_egg_info
+[1.704s] removing '/home/khadas/tracking_robot_workspace/install/keyboard_control/lib/python3.10/site-packages/keyboard_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.705s] Copying ../../build/keyboard_control/keyboard_control.egg-info to /home/khadas/tracking_robot_workspace/install/keyboard_control/lib/python3.10/site-packages/keyboard_control-0.0.0-py3.10.egg-info
+[1.707s] running install_scripts
+[1.734s] Installing keyboard_control script to /home/khadas/tracking_robot_workspace/install/keyboard_control/lib/keyboard_control
+[1.735s] Installing vel_mux script to /home/khadas/tracking_robot_workspace/install/keyboard_control/lib/keyboard_control
+[1.735s] writing list of installed files to '/home/khadas/tracking_robot_workspace/build/keyboard_control/install.log'
+[1.805s] Invoked command in '/home/khadas/tracking_robot_workspace/src/keyboard_control' returned '0': PYTHONPATH=/home/khadas/tracking_robot_workspace/build/keyboard_control/prefix_override:/home/khadas/tracking_robot_workspace/install/keyboard_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/keyboard_control build --build-base /home/khadas/tracking_robot_workspace/build/keyboard_control/build install --record /home/khadas/tracking_robot_workspace/build/keyboard_control/install.log --single-version-externally-managed

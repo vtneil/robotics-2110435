@@ -1,0 +1,34 @@
+[0.782s] Invoking command in '/home/khadas/tracking_robot_workspace/build/web_video_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/khadas/tracking_robot_workspace/build/web_video_server -- -j8 -l8
+[1.068s] Consolidate compiler generated dependencies of target web_video_server
+[1.210s] [100%] Built target web_video_server
+[1.250s] Invoked command in '/home/khadas/tracking_robot_workspace/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/khadas/tracking_robot_workspace/build/web_video_server -- -j8 -l8
+[1.377s] Invoking command in '/home/khadas/tracking_robot_workspace/build/web_video_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/khadas/tracking_robot_workspace/build/web_video_server
+[1.404s] -- Install configuration: ""
+[1.406s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/lib/web_video_server/web_video_server
+[1.407s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/include/web_video_server
+[1.408s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/include/web_video_server/libav_streamer.h
+[1.408s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/include/web_video_server/vp8_streamer.h
+[1.409s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/include/web_video_server/image_streamer.h
+[1.409s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/include/web_video_server/vp9_streamer.h
+[1.410s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/include/web_video_server/jpeg_streamers.h
+[1.410s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/include/web_video_server/h264_streamer.h
+[1.411s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/include/web_video_server/ros_compressed_streamer.h
+[1.411s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/include/web_video_server/web_video_server.h
+[1.412s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/include/web_video_server/png_streamers.h
+[1.412s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/include/web_video_server/multipart_stream.h
+[1.413s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/share/ament_index/resource_index/package_run_dependencies/web_video_server
+[1.413s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/share/ament_index/resource_index/parent_prefix_path/web_video_server
+[1.413s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/environment/ament_prefix_path.sh
+[1.414s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/environment/ament_prefix_path.dsv
+[1.414s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/environment/path.sh
+[1.415s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/environment/path.dsv
+[1.415s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/local_setup.bash
+[1.416s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/local_setup.sh
+[1.416s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/local_setup.zsh
+[1.416s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/local_setup.dsv
+[1.417s] -- Installing: /home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/package.dsv
+[1.417s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/share/ament_index/resource_index/packages/web_video_server
+[1.417s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig.cmake
+[1.418s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig-version.cmake
+[1.418s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/web_video_server/share/web_video_server/package.xml
+[1.423s] Invoked command in '/home/khadas/tracking_robot_workspace/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/khadas/tracking_robot_workspace/build/web_video_server

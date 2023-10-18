@@ -1,0 +1,11 @@
+/home/parallels/robotics-2110435/tracking_ws/src/build/aruco_controller/CMakeFiles/uninstall.dir
+/home/parallels/robotics-2110435/tracking_ws/src/build/aruco_controller/CMakeFiles/aruco_controller_uninstall.dir
+/home/parallels/robotics-2110435/tracking_ws/src/build/aruco_controller/CMakeFiles/ament_cmake_python_copy_aruco_controller.dir
+/home/parallels/robotics-2110435/tracking_ws/src/build/aruco_controller/CMakeFiles/ament_cmake_python_build_aruco_controller_egg.dir
+/home/parallels/robotics-2110435/tracking_ws/src/build/aruco_controller/CMakeFiles/test.dir
+/home/parallels/robotics-2110435/tracking_ws/src/build/aruco_controller/CMakeFiles/edit_cache.dir
+/home/parallels/robotics-2110435/tracking_ws/src/build/aruco_controller/CMakeFiles/rebuild_cache.dir
+/home/parallels/robotics-2110435/tracking_ws/src/build/aruco_controller/CMakeFiles/list_install_components.dir
+/home/parallels/robotics-2110435/tracking_ws/src/build/aruco_controller/CMakeFiles/install.dir
+/home/parallels/robotics-2110435/tracking_ws/src/build/aruco_controller/CMakeFiles/install/local.dir
+/home/parallels/robotics-2110435/tracking_ws/src/build/aruco_controller/CMakeFiles/install/strip.dir

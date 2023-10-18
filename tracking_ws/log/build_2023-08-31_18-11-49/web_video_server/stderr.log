@@ -1,0 +1,53 @@
+/home/khadas/tracking_robot_workspace/src/web_video_server/src/libav_streamer.cpp: In constructor ‘web_video_server::LibavStreamer::LibavStreamer(const async_web_server_cpp::HttpRequest&, async_web_server_cpp::HttpConnectionPtr, rclcpp::Node::SharedPtr, const string&, const string&, const string&)’:
+/home/khadas/tracking_robot_workspace/src/web_video_server/src/libav_streamer.cpp:65:22: warning: ‘int av_lockmgr_register(int (*)(void**, AVLockOp))’ is deprecated [-Wdeprecated-declarations]
+   65 |   av_lockmgr_register(&ffmpeg_boost_mutex_lock_manager);
+      |   ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/khadas/tracking_robot_workspace/src/web_video_server/include/web_video_server/libav_streamer.h:11,
+                 from /home/khadas/tracking_robot_workspace/src/web_video_server/src/libav_streamer.cpp:1:
+/usr/include/aarch64-linux-gnu/libavcodec/avcodec.h:4160:5: note: declared here
+ 4160 | int av_lockmgr_register(int (*cb)(void **mutex, enum AVLockOp op));
+      |     ^~~~~~~~~~~~~~~~~~~
+/home/khadas/tracking_robot_workspace/src/web_video_server/src/libav_streamer.cpp:66:18: warning: ‘void av_register_all()’ is deprecated [-Wdeprecated-declarations]
+   66 |   av_register_all();
+      |   ~~~~~~~~~~~~~~~^~
+In file included from /home/khadas/tracking_robot_workspace/src/web_video_server/include/web_video_server/libav_streamer.h:12,
+                 from /home/khadas/tracking_robot_workspace/src/web_video_server/src/libav_streamer.cpp:1:
+/usr/include/aarch64-linux-gnu/libavformat/avformat.h:1955:6: note: declared here
+ 1955 | void av_register_all(void);
+      |      ^~~~~~~~~~~~~~~
+/home/khadas/tracking_robot_workspace/src/web_video_server/src/libav_streamer.cpp: In member function ‘virtual void web_video_server::LibavStreamer::initialize(const cv::Mat&)’:
+/home/khadas/tracking_robot_workspace/src/web_video_server/src/libav_streamer.cpp:160:35: warning: ‘AVStream::codec’ is deprecated [-Wdeprecated-declarations]
+  160 |   codec_context_ = video_stream_->codec;
+      |                                   ^~~~~
+In file included from /home/khadas/tracking_robot_workspace/src/web_video_server/include/web_video_server/libav_streamer.h:12,
+                 from /home/khadas/tracking_robot_workspace/src/web_video_server/src/libav_streamer.cpp:1:
+/usr/include/aarch64-linux-gnu/libavformat/avformat.h:888:21: note: declared here
+  888 |     AVCodecContext *codec;
+      |                     ^~~~~
+/home/khadas/tracking_robot_workspace/src/web_video_server/src/libav_streamer.cpp:160:35: warning: ‘AVStream::codec’ is deprecated [-Wdeprecated-declarations]
+  160 |   codec_context_ = video_stream_->codec;
+      |                                   ^~~~~
+In file included from /home/khadas/tracking_robot_workspace/src/web_video_server/include/web_video_server/libav_streamer.h:12,
+                 from /home/khadas/tracking_robot_workspace/src/web_video_server/src/libav_streamer.cpp:1:
+/usr/include/aarch64-linux-gnu/libavformat/avformat.h:888:21: note: declared here
+  888 |     AVCodecContext *codec;
+      |                     ^~~~~
+/home/khadas/tracking_robot_workspace/src/web_video_server/src/libav_streamer.cpp:160:35: warning: ‘AVStream::codec’ is deprecated [-Wdeprecated-declarations]
+  160 |   codec_context_ = video_stream_->codec;
+      |                                   ^~~~~
+In file included from /home/khadas/tracking_robot_workspace/src/web_video_server/include/web_video_server/libav_streamer.h:12,
+                 from /home/khadas/tracking_robot_workspace/src/web_video_server/src/libav_streamer.cpp:1:
+/usr/include/aarch64-linux-gnu/libavformat/avformat.h:888:21: note: declared here
+  888 |     AVCodecContext *codec;
+      |                     ^~~~~
+/home/khadas/tracking_robot_workspace/src/web_video_server/src/libav_streamer.cpp: In member function ‘virtual void web_video_server::LibavStreamer::sendImage(const cv::Mat&, const rclcpp::Time&)’:
+/home/khadas/tracking_robot_workspace/src/web_video_server/src/libav_streamer.cpp:294:17: warning: ‘void av_init_packet(AVPacket*)’ is deprecated [-Wdeprecated-declarations]
+  294 |   av_init_packet(&pkt);
+      |   ~~~~~~~~~~~~~~^~~~~~
+In file included from /usr/include/aarch64-linux-gnu/libavcodec/bsf.h:30,
+                 from /usr/include/aarch64-linux-gnu/libavcodec/avcodec.h:44,
+                 from /home/khadas/tracking_robot_workspace/src/web_video_server/include/web_video_server/libav_streamer.h:11,
+                 from /home/khadas/tracking_robot_workspace/src/web_video_server/src/libav_streamer.cpp:1:
+/usr/include/aarch64-linux-gnu/libavcodec/packet.h:488:6: note: declared here
+  488 | void av_init_packet(AVPacket *pkt);
+      |      ^~~~~~~~~~~~~~

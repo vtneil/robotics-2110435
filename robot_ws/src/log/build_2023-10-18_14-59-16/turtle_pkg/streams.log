@@ -1,0 +1,39 @@
+[0.888s] Invoking command in '/home/parallels/robotics-2110435/robot_ws/src/turtle_pkg': PYTHONPATH=/home/parallels/robotics-2110435/robot_ws/src/build/turtle_pkg/prefix_override:/home/parallels/robotics-2110435/robot_ws/src/install/turtle_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/turtle_pkg build --build-base /home/parallels/robotics-2110435/robot_ws/src/build/turtle_pkg/build install --record /home/parallels/robotics-2110435/robot_ws/src/build/turtle_pkg/install.log --single-version-externally-managed
+[1.007s] running egg_info
+[1.007s] creating ../build/turtle_pkg/turtle_pkg.egg-info
+[1.008s] writing ../build/turtle_pkg/turtle_pkg.egg-info/PKG-INFO
+[1.008s] writing dependency_links to ../build/turtle_pkg/turtle_pkg.egg-info/dependency_links.txt
+[1.008s] writing entry points to ../build/turtle_pkg/turtle_pkg.egg-info/entry_points.txt
+[1.008s] writing requirements to ../build/turtle_pkg/turtle_pkg.egg-info/requires.txt
+[1.008s] writing top-level names to ../build/turtle_pkg/turtle_pkg.egg-info/top_level.txt
+[1.009s] writing manifest file '../build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+[1.009s] reading manifest file '../build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+[1.010s] writing manifest file '../build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+[1.010s] running build
+[1.010s] running build_py
+[1.010s] creating /home/parallels/robotics-2110435/robot_ws/src/build/turtle_pkg/build
+[1.010s] creating /home/parallels/robotics-2110435/robot_ws/src/build/turtle_pkg/build/lib
+[1.010s] creating /home/parallels/robotics-2110435/robot_ws/src/build/turtle_pkg/build/lib/turtle_pkg
+[1.010s] copying turtle_pkg/turtle_sq.py -> /home/parallels/robotics-2110435/robot_ws/src/build/turtle_pkg/build/lib/turtle_pkg
+[1.010s] copying turtle_pkg/__init__.py -> /home/parallels/robotics-2110435/robot_ws/src/build/turtle_pkg/build/lib/turtle_pkg
+[1.010s] running install
+[1.010s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.010s]   warnings.warn(
+[1.010s] running install_lib
+[1.011s] creating /home/parallels/robotics-2110435/robot_ws/src/install/turtle_pkg/lib/python3.10/site-packages/turtle_pkg
+[1.011s] copying /home/parallels/robotics-2110435/robot_ws/src/build/turtle_pkg/build/lib/turtle_pkg/turtle_sq.py -> /home/parallels/robotics-2110435/robot_ws/src/install/turtle_pkg/lib/python3.10/site-packages/turtle_pkg
+[1.011s] copying /home/parallels/robotics-2110435/robot_ws/src/build/turtle_pkg/build/lib/turtle_pkg/__init__.py -> /home/parallels/robotics-2110435/robot_ws/src/install/turtle_pkg/lib/python3.10/site-packages/turtle_pkg
+[1.011s] byte-compiling /home/parallels/robotics-2110435/robot_ws/src/install/turtle_pkg/lib/python3.10/site-packages/turtle_pkg/turtle_sq.py to turtle_sq.cpython-310.pyc
+[1.012s] byte-compiling /home/parallels/robotics-2110435/robot_ws/src/install/turtle_pkg/lib/python3.10/site-packages/turtle_pkg/__init__.py to __init__.cpython-310.pyc
+[1.012s] running install_data
+[1.012s] creating /home/parallels/robotics-2110435/robot_ws/src/install/turtle_pkg/share/ament_index
+[1.012s] creating /home/parallels/robotics-2110435/robot_ws/src/install/turtle_pkg/share/ament_index/resource_index
+[1.012s] creating /home/parallels/robotics-2110435/robot_ws/src/install/turtle_pkg/share/ament_index/resource_index/packages
+[1.012s] copying resource/turtle_pkg -> /home/parallels/robotics-2110435/robot_ws/src/install/turtle_pkg/share/ament_index/resource_index/packages
+[1.012s] copying package.xml -> /home/parallels/robotics-2110435/robot_ws/src/install/turtle_pkg/share/turtle_pkg
+[1.012s] running install_egg_info
+[1.013s] Copying ../build/turtle_pkg/turtle_pkg.egg-info to /home/parallels/robotics-2110435/robot_ws/src/install/turtle_pkg/lib/python3.10/site-packages/turtle_pkg-0.0.0-py3.10.egg-info
+[1.013s] running install_scripts
+[1.026s] Installing turtle_sq script to /home/parallels/robotics-2110435/robot_ws/src/install/turtle_pkg/lib/turtle_pkg
+[1.026s] writing list of installed files to '/home/parallels/robotics-2110435/robot_ws/src/build/turtle_pkg/install.log'
+[1.100s] Invoked command in '/home/parallels/robotics-2110435/robot_ws/src/turtle_pkg' returned '0': PYTHONPATH=/home/parallels/robotics-2110435/robot_ws/src/build/turtle_pkg/prefix_override:/home/parallels/robotics-2110435/robot_ws/src/install/turtle_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/turtle_pkg build --build-base /home/parallels/robotics-2110435/robot_ws/src/build/turtle_pkg/build install --record /home/parallels/robotics-2110435/robot_ws/src/build/turtle_pkg/install.log --single-version-externally-managed

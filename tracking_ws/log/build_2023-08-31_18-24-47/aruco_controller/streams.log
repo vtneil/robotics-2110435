@@ -1,0 +1,49 @@
+[0.042s] Invoking command in '/home/khadas/tracking_robot_workspace/build/aruco_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/khadas/tracking_robot_workspace/build/aruco_controller -- -j8 -l8
+[0.809s] Built target ament_cmake_python_copy_aruco_controller
+[0.809s] running egg_info
+[0.809s] writing aruco_controller.egg-info/PKG-INFO
+[0.809s] writing dependency_links to aruco_controller.egg-info/dependency_links.txt
+[0.809s] writing top-level names to aruco_controller.egg-info/top_level.txt
+[0.809s] reading manifest file 'aruco_controller.egg-info/SOURCES.txt'
+[0.809s] writing manifest file 'aruco_controller.egg-info/SOURCES.txt'
+[0.809s] Built target ament_cmake_python_build_aruco_controller_egg
+[0.816s] Invoked command in '/home/khadas/tracking_robot_workspace/build/aruco_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/khadas/tracking_robot_workspace/build/aruco_controller -- -j8 -l8
+[0.909s] Invoking command in '/home/khadas/tracking_robot_workspace/build/aruco_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/khadas/tracking_robot_workspace/build/aruco_controller
+[0.933s] -- Install configuration: ""
+[0.934s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/environment/pythonpath.sh
+[0.935s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/environment/pythonpath.dsv
+[0.935s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller-0.0.0-py3.10.egg-info
+[0.936s] -- Installing: /home/khadas/tracking_robot_workspace/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller-0.0.0-py3.10.egg-info/top_level.txt
+[0.936s] -- Installing: /home/khadas/tracking_robot_workspace/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.936s] -- Installing: /home/khadas/tracking_robot_workspace/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[0.937s] -- Installing: /home/khadas/tracking_robot_workspace/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.937s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller
+[0.938s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller/__init__.py
+[0.938s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller/transformations.py
+[0.938s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller/detection_param.py
+[0.939s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller/aruco_detector.py
+[0.992s] Listing '/home/khadas/tracking_robot_workspace/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller'...
+[1.003s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/lib/aruco_controller/aruco_detector.py
+[1.005s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/lib/aruco_controller/detection_param.py
+[1.005s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/cfg
+[1.006s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/cfg/aruco_detect_param.yaml
+[1.006s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/cfg/marker_param.yaml
+[1.007s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/cfg/default_param.yaml
+[1.010s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/launch
+[1.014s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/launch/main_launch.py
+[1.015s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/ament_index/resource_index/package_run_dependencies/aruco_controller
+[1.016s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/ament_index/resource_index/parent_prefix_path/aruco_controller
+[1.016s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/environment/ament_prefix_path.sh
+[1.017s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/environment/ament_prefix_path.dsv
+[1.018s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/environment/path.sh
+[1.018s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/environment/path.dsv
+[1.019s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/local_setup.bash
+[1.020s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/local_setup.sh
+[1.020s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/local_setup.zsh
+[1.022s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/local_setup.dsv
+[1.023s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/package.dsv
+[1.024s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/ament_index/resource_index/packages/aruco_controller
+[1.024s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/cmake/aruco_controllerConfig.cmake
+[1.025s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/cmake/aruco_controllerConfig-version.cmake
+[1.025s] -- Up-to-date: /home/khadas/tracking_robot_workspace/install/aruco_controller/share/aruco_controller/package.xml
+[1.026s] Invoked command in '/home/khadas/tracking_robot_workspace/build/aruco_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/khadas/tracking_robot_workspace/build/aruco_controller

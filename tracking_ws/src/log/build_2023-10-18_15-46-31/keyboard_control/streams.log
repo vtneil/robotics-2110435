@@ -1,0 +1,43 @@
+[0.641s] Invoking command in '/home/parallels/robotics-2110435/tracking_ws/src/keyboard_control': PYTHONPATH=/home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/prefix_override:/home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/keyboard_control build --build-base /home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/build install --record /home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/install.log --single-version-externally-managed
+[0.762s] running egg_info
+[0.763s] creating ../build/keyboard_control/keyboard_control.egg-info
+[0.763s] writing ../build/keyboard_control/keyboard_control.egg-info/PKG-INFO
+[0.763s] writing dependency_links to ../build/keyboard_control/keyboard_control.egg-info/dependency_links.txt
+[0.763s] writing entry points to ../build/keyboard_control/keyboard_control.egg-info/entry_points.txt
+[0.763s] writing requirements to ../build/keyboard_control/keyboard_control.egg-info/requires.txt
+[0.763s] writing top-level names to ../build/keyboard_control/keyboard_control.egg-info/top_level.txt
+[0.763s] writing manifest file '../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+[0.764s] reading manifest file '../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+[0.765s] writing manifest file '../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+[0.765s] running build
+[0.765s] running build_py
+[0.765s] creating /home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/build
+[0.765s] creating /home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/build/lib
+[0.765s] creating /home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/build/lib/keyboard_control
+[0.765s] copying keyboard_control/vel_mux.py -> /home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/build/lib/keyboard_control
+[0.765s] copying keyboard_control/__init__.py -> /home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/build/lib/keyboard_control
+[0.765s] copying keyboard_control/keyboard_control.py -> /home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/build/lib/keyboard_control
+[0.765s] running install
+[0.765s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.765s]   warnings.warn(
+[0.765s] running install_lib
+[0.766s] creating /home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/lib/python3.10/site-packages/keyboard_control
+[0.766s] copying /home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/build/lib/keyboard_control/vel_mux.py -> /home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/lib/python3.10/site-packages/keyboard_control
+[0.766s] copying /home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/build/lib/keyboard_control/__init__.py -> /home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/lib/python3.10/site-packages/keyboard_control
+[0.766s] copying /home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/build/lib/keyboard_control/keyboard_control.py -> /home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/lib/python3.10/site-packages/keyboard_control
+[0.767s] byte-compiling /home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/lib/python3.10/site-packages/keyboard_control/vel_mux.py to vel_mux.cpython-310.pyc
+[0.767s] byte-compiling /home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/lib/python3.10/site-packages/keyboard_control/__init__.py to __init__.cpython-310.pyc
+[0.767s] byte-compiling /home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/lib/python3.10/site-packages/keyboard_control/keyboard_control.py to keyboard_control.cpython-310.pyc
+[0.767s] running install_data
+[0.768s] creating /home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/share/ament_index
+[0.768s] creating /home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/share/ament_index/resource_index
+[0.768s] creating /home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/share/ament_index/resource_index/packages
+[0.768s] copying resource/keyboard_control -> /home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/share/ament_index/resource_index/packages
+[0.768s] copying package.xml -> /home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/share/keyboard_control
+[0.768s] running install_egg_info
+[0.769s] Copying ../build/keyboard_control/keyboard_control.egg-info to /home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/lib/python3.10/site-packages/keyboard_control-0.0.0-py3.10.egg-info
+[0.769s] running install_scripts
+[0.781s] Installing keyboard_control script to /home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/lib/keyboard_control
+[0.781s] Installing vel_mux script to /home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/lib/keyboard_control
+[0.782s] writing list of installed files to '/home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/install.log'
+[0.796s] Invoked command in '/home/parallels/robotics-2110435/tracking_ws/src/keyboard_control' returned '0': PYTHONPATH=/home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/prefix_override:/home/parallels/robotics-2110435/tracking_ws/src/install/keyboard_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/keyboard_control build --build-base /home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/build install --record /home/parallels/robotics-2110435/tracking_ws/src/build/keyboard_control/install.log --single-version-externally-managed

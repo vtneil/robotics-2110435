@@ -1,0 +1,5 @@
+[0.277s] Invoking command in '/home/parallels/robotics-2110435/robot_ws/src/build/ros2_aruco_interfaces': CMAKE_PREFIX_PATH=/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/parallels/robotics-2110435/robot_ws/src/build/ros2_aruco_interfaces -- -j6 -l6
+[0.437s] [0mCMake Error: The source directory "/home/parallels/robotics-2110435/robot_ws/src/ros2_aruco/ros2_aruco_interfaces" does not exist.
+[0.437s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.437s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[0.593s] Invoked command in '/home/parallels/robotics-2110435/robot_ws/src/build/ros2_aruco_interfaces' returned '2': CMAKE_PREFIX_PATH=/home/parallels/robotics-2110435/robot_ws/install/turtle_square:/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg:/home/parallels/my_robot_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/parallels/robotics-2110435/robot_ws/src/build/ros2_aruco_interfaces -- -j6 -l6
