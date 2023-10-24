@@ -10,6 +10,7 @@ setup.py
 ../../build/robot_marker/robot_marker.egg-info/zip-safe
 resource/robot_marker
 robot_marker/__init__.py
+robot_marker/robo_marker.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

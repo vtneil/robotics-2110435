@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'aruco_follower = robot_marker.robo_marker:main'
         ],
     },
 )

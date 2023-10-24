@@ -1,3 +1,0 @@
-[console_scripts]
-turtle_square_node = turtle_square.my_robot_square:main
-

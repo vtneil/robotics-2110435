@@ -1,3 +1,0 @@
-[0mCMake Error: The source directory "/home/parallels/robotics-2110435/robot_ws/src/ros2_aruco/ros2_aruco_interfaces" does not exist.
-Specify --help for usage, or press the help button on the CMake GUI.[0m
-gmake: *** [Makefile:747: cmake_check_build_system] Error 1
