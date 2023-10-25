@@ -89,11 +89,11 @@ class ArucoFollowerNode(Node):
     TIM_PERIOD = 0.1
 
     THRESHOLD_ANGLE = 2 * (pi / 180)  # rad
-    SEARCH_SPEED = 45 * (pi / 180)
+    SEARCH_SPEED = 15 * (pi / 180)
 
     THRESHOLD_DISTANCE = 0.01  # meter
     DISTANCE_CAL_SCALE = 0.5  # 0.5 m real world =  1 m value
-    TARG_DIST_ARUCO = 0.20 / DISTANCE_CAL_SCALE
+    TARG_DIST_ARUCO = 0.40 / DISTANCE_CAL_SCALE
     TARG_ANG_ARUCO = 0
 
     MAX_VEL = 0.306
@@ -113,9 +113,9 @@ class ArucoFollowerNode(Node):
 
         self.twist: Twist = self.make_twist()
         self.aruco_pos: PoseWithCovarianceStamped = PoseWithCovarianceStamped()
-        self.pid_pos = PID.controller(0.5, 0, 0)
+        self.pid_pos = PID.controller(1, 0, 0)
         self.pid_pos.send(None)
-        self.pid_rot = PID.controller(0.5, 0, 0)
+        self.pid_rot = PID.controller(1, 0, 0)
         self.pid_rot.send(None)
 
         self.pub_motion = self.create_publisher(Twist,
@@ -126,19 +126,20 @@ class ArucoFollowerNode(Node):
                                                   self.sub_callback, 10)
 
         self.timer = self.create_timer(self.TIM_PERIOD, self.timer_callback)
+        self.timer_print = self.create_timer(0.25, self.print_callback)
 
-    def timer_callback(self):
-        # self._logger.info(f'Position is ({self.pos.x:.3f}, {self.pos.y:.3f}, {self.pos.theta:.3f})')
-
-        self.state_machine.evaluate()
-        self.pub_vel(self.twist)
-
+    def print_callback(self):
         self._logger.info(f'Evaluated state is {self.state_machine.state}.')
         self._logger.info(f'Published the following at {self.millis():.2f} sec. since power.')
         self._logger.info(f'        ( X  ,  Y  ,  Z  )')
         self._logger.info(f'Linear  ({self.twist.linear.x:.2f}, {self.twist.linear.y:.2f}, {self.twist.linear.z:.2f})')
-        self._logger.info(f'Angular ({self.twist.angular.x:.2f}, {self.twist.angular.y:.2f}, {self.twist.angular.z:.2f})')
+        self._logger.info(
+            f'Angular ({self.twist.angular.x:.2f}, {self.twist.angular.y:.2f}, {self.twist.angular.z:.2f})')
         self._logger.info('=' * 40)
+
+    def timer_callback(self):
+        self.state_machine.evaluate()
+        self.pub_vel(self.twist)
 
     def sub_callback(self, msg):
         self.aruco_pos = msg
@@ -150,7 +151,7 @@ class ArucoFollowerNode(Node):
 
     def assign_states(self):
         def state_idle():
-            self.twist = self.make_twist()
+            self.twist = self.make_twist(0, 0, 0, 0, 0, 0)
             self.state_machine.state = State.SEARCH
 
         def state_search():
@@ -168,16 +169,15 @@ class ArucoFollowerNode(Node):
                 self.state_machine.state = State.FOLLOW
 
         def state_follow():
-            if self.aruco_timeout():
+            if not self.aruco_timeout():
                 out_pos = self.pid_pos.send((self.millis(),
                                              self.aruco_pos.pose.pose.position.z,
                                              self.TARG_DIST_ARUCO))
-                diff_theta = atan2(self.aruco_pos.pose.pose.position.x,
-                                   self.aruco_pos.pose.pose.position.z)
+                diff_theta = atan2(self.aruco_pos.pose.pose.position.x, 5.0)
                 out_rot = self.pid_rot.send((self.millis(),
                                              diff_theta,
                                              self.TARG_ANG_ARUCO))
-                act_pos = sgn(out_pos) * max(abs(out_pos), abs(self.MAX_VEL))
+                act_pos = -sgn(out_pos) * max(abs(out_pos), abs(self.MAX_VEL))
                 act_rot = sgn(out_rot) * max(abs(out_rot), abs(self.MAX_ROT))
                 self.twist = self.make_twist(act_pos, 0, 0,
                                              0, 0, act_rot)
@@ -215,7 +215,7 @@ class ArucoFollowerNode(Node):
         return self.millis() - self.__time_aruco
 
     def aruco_timeout(self) -> bool:
-        return self.millis_aruco() > (2 * self.__last_aruco)
+        return self.millis_aruco() > (20 * self.__last_aruco)
 
 
 def main(args=None):
