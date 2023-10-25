@@ -81,6 +81,10 @@ class PID:
             t_prev = t
 
 
+def sgn(x):
+    return 1 if x >= 0 else -1
+
+
 class ArucoFollowerNode(Node):
     TIM_PERIOD = 0.1
 
@@ -109,8 +113,8 @@ class ArucoFollowerNode(Node):
 
         self.twist: Twist = self.make_twist()
         self.aruco_pos: PoseWithCovarianceStamped = PoseWithCovarianceStamped()
-        self.pid_pos = PID.controller(1, 0, 0)
-        self.pid_rot = PID.controller(1, 0, 0)
+        self.pid_pos = PID.controller(0.5, 0, 0)
+        self.pid_rot = PID.controller(0.5, 0, 0)
 
         self.pub_motion = self.create_publisher(Twist,
                                                 '/cmd_vel', 10)
@@ -171,8 +175,10 @@ class ArucoFollowerNode(Node):
                 out_rot = self.pid_rot.send((self.millis(),
                                              diff_theta,
                                              self.TARG_ANG_ARUCO))
-                self.twist = self.make_twist(max(out_pos, self.MAX_VEL), 0, 0,
-                                             0, 0, max(out_rot, self.MAX_ROT))
+                act_pos = sgn(out_pos) * max(abs(out_pos), abs(self.MAX_VEL))
+                act_rot = sgn(out_rot) * max(abs(out_rot), abs(self.MAX_ROT))
+                self.twist = self.make_twist(act_pos, 0, 0,
+                                             0, 0, act_rot)
             else:
                 self.twist = self.make_twist()
                 self.state_machine.state = State.SEARCH
