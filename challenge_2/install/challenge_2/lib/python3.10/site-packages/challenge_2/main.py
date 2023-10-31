@@ -35,7 +35,7 @@ class ArucoExplorerNode(Node):
 
     def __init__(self, name: str):
         super().__init__(name)
-
+        
         # todo
         raise NotImplementedError('Not Done!')
 

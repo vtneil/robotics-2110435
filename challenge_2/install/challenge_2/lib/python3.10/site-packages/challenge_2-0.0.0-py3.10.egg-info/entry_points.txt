@@ -1,2 +1,2 @@
 [console_scripts]
-aruco_2 = challenge_2.robo_marker:main
+aruco_explorer = challenge_2.main:main

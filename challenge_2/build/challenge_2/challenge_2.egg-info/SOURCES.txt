@@ -9,7 +9,8 @@ setup.py
 ../../build/challenge_2/challenge_2.egg-info/top_level.txt
 ../../build/challenge_2/challenge_2.egg-info/zip-safe
 challenge_2/__init__.py
-challenge_2/robo_marker.py
+challenge_2/main.py
+challenge_2/robot_helper.py
 resource/challenge_2
 test/test_copyright.py
 test/test_flake8.py
