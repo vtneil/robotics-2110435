@@ -1,3 +1,2 @@
 [console_scripts]
 turtle_sq = turtle_pkg.turtle_sq:main
-

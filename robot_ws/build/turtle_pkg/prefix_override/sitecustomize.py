@@ -1,3 +1,3 @@
 import sys
 sys.real_prefix = sys.prefix
-sys.prefix = sys.exec_prefix = '/home/parallels/robotics-2110435/robot_ws/install/turtle_pkg'
+sys.prefix = sys.exec_prefix = '/home/vt/robotics-2110435/robot_ws/install/turtle_pkg'

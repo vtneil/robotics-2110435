@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/tracking_ws/install/aruco_controller/local/lib/python3.10/dist-packages" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tracking_ws/install/aruco_following_controller/lib/python3.10/site-packages" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tracking_ws/install/keyboard_control/lib/python3.10/site-packages" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/challenge_2/install/challenge_2/lib/python3.10/site-packages" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -1,3 +1,0 @@
-[console_scripts]
-controller = aruco_following_controller.robot_controller:main
-

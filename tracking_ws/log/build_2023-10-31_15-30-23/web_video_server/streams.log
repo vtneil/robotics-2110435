@@ -1,0 +1,35 @@
+[0.348s] Invoking command in '/home/vt/robotics-2110435/tracking_ws/build/web_video_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vt/robotics-2110435/tracking_ws/install/keyboard_control:/home/vt/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/vt/robotics-2110435/robot_ws/install/turtle_square:/home/vt/robotics-2110435/robot_ws/install/turtle_pkg:/home/vt/robotics-2110435/robot_ws/install/ros2_aruco:/home/vt/robotics-2110435/challenge_1/install/robot_marker:/opt/ros/humble /usr/bin/cmake /home/vt/robotics-2110435/tracking_ws/src/web_video_server -DCMAKE_INSTALL_PREFIX=/home/vt/robotics-2110435/tracking_ws/install/web_video_server
+[0.389s] -- The C compiler identification is GNU 11.4.0
+[0.435s] -- The CXX compiler identification is GNU 11.4.0
+[0.440s] -- Detecting C compiler ABI info
+[0.496s] -- Detecting C compiler ABI info - done
+[0.500s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.500s] -- Detecting C compile features
+[0.500s] -- Detecting C compile features - done
+[0.502s] -- Detecting CXX compiler ABI info
+[0.565s] -- Detecting CXX compiler ABI info - done
+[0.569s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.569s] -- Detecting CXX compile features
+[0.569s] -- Detecting CXX compile features - done
+[0.572s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.821s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.885s] -- Configuring incomplete, errors occurred!
+[0.886s] See also "/home/vt/robotics-2110435/tracking_ws/build/web_video_server/CMakeFiles/CMakeOutput.log".
+[0.886s] [31mCMake Error at CMakeLists.txt:6 (find_package):
+[0.886s]   By not providing "Findasync_web_server_cpp.cmake" in CMAKE_MODULE_PATH this
+[0.886s]   project has asked CMake to find a package configuration file provided by
+[0.886s]   "async_web_server_cpp", but CMake did not find one.
+[0.886s] 
+[0.886s]   Could not find a package configuration file provided by
+[0.886s]   "async_web_server_cpp" with any of the following names:
+[0.887s] 
+[0.887s]     async_web_server_cppConfig.cmake
+[0.887s]     async_web_server_cpp-config.cmake
+[0.887s] 
+[0.887s]   Add the installation prefix of "async_web_server_cpp" to CMAKE_PREFIX_PATH
+[0.887s]   or set "async_web_server_cpp_DIR" to a directory containing one of the
+[0.887s]   above files.  If "async_web_server_cpp" provides a separate development
+[0.887s]   package or SDK, be sure it has been installed.
+[0.887s] 
+[0.887s] [0m
+[0.921s] Invoked command in '/home/vt/robotics-2110435/tracking_ws/build/web_video_server' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vt/robotics-2110435/tracking_ws/install/keyboard_control:/home/vt/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/vt/robotics-2110435/robot_ws/install/turtle_square:/home/vt/robotics-2110435/robot_ws/install/turtle_pkg:/home/vt/robotics-2110435/robot_ws/install/ros2_aruco:/home/vt/robotics-2110435/challenge_1/install/robot_marker:/opt/ros/humble /usr/bin/cmake /home/vt/robotics-2110435/tracking_ws/src/web_video_server -DCMAKE_INSTALL_PREFIX=/home/vt/robotics-2110435/tracking_ws/install/web_video_server

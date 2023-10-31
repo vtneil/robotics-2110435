@@ -1,0 +1,34 @@
+[0.710s] Invoking command in '/home/vt/robotics-2110435/tracking_ws/src/aruco_following_controller': PYTHONPATH=/home/vt/robotics-2110435/tracking_ws/build/aruco_following_controller/prefix_override:/home/vt/robotics-2110435/tracking_ws/install/aruco_following_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_following_controller build --build-base /home/vt/robotics-2110435/tracking_ws/build/aruco_following_controller/build install --record /home/vt/robotics-2110435/tracking_ws/build/aruco_following_controller/install.log --single-version-externally-managed
+[0.817s] running egg_info
+[0.823s] writing ../../build/aruco_following_controller/aruco_following_controller.egg-info/PKG-INFO
+[0.823s] writing dependency_links to ../../build/aruco_following_controller/aruco_following_controller.egg-info/dependency_links.txt
+[0.824s] writing entry points to ../../build/aruco_following_controller/aruco_following_controller.egg-info/entry_points.txt
+[0.824s] writing requirements to ../../build/aruco_following_controller/aruco_following_controller.egg-info/requires.txt
+[0.824s] writing top-level names to ../../build/aruco_following_controller/aruco_following_controller.egg-info/top_level.txt
+[0.837s] reading manifest file '../../build/aruco_following_controller/aruco_following_controller.egg-info/SOURCES.txt'
+[0.837s] writing manifest file '../../build/aruco_following_controller/aruco_following_controller.egg-info/SOURCES.txt'
+[0.838s] running build
+[0.838s] running build_py
+[0.838s] running install
+[0.839s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.840s] !!
+[0.840s] 
+[0.840s]         ********************************************************************************
+[0.840s]         Please avoid running ``setup.py`` directly.
+[0.840s]         Instead, use pypa/build, pypa/installer or other
+[0.840s]         standards-based tools.
+[0.840s] 
+[0.840s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.840s]         ********************************************************************************
+[0.840s] 
+[0.840s] !!
+[0.840s]   self.initialize_options()
+[0.841s] running install_lib
+[0.847s] running install_data
+[0.853s] running install_egg_info
+[0.859s] removing '/home/vt/robotics-2110435/tracking_ws/install/aruco_following_controller/lib/python3.10/site-packages/aruco_following_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.859s] Copying ../../build/aruco_following_controller/aruco_following_controller.egg-info to /home/vt/robotics-2110435/tracking_ws/install/aruco_following_controller/lib/python3.10/site-packages/aruco_following_controller-0.0.0-py3.10.egg-info
+[0.860s] running install_scripts
+[0.930s] Installing controller script to /home/vt/robotics-2110435/tracking_ws/install/aruco_following_controller/lib/aruco_following_controller
+[0.931s] writing list of installed files to '/home/vt/robotics-2110435/tracking_ws/build/aruco_following_controller/install.log'
+[0.950s] Invoked command in '/home/vt/robotics-2110435/tracking_ws/src/aruco_following_controller' returned '0': PYTHONPATH=/home/vt/robotics-2110435/tracking_ws/build/aruco_following_controller/prefix_override:/home/vt/robotics-2110435/tracking_ws/install/aruco_following_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_following_controller build --build-base /home/vt/robotics-2110435/tracking_ws/build/aruco_following_controller/build install --record /home/vt/robotics-2110435/tracking_ws/build/aruco_following_controller/install.log --single-version-externally-managed

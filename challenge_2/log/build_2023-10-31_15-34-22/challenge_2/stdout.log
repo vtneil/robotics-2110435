@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/challenge_2/challenge_2.egg-info
+writing ../../build/challenge_2/challenge_2.egg-info/PKG-INFO
+writing dependency_links to ../../build/challenge_2/challenge_2.egg-info/dependency_links.txt
+writing requirements to ../../build/challenge_2/challenge_2.egg-info/requires.txt
+writing top-level names to ../../build/challenge_2/challenge_2.egg-info/top_level.txt
+writing manifest file '../../build/challenge_2/challenge_2.egg-info/SOURCES.txt'
+reading manifest file '../../build/challenge_2/challenge_2.egg-info/SOURCES.txt'
+writing manifest file '../../build/challenge_2/challenge_2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vt/robotics-2110435/challenge_2/build/challenge_2/build
+creating /home/vt/robotics-2110435/challenge_2/build/challenge_2/build/lib
+creating /home/vt/robotics-2110435/challenge_2/build/challenge_2/build/lib/challenge_2
+copying challenge_2/__init__.py -> /home/vt/robotics-2110435/challenge_2/build/challenge_2/build/lib/challenge_2
+running install
+running install_lib
+creating /home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/python3.10/site-packages/challenge_2
+copying /home/vt/robotics-2110435/challenge_2/build/challenge_2/build/lib/challenge_2/__init__.py -> /home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/python3.10/site-packages/challenge_2
+byte-compiling /home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/python3.10/site-packages/challenge_2/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/vt/robotics-2110435/challenge_2/install/challenge_2/share/ament_index
+creating /home/vt/robotics-2110435/challenge_2/install/challenge_2/share/ament_index/resource_index
+creating /home/vt/robotics-2110435/challenge_2/install/challenge_2/share/ament_index/resource_index/packages
+copying resource/challenge_2 -> /home/vt/robotics-2110435/challenge_2/install/challenge_2/share/ament_index/resource_index/packages
+copying package.xml -> /home/vt/robotics-2110435/challenge_2/install/challenge_2/share/challenge_2
+running install_egg_info
+Copying ../../build/challenge_2/challenge_2.egg-info to /home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/python3.10/site-packages/challenge_2-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/vt/robotics-2110435/challenge_2/build/challenge_2/install.log'

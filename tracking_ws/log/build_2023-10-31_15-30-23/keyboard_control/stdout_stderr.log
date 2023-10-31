@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/keyboard_control/keyboard_control.egg-info
+writing ../../build/keyboard_control/keyboard_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/keyboard_control/keyboard_control.egg-info/dependency_links.txt
+writing entry points to ../../build/keyboard_control/keyboard_control.egg-info/entry_points.txt
+writing requirements to ../../build/keyboard_control/keyboard_control.egg-info/requires.txt
+writing top-level names to ../../build/keyboard_control/keyboard_control.egg-info/top_level.txt
+writing manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/keyboard_control/keyboard_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vt/robotics-2110435/tracking_ws/build/keyboard_control/build
+creating /home/vt/robotics-2110435/tracking_ws/build/keyboard_control/build/lib
+creating /home/vt/robotics-2110435/tracking_ws/build/keyboard_control/build/lib/keyboard_control
+copying keyboard_control/__init__.py -> /home/vt/robotics-2110435/tracking_ws/build/keyboard_control/build/lib/keyboard_control
+copying keyboard_control/keyboard_control.py -> /home/vt/robotics-2110435/tracking_ws/build/keyboard_control/build/lib/keyboard_control
+copying keyboard_control/vel_mux.py -> /home/vt/robotics-2110435/tracking_ws/build/keyboard_control/build/lib/keyboard_control
+running install
+/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/vt/robotics-2110435/tracking_ws/install/keyboard_control/lib/python3.10/site-packages/keyboard_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/keyboard_control/keyboard_control.egg-info to /home/vt/robotics-2110435/tracking_ws/install/keyboard_control/lib/python3.10/site-packages/keyboard_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing keyboard_control script to /home/vt/robotics-2110435/tracking_ws/install/keyboard_control/lib/keyboard_control
+Installing vel_mux script to /home/vt/robotics-2110435/tracking_ws/install/keyboard_control/lib/keyboard_control
+writing list of installed files to '/home/vt/robotics-2110435/tracking_ws/build/keyboard_control/install.log'

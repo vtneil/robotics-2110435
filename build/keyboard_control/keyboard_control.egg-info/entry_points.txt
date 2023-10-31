@@ -1,4 +1,0 @@
-[console_scripts]
-keyboard_control = keyboard_control.keyboard_control:main
-vel_mux = keyboard_control.vel_mux:main
-

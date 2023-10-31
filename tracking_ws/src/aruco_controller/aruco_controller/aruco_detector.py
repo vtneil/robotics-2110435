@@ -35,6 +35,8 @@ def _reorder_output_quaternion(quaternion):
     quaternion_reordered[2] = quaternion[3]
     quaternion_reordered[3] = quaternion[0]
     return quaternion_reordered
+
+
 def _reorder_input_quaternion(quaternion):
     quaternion_reordered = np.array([0.0, 0.0, 0.0, 1.0])
     quaternion_reordered[0] = quaternion[3]
@@ -42,19 +44,31 @@ def _reorder_input_quaternion(quaternion):
     quaternion_reordered[2] = quaternion[1]
     quaternion_reordered[3] = quaternion[2]
     return quaternion_reordered
+
+
 def quaternion_about_axis(angle, axis):
     return _reorder_output_quaternion(transform3d.quaternion_about_axis(angle, axis))
+
+
 def quaternion_from_matrix(matrix, isprecise=False):
     return _reorder_output_quaternion(transform3d.quaternion_from_matrix(matrix, isprecise))
+
+
 def identity_matrix():
     return transform3d.identity_matrix()
+
+
 def quaternion_multiply(quaternion1, quaternion0):
     quaternion1 = _reorder_input_quaternion(quaternion1)
     quaternion0 = _reorder_input_quaternion(quaternion0)
     return _reorder_output_quaternion(transform3d.quaternion_multiply(quaternion1, quaternion0))
+
+
 def euler_from_quaternion(qx=0.0, qy=0.0, qz=0.0, qw=1.0):
     q = [qw, qx, qy, qz]
     return transform3d.euler_from_quaternion(q)
+
+
 def pose_with_cov_from_transform_stamped(transform_stamped):
     pose_with_cov = PoseWithCovarianceStamped()
     pose_with_cov.header.frame_id = transform_stamped.header.frame_id
@@ -65,24 +79,28 @@ def pose_with_cov_from_transform_stamped(transform_stamped):
     pose_with_cov.pose.pose.orientation.y = transform_stamped.transform.rotation.y
     pose_with_cov.pose.pose.orientation.z = transform_stamped.transform.rotation.z
     pose_with_cov.pose.pose.orientation.w = transform_stamped.transform.rotation.w
-    pose_with_cov.pose.covariance[6*0+0] = 0.5 * 0.5
-    pose_with_cov.pose.covariance[6*1+1] = 0.5 * 0.5
-    pose_with_cov.pose.covariance[6*5+5] = math.pi/12.0 * math.pi/12.0
+    pose_with_cov.pose.covariance[6 * 0 + 0] = 0.5 * 0.5
+    pose_with_cov.pose.covariance[6 * 1 + 1] = 0.5 * 0.5
+    pose_with_cov.pose.covariance[6 * 5 + 5] = math.pi / 12.0 * math.pi / 12.0
     return pose_with_cov
+
+
 def cv_quaternion_to_ros(quaternion):
     """
     Convert Quaternion in OpenCV Camera Frame into X-Front Y-Right Frame
     """
-    roll_90 = quaternion_about_axis(-(math.pi/2.0), (1, 0, 0))
-    yaw_90 = quaternion_about_axis(-(math.pi/2.0), (0, 0, 1))
+    roll_90 = quaternion_about_axis(-(math.pi / 2.0), (1, 0, 0))
+    yaw_90 = quaternion_about_axis(-(math.pi / 2.0), (0, 0, 1))
     spin = quaternion_multiply(roll_90, yaw_90)
     result = quaternion_multiply(quaternion, spin)
     return result
+
 
 class ArucoDetector(Node):
     """
     Class to Detect Aruco From RTSP Stream
     """
+
     def __init__(self):
         super().__init__("aruco_detector")
         self.node_name = "ARUCO-DETECTOR"
@@ -101,7 +119,8 @@ class ArucoDetector(Node):
         package_share_directory = get_package_share_directory('aruco_controller')
         self.path = package_share_directory + "/cfg/"
         self.read_marker_param(self.path + "marker_param.yaml")
-        self.marker_id = [int(os.getenv('ROS_DOMAIN_ID'))] #self.marker_ids
+        # self.marker_id = [int(os.getenv('ROS_DOMAIN_ID'))]  # self.marker_ids
+        self.marker_id = self.marker_ids
         self.log("Usng Aruco NO. [{}]".format(self.marker_id))
 
         # Transform Broadcaster
@@ -110,7 +129,7 @@ class ArucoDetector(Node):
         self.tf2_listener = tf2_ros.TransformListener(self.tf2_buffer, self)
 
         # Aruco Stuff
-        #self.aruco_dict = aruco.Dictionary_get(7)
+        # self.aruco_dict = aruco.Dictionary_get(7)
         self.aruco_dict = aruco.getPredefinedDictionary(aruco.DICT_6X6_250)
         self.param_class = ArucoDetectionParameter()
         self.detection_param = self.param_class.create_cv_aruco_detector_param()
@@ -155,7 +174,7 @@ class ArucoDetector(Node):
 
         # Processing Loop
         hz = 20
-        self.create_timer(1/hz, self.process)
+        self.create_timer(1 / hz, self.process)
 
         # Prompt
         self.log("OBO Aruco Detector Initialization Complete")
@@ -180,7 +199,7 @@ class ArucoDetector(Node):
         corners, ids, _ = aruco.detectMarkers(
             self.frame,
             self.aruco_dict,
-            #parameters=self.detection_param,
+            # parameters=self.detection_param,
             # cameraMatrix=self.camera_matrix,
             # distCoeff=self.distortion_coef
         )
@@ -203,10 +222,10 @@ class ArucoDetector(Node):
                 if found_result:
                     # Pose Estimation
                     self.log("Create Detection Result for Marker : {}  ".format(id))
-                    target_index = idx_result[0] # Select First Index
+                    target_index = idx_result[0]  # Select First Index
                     rvec, tvec, _ = aruco.estimatePoseSingleMarkers(
                         corners[target_index],
-                        self.marker_side_length, # Side Length in metre
+                        self.marker_side_length,  # Side Length in metre
                         cameraMatrix=self.camera_matrix,
                         distCoeffs=self.distortion_coef
                     )
@@ -224,7 +243,7 @@ class ArucoDetector(Node):
 
         return False, None, None, None
 
-    def filter_array(self, numpy_array ,marker_id):
+    def filter_array(self, numpy_array, marker_id):
         """
         Create Criteria for Searching Marker
         ---
@@ -285,7 +304,7 @@ class ArucoDetector(Node):
         node_names = self.get_node_names()
         for name in node_names:
             if name != self.get_name():
-                names =[]
+                names = []
                 names.append(str(name))
                 return str(names)
         return ''
@@ -300,7 +319,8 @@ class ArucoDetector(Node):
         Publish Detections
         """
         # Create TF for detections
-        marker_tf, rotated_marker_tf = self.create_marker_tf(rvec[0][0], tvec[0][0], frame_name) # marker_tf (Z-Front), rotated_marker_tf (X-Front)
+        marker_tf, rotated_marker_tf = self.create_marker_tf(rvec[0][0], tvec[0][0],
+                                                             frame_name)  # marker_tf (Z-Front), rotated_marker_tf (X-Front)
         # Publish Pose
         self.pub_pose_cov(rotated_marker_tf)
         # Publish TF
@@ -313,11 +333,11 @@ class ArucoDetector(Node):
         Publish Pose with CovarianceStamped of marker
         """
         pose_cov = pose_with_cov_from_transform_stamped(marker_tf)
-        pose_cov.header.stamp = marker_tf.header.stamp # timeStamp
+        pose_cov.header.stamp = marker_tf.header.stamp  # timeStamp
         # Covariance of Detection
-        pose_cov.pose.covariance[6*0+0] = 0.1 * 0.1
-        pose_cov.pose.covariance[6*1+1] = 0.1 * 0.1
-        pose_cov.pose.covariance[6*5+5] = math.pi/24.0 * math.pi/24.0
+        pose_cov.pose.covariance[6 * 0 + 0] = 0.1 * 0.1
+        pose_cov.pose.covariance[6 * 1 + 1] = 0.1 * 0.1
+        pose_cov.pose.covariance[6 * 5 + 5] = math.pi / 24.0 * math.pi / 24.0
         # Publish Pose
         self.pose_publisher.publish(pose_cov)
         # TODO : DEBUG
@@ -339,8 +359,8 @@ class ArucoDetector(Node):
         """
         trans = TransformStamped()
         trans.header.stamp = self.get_clock().now().to_msg()
-        trans.header.frame_id = self.camera_frame_id # Parent
-        trans.child_frame_id = frame_id # Child is "fiducial_"+str(id) (Z-Front)
+        trans.header.frame_id = self.camera_frame_id  # Parent
+        trans.child_frame_id = frame_id  # Child is "fiducial_"+str(id) (Z-Front)
 
         # Translation Vector X-Right Y-Up Z-pointing out
         trans.transform.translation.x = tvec[0]
@@ -379,7 +399,7 @@ class ArucoDetector(Node):
         trans_rotated.child_frame_id = frame_id + "_rotated"
         quaternion = cv_quaternion_to_ros(quaternion)
         # Suppress Pitch and Roll to have YAW Only
-        quaternion_yaw = quaternion_from_euler(0.0, old_pitch-math.pi/2.0, 0.0)
+        quaternion_yaw = quaternion_from_euler(0.0, old_pitch - math.pi / 2.0, 0.0)
 
         trans_rotated.transform.rotation.x = quaternion_yaw[0]
         trans_rotated.transform.rotation.y = quaternion_yaw[1]
@@ -400,7 +420,7 @@ class ArucoDetector(Node):
 
         self.log("Received Following Camera Info : {}".format(msg.header.frame_id))
 
-        self.camera_matrix = np.array(msg.k).reshape(3,3)
+        self.camera_matrix = np.array(msg.k).reshape(3, 3)
         self.distortion_coef = np.array(msg.d)
 
         self.log("Camera Matrix -> : \n {}".format(self.camera_matrix))
@@ -455,6 +475,7 @@ class ArucoDetector(Node):
     def log(self, msg):
         self.get_logger().info("[{}] : {}".format(self.node_name, msg))
 
+
 def quaternion_from_euler(roll, pitch, yaw):
     """
     Converts euler roll, pitch, yaw to quaternion (w in last place)
@@ -476,6 +497,7 @@ def quaternion_from_euler(roll, pitch, yaw):
 
     return q
 
+
 def main(args=None):
     rclpy.init(args=args)
     node = ArucoDetector()
@@ -485,6 +507,7 @@ def main(args=None):
         cv2.destroyAllWindows()
     node.destroy_node()
     rclpy.shutdown()
+
 
 if __name__ == '__main__':
     main()

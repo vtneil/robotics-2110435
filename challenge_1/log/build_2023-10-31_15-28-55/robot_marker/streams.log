@@ -1,0 +1,50 @@
+[0.453s] Invoking command in '/home/vt/robotics-2110435/challenge_1/src/robot_marker': PYTHONPATH=/home/vt/robotics-2110435/challenge_1/build/robot_marker/prefix_override:/home/vt/robotics-2110435/challenge_1/install/robot_marker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_marker build --build-base /home/vt/robotics-2110435/challenge_1/build/robot_marker/build install --record /home/vt/robotics-2110435/challenge_1/build/robot_marker/install.log --single-version-externally-managed
+[0.562s] running egg_info
+[0.562s] creating ../../build/robot_marker/robot_marker.egg-info
+[0.568s] writing ../../build/robot_marker/robot_marker.egg-info/PKG-INFO
+[0.568s] writing dependency_links to ../../build/robot_marker/robot_marker.egg-info/dependency_links.txt
+[0.569s] writing entry points to ../../build/robot_marker/robot_marker.egg-info/entry_points.txt
+[0.569s] writing requirements to ../../build/robot_marker/robot_marker.egg-info/requires.txt
+[0.569s] writing top-level names to ../../build/robot_marker/robot_marker.egg-info/top_level.txt
+[0.569s] writing manifest file '../../build/robot_marker/robot_marker.egg-info/SOURCES.txt'
+[0.582s] reading manifest file '../../build/robot_marker/robot_marker.egg-info/SOURCES.txt'
+[0.582s] writing manifest file '../../build/robot_marker/robot_marker.egg-info/SOURCES.txt'
+[0.582s] running build
+[0.582s] running build_py
+[0.582s] creating /home/vt/robotics-2110435/challenge_1/build/robot_marker/build
+[0.582s] creating /home/vt/robotics-2110435/challenge_1/build/robot_marker/build/lib
+[0.582s] creating /home/vt/robotics-2110435/challenge_1/build/robot_marker/build/lib/robot_marker
+[0.583s] copying robot_marker/__init__.py -> /home/vt/robotics-2110435/challenge_1/build/robot_marker/build/lib/robot_marker
+[0.583s] copying robot_marker/robo_marker.py -> /home/vt/robotics-2110435/challenge_1/build/robot_marker/build/lib/robot_marker
+[0.583s] running install
+[0.583s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.583s] !!
+[0.583s] 
+[0.583s]         ********************************************************************************
+[0.583s]         Please avoid running ``setup.py`` directly.
+[0.583s]         Instead, use pypa/build, pypa/installer or other
+[0.583s]         standards-based tools.
+[0.583s] 
+[0.583s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.583s]         ********************************************************************************
+[0.583s] 
+[0.583s] !!
+[0.584s]   self.initialize_options()
+[0.585s] running install_lib
+[0.591s] creating /home/vt/robotics-2110435/challenge_1/install/robot_marker/lib/python3.10/site-packages/robot_marker
+[0.592s] copying /home/vt/robotics-2110435/challenge_1/build/robot_marker/build/lib/robot_marker/__init__.py -> /home/vt/robotics-2110435/challenge_1/install/robot_marker/lib/python3.10/site-packages/robot_marker
+[0.592s] copying /home/vt/robotics-2110435/challenge_1/build/robot_marker/build/lib/robot_marker/robo_marker.py -> /home/vt/robotics-2110435/challenge_1/install/robot_marker/lib/python3.10/site-packages/robot_marker
+[0.592s] byte-compiling /home/vt/robotics-2110435/challenge_1/install/robot_marker/lib/python3.10/site-packages/robot_marker/__init__.py to __init__.cpython-310.pyc
+[0.592s] byte-compiling /home/vt/robotics-2110435/challenge_1/install/robot_marker/lib/python3.10/site-packages/robot_marker/robo_marker.py to robo_marker.cpython-310.pyc
+[0.593s] running install_data
+[0.598s] creating /home/vt/robotics-2110435/challenge_1/install/robot_marker/share/ament_index
+[0.599s] creating /home/vt/robotics-2110435/challenge_1/install/robot_marker/share/ament_index/resource_index
+[0.599s] creating /home/vt/robotics-2110435/challenge_1/install/robot_marker/share/ament_index/resource_index/packages
+[0.599s] copying resource/robot_marker -> /home/vt/robotics-2110435/challenge_1/install/robot_marker/share/ament_index/resource_index/packages
+[0.599s] copying package.xml -> /home/vt/robotics-2110435/challenge_1/install/robot_marker/share/robot_marker
+[0.599s] running install_egg_info
+[0.605s] Copying ../../build/robot_marker/robot_marker.egg-info to /home/vt/robotics-2110435/challenge_1/install/robot_marker/lib/python3.10/site-packages/robot_marker-0.0.0-py3.10.egg-info
+[0.605s] running install_scripts
+[0.676s] Installing aruco_follower script to /home/vt/robotics-2110435/challenge_1/install/robot_marker/lib/robot_marker
+[0.677s] writing list of installed files to '/home/vt/robotics-2110435/challenge_1/build/robot_marker/install.log'
+[0.690s] Invoked command in '/home/vt/robotics-2110435/challenge_1/src/robot_marker' returned '0': PYTHONPATH=/home/vt/robotics-2110435/challenge_1/build/robot_marker/prefix_override:/home/vt/robotics-2110435/challenge_1/install/robot_marker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_marker build --build-base /home/vt/robotics-2110435/challenge_1/build/robot_marker/build install --record /home/vt/robotics-2110435/challenge_1/build/robot_marker/install.log --single-version-externally-managed

@@ -1,9 +1,0 @@
-setup.py
-aruco_controller/__init__.py
-aruco_controller/aruco_detector.py
-aruco_controller/detection_param.py
-aruco_controller/transformations.py
-aruco_controller.egg-info/PKG-INFO
-aruco_controller.egg-info/SOURCES.txt
-aruco_controller.egg-info/dependency_links.txt
-aruco_controller.egg-info/top_level.txt

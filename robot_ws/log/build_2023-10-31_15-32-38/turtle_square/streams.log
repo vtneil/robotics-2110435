@@ -1,0 +1,34 @@
+[0.590s] Invoking command in '/home/vt/robotics-2110435/robot_ws/src/turtle_square_stm': PYTHONPATH=/home/vt/robotics-2110435/robot_ws/build/turtle_square/prefix_override:/home/vt/robotics-2110435/robot_ws/install/turtle_square/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_square build --build-base /home/vt/robotics-2110435/robot_ws/build/turtle_square/build install --record /home/vt/robotics-2110435/robot_ws/build/turtle_square/install.log --single-version-externally-managed
+[0.696s] running egg_info
+[0.703s] writing ../../build/turtle_square/turtle_square.egg-info/PKG-INFO
+[0.703s] writing dependency_links to ../../build/turtle_square/turtle_square.egg-info/dependency_links.txt
+[0.703s] writing entry points to ../../build/turtle_square/turtle_square.egg-info/entry_points.txt
+[0.703s] writing requirements to ../../build/turtle_square/turtle_square.egg-info/requires.txt
+[0.703s] writing top-level names to ../../build/turtle_square/turtle_square.egg-info/top_level.txt
+[0.718s] reading manifest file '../../build/turtle_square/turtle_square.egg-info/SOURCES.txt'
+[0.719s] writing manifest file '../../build/turtle_square/turtle_square.egg-info/SOURCES.txt'
+[0.719s] running build
+[0.719s] running build_py
+[0.720s] running install
+[0.720s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.720s] !!
+[0.720s] 
+[0.720s]         ********************************************************************************
+[0.720s]         Please avoid running ``setup.py`` directly.
+[0.720s]         Instead, use pypa/build, pypa/installer or other
+[0.720s]         standards-based tools.
+[0.720s] 
+[0.720s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.720s]         ********************************************************************************
+[0.720s] 
+[0.720s] !!
+[0.721s]   self.initialize_options()
+[0.722s] running install_lib
+[0.728s] running install_data
+[0.734s] running install_egg_info
+[0.740s] removing '/home/vt/robotics-2110435/robot_ws/install/turtle_square/lib/python3.10/site-packages/turtle_square-0.0.0-py3.10.egg-info' (and everything under it)
+[0.740s] Copying ../../build/turtle_square/turtle_square.egg-info to /home/vt/robotics-2110435/robot_ws/install/turtle_square/lib/python3.10/site-packages/turtle_square-0.0.0-py3.10.egg-info
+[0.741s] running install_scripts
+[0.810s] Installing turtle_square_node script to /home/vt/robotics-2110435/robot_ws/install/turtle_square/lib/turtle_square
+[0.810s] writing list of installed files to '/home/vt/robotics-2110435/robot_ws/build/turtle_square/install.log'
+[0.888s] Invoked command in '/home/vt/robotics-2110435/robot_ws/src/turtle_square_stm' returned '0': PYTHONPATH=/home/vt/robotics-2110435/robot_ws/build/turtle_square/prefix_override:/home/vt/robotics-2110435/robot_ws/install/turtle_square/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_square build --build-base /home/vt/robotics-2110435/robot_ws/build/turtle_square/build install --record /home/vt/robotics-2110435/robot_ws/build/turtle_square/install.log --single-version-externally-managed
