@@ -18,20 +18,23 @@ StateT = TypeVar('StateT', bound=Enum)
 class StateMachine(Generic[StateT]):
     def __init__(self, start: StateT):
         self.__state: StateT = start
-        self.__func_map: dict = {k: None for k in StateT}
+        self.func_map: dict = dict()
+        # self.__func_map: dict = {k: None for k in StateT}
 
     def execute(self, *args, **kwargs):
-        fn = self.__func_map[self.__state]
+        if self.__state in self.func_map:
+            fn = self.func_map[self.__state]
+        else:
+            return
         if fn is not None:
             return fn(*args, **kwargs)
 
     def set_func(self, state: StateT, func: Callable):
-        if type(state) is StateT:
-            return
-        self.__func_map[state] = func
+        self.func_map[state] = func
 
     def set_callback(self, state: StateT, func: Callable):
         self.set_func(state, func)
+        return self
 
     def set_callbacks(self, *args: tuple[StateT, Callable] | list[StateT, Callable]):
         for arg in args:
@@ -45,8 +48,7 @@ class StateMachine(Generic[StateT]):
 
     @state.setter
     def state(self, new_state: StateT):
-        if type(new_state) is StateT:
-            self.__state = new_state
+        self.__state = new_state
 
 
 class Controller:
@@ -233,6 +235,10 @@ def make_twist(x=0.0, y=0.0, z=0.0,
     })
 
 
+def dist(x1, y1, x2, y2):
+    return math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2)
+
+
 __all__ = [
     'StateMachine',
     'Controller',
@@ -250,5 +256,6 @@ __all__ = [
     'Vector3',
     'staticvar',
     'make_twist',
-    'get_next_coordinate'
+    'get_next_coordinate',
+    'dist'
 ]

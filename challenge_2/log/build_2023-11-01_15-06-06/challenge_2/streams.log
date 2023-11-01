@@ -1,0 +1,40 @@
+[0.551s] Invoking command in '/home/vt/robotics-2110435/challenge_2/src/challenge_2': PYTHONPATH=/home/vt/robotics-2110435/challenge_2/build/challenge_2/prefix_override:/home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/challenge_2 build --build-base /home/vt/robotics-2110435/challenge_2/build/challenge_2/build install --record /home/vt/robotics-2110435/challenge_2/build/challenge_2/install.log --single-version-externally-managed
+[0.668s] running egg_info
+[0.675s] writing ../../build/challenge_2/challenge_2.egg-info/PKG-INFO
+[0.675s] writing dependency_links to ../../build/challenge_2/challenge_2.egg-info/dependency_links.txt
+[0.675s] writing entry points to ../../build/challenge_2/challenge_2.egg-info/entry_points.txt
+[0.676s] writing requirements to ../../build/challenge_2/challenge_2.egg-info/requires.txt
+[0.676s] writing top-level names to ../../build/challenge_2/challenge_2.egg-info/top_level.txt
+[0.689s] reading manifest file '../../build/challenge_2/challenge_2.egg-info/SOURCES.txt'
+[0.690s] writing manifest file '../../build/challenge_2/challenge_2.egg-info/SOURCES.txt'
+[0.690s] running build
+[0.690s] running build_py
+[0.690s] copying challenge_2/robot_helper.py -> /home/vt/robotics-2110435/challenge_2/build/challenge_2/build/lib/challenge_2
+[0.690s] copying challenge_2/main.py -> /home/vt/robotics-2110435/challenge_2/build/challenge_2/build/lib/challenge_2
+[0.690s] running install
+[0.691s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.691s] !!
+[0.691s] 
+[0.691s]         ********************************************************************************
+[0.691s]         Please avoid running ``setup.py`` directly.
+[0.691s]         Instead, use pypa/build, pypa/installer or other
+[0.691s]         standards-based tools.
+[0.691s] 
+[0.691s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.691s]         ********************************************************************************
+[0.691s] 
+[0.691s] !!
+[0.691s]   self.initialize_options()
+[0.693s] running install_lib
+[0.700s] copying /home/vt/robotics-2110435/challenge_2/build/challenge_2/build/lib/challenge_2/robot_helper.py -> /home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/python3.10/site-packages/challenge_2
+[0.700s] copying /home/vt/robotics-2110435/challenge_2/build/challenge_2/build/lib/challenge_2/main.py -> /home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/python3.10/site-packages/challenge_2
+[0.700s] byte-compiling /home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/python3.10/site-packages/challenge_2/robot_helper.py to robot_helper.cpython-310.pyc
+[0.701s] byte-compiling /home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/python3.10/site-packages/challenge_2/main.py to main.cpython-310.pyc
+[0.702s] running install_data
+[0.708s] running install_egg_info
+[0.714s] removing '/home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/python3.10/site-packages/challenge_2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.714s] Copying ../../build/challenge_2/challenge_2.egg-info to /home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/python3.10/site-packages/challenge_2-0.0.0-py3.10.egg-info
+[0.715s] running install_scripts
+[0.794s] Installing aruco_explorer script to /home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/challenge_2
+[0.794s] writing list of installed files to '/home/vt/robotics-2110435/challenge_2/build/challenge_2/install.log'
+[0.819s] Invoked command in '/home/vt/robotics-2110435/challenge_2/src/challenge_2' returned '0': PYTHONPATH=/home/vt/robotics-2110435/challenge_2/build/challenge_2/prefix_override:/home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/challenge_2 build --build-base /home/vt/robotics-2110435/challenge_2/build/challenge_2/build install --record /home/vt/robotics-2110435/challenge_2/build/challenge_2/install.log --single-version-externally-managed

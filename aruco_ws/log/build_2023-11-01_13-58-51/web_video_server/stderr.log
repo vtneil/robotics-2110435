@@ -1,0 +1,53 @@
+[01m[K/home/vt/robotics-2110435/aruco_ws/src/web_video_server/src/libav_streamer.cpp:[m[K In constructor ‘[01m[Kweb_video_server::LibavStreamer::LibavStreamer(const async_web_server_cpp::HttpRequest&, async_web_server_cpp::HttpConnectionPtr, rclcpp::Node::SharedPtr, const string&, const string&, const string&)[m[K’:
+[01m[K/home/vt/robotics-2110435/aruco_ws/src/web_video_server/src/libav_streamer.cpp:65:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint av_lockmgr_register(int (*)(void**, AVLockOp))[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   65 |   [01;35m[Kav_lockmgr_register(&ffmpeg_boost_mutex_lock_manager)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/vt/robotics-2110435/aruco_ws/src/web_video_server/include/web_video_server/libav_streamer.h:11[m[K,
+                 from [01m[K/home/vt/robotics-2110435/aruco_ws/src/web_video_server/src/libav_streamer.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/libavcodec/avcodec.h:4160:5:[m[K [01;36m[Knote: [m[Kdeclared here
+ 4160 | int [01;36m[Kav_lockmgr_register[m[K(int (*cb)(void **mutex, enum AVLockOp op));
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vt/robotics-2110435/aruco_ws/src/web_video_server/src/libav_streamer.cpp:66:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid av_register_all()[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   66 |   [01;35m[Kav_register_all()[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/vt/robotics-2110435/aruco_ws/src/web_video_server/include/web_video_server/libav_streamer.h:12[m[K,
+                 from [01m[K/home/vt/robotics-2110435/aruco_ws/src/web_video_server/src/libav_streamer.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:1955:6:[m[K [01;36m[Knote: [m[Kdeclared here
+ 1955 | void [01;36m[Kav_register_all[m[K(void);
+      |      [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/vt/robotics-2110435/aruco_ws/src/web_video_server/src/libav_streamer.cpp:[m[K In member function ‘[01m[Kvirtual void web_video_server::LibavStreamer::initialize(const cv::Mat&)[m[K’:
+[01m[K/home/vt/robotics-2110435/aruco_ws/src/web_video_server/src/libav_streamer.cpp:160:35:[m[K [01;35m[Kwarning: [m[K‘[01m[KAVStream::codec[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  160 |   codec_context_ = video_stream_->[01;35m[Kcodec[m[K;
+      |                                   [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/vt/robotics-2110435/aruco_ws/src/web_video_server/include/web_video_server/libav_streamer.h:12[m[K,
+                 from [01m[K/home/vt/robotics-2110435/aruco_ws/src/web_video_server/src/libav_streamer.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:888:21:[m[K [01;36m[Knote: [m[Kdeclared here
+  888 |     AVCodecContext *[01;36m[Kcodec[m[K;
+      |                     [01;36m[K^~~~~[m[K
+[01m[K/home/vt/robotics-2110435/aruco_ws/src/web_video_server/src/libav_streamer.cpp:160:35:[m[K [01;35m[Kwarning: [m[K‘[01m[KAVStream::codec[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  160 |   codec_context_ = video_stream_->[01;35m[Kcodec[m[K;
+      |                                   [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/vt/robotics-2110435/aruco_ws/src/web_video_server/include/web_video_server/libav_streamer.h:12[m[K,
+                 from [01m[K/home/vt/robotics-2110435/aruco_ws/src/web_video_server/src/libav_streamer.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:888:21:[m[K [01;36m[Knote: [m[Kdeclared here
+  888 |     AVCodecContext *[01;36m[Kcodec[m[K;
+      |                     [01;36m[K^~~~~[m[K
+[01m[K/home/vt/robotics-2110435/aruco_ws/src/web_video_server/src/libav_streamer.cpp:160:35:[m[K [01;35m[Kwarning: [m[K‘[01m[KAVStream::codec[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  160 |   codec_context_ = video_stream_->[01;35m[Kcodec[m[K;
+      |                                   [01;35m[K^~~~~[m[K
+In file included from [01m[K/home/vt/robotics-2110435/aruco_ws/src/web_video_server/include/web_video_server/libav_streamer.h:12[m[K,
+                 from [01m[K/home/vt/robotics-2110435/aruco_ws/src/web_video_server/src/libav_streamer.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/libavformat/avformat.h:888:21:[m[K [01;36m[Knote: [m[Kdeclared here
+  888 |     AVCodecContext *[01;36m[Kcodec[m[K;
+      |                     [01;36m[K^~~~~[m[K
+[01m[K/home/vt/robotics-2110435/aruco_ws/src/web_video_server/src/libav_streamer.cpp:[m[K In member function ‘[01m[Kvirtual void web_video_server::LibavStreamer::sendImage(const cv::Mat&, const rclcpp::Time&)[m[K’:
+[01m[K/home/vt/robotics-2110435/aruco_ws/src/web_video_server/src/libav_streamer.cpp:294:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid av_init_packet(AVPacket*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  294 |   [01;35m[Kav_init_packet(&pkt)[m[K;
+      |   [01;35m[K~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/libavcodec/bsf.h:30[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/libavcodec/avcodec.h:44[m[K,
+                 from [01m[K/home/vt/robotics-2110435/aruco_ws/src/web_video_server/include/web_video_server/libav_streamer.h:11[m[K,
+                 from [01m[K/home/vt/robotics-2110435/aruco_ws/src/web_video_server/src/libav_streamer.cpp:1[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/libavcodec/packet.h:488:6:[m[K [01;36m[Knote: [m[Kdeclared here
+  488 | void [01;36m[Kav_init_packet[m[K(AVPacket *pkt);
+      |      [01;36m[K^~~~~~~~~~~~~~[m[K

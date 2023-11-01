@@ -1,0 +1,58 @@
+[0.896s] Invoking command in '/home/vt/robotics-2110435/aruco_ws/src/aruco_following_controller': PYTHONPATH=/home/vt/robotics-2110435/aruco_ws/build/aruco_following_controller/prefix_override:/home/vt/robotics-2110435/aruco_ws/install/aruco_following_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_following_controller build --build-base /home/vt/robotics-2110435/aruco_ws/build/aruco_following_controller/build install --record /home/vt/robotics-2110435/aruco_ws/build/aruco_following_controller/install.log --single-version-externally-managed
+[1.018s] running egg_info
+[1.018s] creating ../../build/aruco_following_controller/aruco_following_controller.egg-info
+[1.026s] writing ../../build/aruco_following_controller/aruco_following_controller.egg-info/PKG-INFO
+[1.026s] writing dependency_links to ../../build/aruco_following_controller/aruco_following_controller.egg-info/dependency_links.txt
+[1.026s] writing entry points to ../../build/aruco_following_controller/aruco_following_controller.egg-info/entry_points.txt
+[1.027s] writing requirements to ../../build/aruco_following_controller/aruco_following_controller.egg-info/requires.txt
+[1.027s] writing top-level names to ../../build/aruco_following_controller/aruco_following_controller.egg-info/top_level.txt
+[1.027s] writing manifest file '../../build/aruco_following_controller/aruco_following_controller.egg-info/SOURCES.txt'
+[1.041s] reading manifest file '../../build/aruco_following_controller/aruco_following_controller.egg-info/SOURCES.txt'
+[1.041s] writing manifest file '../../build/aruco_following_controller/aruco_following_controller.egg-info/SOURCES.txt'
+[1.041s] running build
+[1.041s] running build_py
+[1.042s] creating /home/vt/robotics-2110435/aruco_ws/build/aruco_following_controller/build
+[1.042s] creating /home/vt/robotics-2110435/aruco_ws/build/aruco_following_controller/build/lib
+[1.042s] creating /home/vt/robotics-2110435/aruco_ws/build/aruco_following_controller/build/lib/aruco_following_controller
+[1.042s] copying aruco_following_controller/__init__.py -> /home/vt/robotics-2110435/aruco_ws/build/aruco_following_controller/build/lib/aruco_following_controller
+[1.042s] copying aruco_following_controller/robot_controller.py -> /home/vt/robotics-2110435/aruco_ws/build/aruco_following_controller/build/lib/aruco_following_controller
+[1.042s] copying aruco_following_controller/control_law.py -> /home/vt/robotics-2110435/aruco_ws/build/aruco_following_controller/build/lib/aruco_following_controller
+[1.042s] running install
+[1.042s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.043s] !!
+[1.043s] 
+[1.043s]         ********************************************************************************
+[1.043s]         Please avoid running ``setup.py`` directly.
+[1.043s]         Instead, use pypa/build, pypa/installer or other
+[1.043s]         standards-based tools.
+[1.043s] 
+[1.043s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.043s]         ********************************************************************************
+[1.043s] 
+[1.043s] !!
+[1.043s]   self.initialize_options()
+[1.045s] running install_lib
+[1.053s] creating /home/vt/robotics-2110435/aruco_ws/install/aruco_following_controller/lib/python3.10/site-packages/aruco_following_controller
+[1.054s] copying /home/vt/robotics-2110435/aruco_ws/build/aruco_following_controller/build/lib/aruco_following_controller/__init__.py -> /home/vt/robotics-2110435/aruco_ws/install/aruco_following_controller/lib/python3.10/site-packages/aruco_following_controller
+[1.054s] copying /home/vt/robotics-2110435/aruco_ws/build/aruco_following_controller/build/lib/aruco_following_controller/robot_controller.py -> /home/vt/robotics-2110435/aruco_ws/install/aruco_following_controller/lib/python3.10/site-packages/aruco_following_controller
+[1.054s] copying /home/vt/robotics-2110435/aruco_ws/build/aruco_following_controller/build/lib/aruco_following_controller/control_law.py -> /home/vt/robotics-2110435/aruco_ws/install/aruco_following_controller/lib/python3.10/site-packages/aruco_following_controller
+[1.054s] byte-compiling /home/vt/robotics-2110435/aruco_ws/install/aruco_following_controller/lib/python3.10/site-packages/aruco_following_controller/__init__.py to __init__.cpython-310.pyc
+[1.055s] byte-compiling /home/vt/robotics-2110435/aruco_ws/install/aruco_following_controller/lib/python3.10/site-packages/aruco_following_controller/robot_controller.py to robot_controller.cpython-310.pyc
+[1.056s] byte-compiling /home/vt/robotics-2110435/aruco_ws/install/aruco_following_controller/lib/python3.10/site-packages/aruco_following_controller/control_law.py to control_law.cpython-310.pyc
+[1.056s] running install_data
+[1.063s] creating /home/vt/robotics-2110435/aruco_ws/install/aruco_following_controller/share/ament_index
+[1.064s] creating /home/vt/robotics-2110435/aruco_ws/install/aruco_following_controller/share/ament_index/resource_index
+[1.064s] creating /home/vt/robotics-2110435/aruco_ws/install/aruco_following_controller/share/ament_index/resource_index/packages
+[1.064s] copying resource/aruco_following_controller -> /home/vt/robotics-2110435/aruco_ws/install/aruco_following_controller/share/ament_index/resource_index/packages
+[1.064s] copying package.xml -> /home/vt/robotics-2110435/aruco_ws/install/aruco_following_controller/share/aruco_following_controller
+[1.064s] creating /home/vt/robotics-2110435/aruco_ws/install/aruco_following_controller/share/aruco_following_controller/param
+[1.064s] copying param/controller_params.yaml -> /home/vt/robotics-2110435/aruco_ws/install/aruco_following_controller/share/aruco_following_controller/param
+[1.064s] creating /home/vt/robotics-2110435/aruco_ws/install/aruco_following_controller/share/aruco_following_controller/launch
+[1.064s] copying launch/controller.launch.py -> /home/vt/robotics-2110435/aruco_ws/install/aruco_following_controller/share/aruco_following_controller/launch
+[1.064s] copying launch/static_tf.launch.py -> /home/vt/robotics-2110435/aruco_ws/install/aruco_following_controller/share/aruco_following_controller/launch
+[1.064s] running install_egg_info
+[1.073s] Copying ../../build/aruco_following_controller/aruco_following_controller.egg-info to /home/vt/robotics-2110435/aruco_ws/install/aruco_following_controller/lib/python3.10/site-packages/aruco_following_controller-0.0.0-py3.10.egg-info
+[1.073s] running install_scripts
+[1.158s] Installing controller script to /home/vt/robotics-2110435/aruco_ws/install/aruco_following_controller/lib/aruco_following_controller
+[1.158s] writing list of installed files to '/home/vt/robotics-2110435/aruco_ws/build/aruco_following_controller/install.log'
+[1.220s] Invoked command in '/home/vt/robotics-2110435/aruco_ws/src/aruco_following_controller' returned '0': PYTHONPATH=/home/vt/robotics-2110435/aruco_ws/build/aruco_following_controller/prefix_override:/home/vt/robotics-2110435/aruco_ws/install/aruco_following_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aruco_following_controller build --build-base /home/vt/robotics-2110435/aruco_ws/build/aruco_following_controller/build install --record /home/vt/robotics-2110435/aruco_ws/build/aruco_following_controller/install.log --single-version-externally-managed

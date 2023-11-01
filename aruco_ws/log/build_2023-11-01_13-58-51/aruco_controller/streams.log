@@ -1,0 +1,91 @@
+[0.245s] Invoking command in '/home/vt/robotics-2110435/aruco_ws/build/aruco_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vt/robotics-2110435/challenge_2/install/challenge_2:/home/vt/robotics-2110435/robot_ws/install/turtle_square:/home/vt/robotics-2110435/robot_ws/install/turtle_pkg:/home/vt/robotics-2110435/robot_ws/install/ros2_aruco:/home/vt/robotics-2110435/tracking_ws/install/keyboard_control:/home/vt/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/vt/robotics-2110435/challenge_1/install/robot_marker:/opt/ros/humble /usr/bin/cmake /home/vt/robotics-2110435/aruco_ws/src/aruco_controller -DCMAKE_INSTALL_PREFIX=/home/vt/robotics-2110435/aruco_ws/install/aruco_controller
+[0.600s] -- The C compiler identification is GNU 11.4.0
+[0.601s] -- The CXX compiler identification is GNU 11.4.0
+[0.601s] -- Detecting C compiler ABI info
+[0.601s] -- Detecting C compiler ABI info - done
+[0.601s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.602s] -- Detecting C compile features
+[0.602s] -- Detecting C compile features - done
+[0.602s] -- Detecting CXX compiler ABI info
+[0.603s] -- Detecting CXX compiler ABI info - done
+[0.603s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.604s] -- Detecting CXX compile features
+[0.604s] -- Detecting CXX compile features - done
+[0.604s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.767s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.836s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.868s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.872s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.879s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.888s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.901s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.951s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.953s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.048s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.072s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.105s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.112s] -- Looking for pthread.h
+[1.182s] -- Looking for pthread.h - found
+[1.182s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.250s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.251s] -- Found Threads: TRUE  
+[1.373s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[1.488s] -- Configuring done
+[1.492s] -- Generating done
+[1.493s] -- Build files have been written to: /home/vt/robotics-2110435/aruco_ws/build/aruco_controller
+[1.502s] Invoked command in '/home/vt/robotics-2110435/aruco_ws/build/aruco_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vt/robotics-2110435/challenge_2/install/challenge_2:/home/vt/robotics-2110435/robot_ws/install/turtle_square:/home/vt/robotics-2110435/robot_ws/install/turtle_pkg:/home/vt/robotics-2110435/robot_ws/install/ros2_aruco:/home/vt/robotics-2110435/tracking_ws/install/keyboard_control:/home/vt/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/vt/robotics-2110435/challenge_1/install/robot_marker:/opt/ros/humble /usr/bin/cmake /home/vt/robotics-2110435/aruco_ws/src/aruco_controller -DCMAKE_INSTALL_PREFIX=/home/vt/robotics-2110435/aruco_ws/install/aruco_controller
+[1.504s] Invoking command in '/home/vt/robotics-2110435/aruco_ws/build/aruco_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vt/robotics-2110435/challenge_2/install/challenge_2:/home/vt/robotics-2110435/robot_ws/install/turtle_square:/home/vt/robotics-2110435/robot_ws/install/turtle_pkg:/home/vt/robotics-2110435/robot_ws/install/ros2_aruco:/home/vt/robotics-2110435/tracking_ws/install/keyboard_control:/home/vt/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/vt/robotics-2110435/challenge_1/install/robot_marker:/opt/ros/humble /usr/bin/cmake --build /home/vt/robotics-2110435/aruco_ws/build/aruco_controller -- -j16 -l16
+[1.564s] Built target ament_cmake_python_copy_aruco_controller
+[1.678s] running egg_info
+[1.679s] creating aruco_controller.egg-info
+[1.685s] writing aruco_controller.egg-info/PKG-INFO
+[1.686s] writing dependency_links to aruco_controller.egg-info/dependency_links.txt
+[1.686s] writing top-level names to aruco_controller.egg-info/top_level.txt
+[1.686s] writing manifest file 'aruco_controller.egg-info/SOURCES.txt'
+[1.704s] reading manifest file 'aruco_controller.egg-info/SOURCES.txt'
+[1.705s] writing manifest file 'aruco_controller.egg-info/SOURCES.txt'
+[1.733s] Built target ament_cmake_python_build_aruco_controller_egg
+[1.748s] Invoked command in '/home/vt/robotics-2110435/aruco_ws/build/aruco_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vt/robotics-2110435/challenge_2/install/challenge_2:/home/vt/robotics-2110435/robot_ws/install/turtle_square:/home/vt/robotics-2110435/robot_ws/install/turtle_pkg:/home/vt/robotics-2110435/robot_ws/install/ros2_aruco:/home/vt/robotics-2110435/tracking_ws/install/keyboard_control:/home/vt/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/vt/robotics-2110435/challenge_1/install/robot_marker:/opt/ros/humble /usr/bin/cmake --build /home/vt/robotics-2110435/aruco_ws/build/aruco_controller -- -j16 -l16
+[1.780s] Invoking command in '/home/vt/robotics-2110435/aruco_ws/build/aruco_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vt/robotics-2110435/challenge_2/install/challenge_2:/home/vt/robotics-2110435/robot_ws/install/turtle_square:/home/vt/robotics-2110435/robot_ws/install/turtle_pkg:/home/vt/robotics-2110435/robot_ws/install/ros2_aruco:/home/vt/robotics-2110435/tracking_ws/install/keyboard_control:/home/vt/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/vt/robotics-2110435/challenge_1/install/robot_marker:/opt/ros/humble /usr/bin/cmake --install /home/vt/robotics-2110435/aruco_ws/build/aruco_controller
+[1.785s] -- Install configuration: ""
+[1.785s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/aruco_controller/environment/pythonpath.sh
+[1.785s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/aruco_controller/environment/pythonpath.dsv
+[1.785s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller-0.0.0-py3.10.egg-info
+[1.786s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.786s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[1.786s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.786s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller-0.0.0-py3.10.egg-info/top_level.txt
+[1.786s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller
+[1.786s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller/__init__.py
+[1.786s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller/transformations.py
+[1.786s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller/detection_param.py
+[1.786s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller/aruco_detector.py
+[1.812s] Listing '/home/vt/robotics-2110435/aruco_ws/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller'...
+[1.812s] Compiling '/home/vt/robotics-2110435/aruco_ws/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller/__init__.py'...
+[1.812s] Compiling '/home/vt/robotics-2110435/aruco_ws/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller/aruco_detector.py'...
+[1.812s] Compiling '/home/vt/robotics-2110435/aruco_ws/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller/detection_param.py'...
+[1.812s] Compiling '/home/vt/robotics-2110435/aruco_ws/install/aruco_controller/local/lib/python3.10/dist-packages/aruco_controller/transformations.py'...
+[1.814s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/lib/aruco_controller/aruco_detector.py
+[1.815s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/lib/aruco_controller/detection_param.py
+[1.815s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/aruco_controller/cfg
+[1.815s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/aruco_controller/cfg/aruco_detect_param.yaml
+[1.815s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/aruco_controller/cfg/marker_param.yaml
+[1.815s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/aruco_controller/cfg/default_param.yaml
+[1.815s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/aruco_controller/launch
+[1.815s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/aruco_controller/launch/main_launch.py
+[1.815s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/ament_index/resource_index/package_run_dependencies/aruco_controller
+[1.816s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/ament_index/resource_index/parent_prefix_path/aruco_controller
+[1.816s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/aruco_controller/environment/ament_prefix_path.sh
+[1.816s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/aruco_controller/environment/ament_prefix_path.dsv
+[1.816s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/aruco_controller/environment/path.sh
+[1.816s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/aruco_controller/environment/path.dsv
+[1.816s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/aruco_controller/local_setup.bash
+[1.816s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/aruco_controller/local_setup.sh
+[1.816s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/aruco_controller/local_setup.zsh
+[1.816s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/aruco_controller/local_setup.dsv
+[1.816s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/aruco_controller/package.dsv
+[1.816s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/ament_index/resource_index/packages/aruco_controller
+[1.816s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/aruco_controller/cmake/aruco_controllerConfig.cmake
+[1.816s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/aruco_controller/cmake/aruco_controllerConfig-version.cmake
+[1.817s] -- Installing: /home/vt/robotics-2110435/aruco_ws/install/aruco_controller/share/aruco_controller/package.xml
+[1.819s] Invoked command in '/home/vt/robotics-2110435/aruco_ws/build/aruco_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vt/robotics-2110435/challenge_2/install/challenge_2:/home/vt/robotics-2110435/robot_ws/install/turtle_square:/home/vt/robotics-2110435/robot_ws/install/turtle_pkg:/home/vt/robotics-2110435/robot_ws/install/ros2_aruco:/home/vt/robotics-2110435/tracking_ws/install/keyboard_control:/home/vt/robotics-2110435/tracking_ws/install/aruco_following_controller:/home/vt/robotics-2110435/challenge_1/install/robot_marker:/opt/ros/humble /usr/bin/cmake --install /home/vt/robotics-2110435/aruco_ws/build/aruco_controller

@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/challenge_2/challenge_2.egg-info/PKG-INFO
+writing dependency_links to ../../build/challenge_2/challenge_2.egg-info/dependency_links.txt
+writing entry points to ../../build/challenge_2/challenge_2.egg-info/entry_points.txt
+writing requirements to ../../build/challenge_2/challenge_2.egg-info/requires.txt
+writing top-level names to ../../build/challenge_2/challenge_2.egg-info/top_level.txt
+reading manifest file '../../build/challenge_2/challenge_2.egg-info/SOURCES.txt'
+writing manifest file '../../build/challenge_2/challenge_2.egg-info/SOURCES.txt'
+running build
+running build_py
+copying challenge_2/robot_helper.py -> /home/vt/robotics-2110435/challenge_2/build/challenge_2/build/lib/challenge_2
+running install
+running install_lib
+copying /home/vt/robotics-2110435/challenge_2/build/challenge_2/build/lib/challenge_2/robot_helper.py -> /home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/python3.10/site-packages/challenge_2
+byte-compiling /home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/python3.10/site-packages/challenge_2/robot_helper.py to robot_helper.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/python3.10/site-packages/challenge_2-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/challenge_2/challenge_2.egg-info to /home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/python3.10/site-packages/challenge_2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing aruco_explorer script to /home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/challenge_2
+writing list of installed files to '/home/vt/robotics-2110435/challenge_2/build/challenge_2/install.log'

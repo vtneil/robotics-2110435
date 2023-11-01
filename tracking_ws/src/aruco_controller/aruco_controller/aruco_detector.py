@@ -119,6 +119,9 @@ class ArucoDetector(Node):
         package_share_directory = get_package_share_directory('aruco_controller')
         self.path = package_share_directory + "/cfg/"
         self.read_marker_param(self.path + "marker_param.yaml")
+
+        # EDITED
+
         # self.marker_id = [int(os.getenv('ROS_DOMAIN_ID'))]  # self.marker_ids
         self.marker_id = self.marker_ids
         self.log("Usng Aruco NO. [{}]".format(self.marker_id))
