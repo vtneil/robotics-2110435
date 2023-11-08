@@ -33,7 +33,7 @@ class ArucoExplorerNode(Node):
     THRESHOLD_ANGLE = math.radians(2)  # rad
     SEARCH_SPEED = math.radians(15)
 
-    THRESHOLD_DISTANCE = 0.01  # meter
+    THRESHOLD_DISTANCE = 0.05  # meter
     DISTANCE_CAL_SCALE = 0.5  # 0.5 m real world =  1 m value
     TARG_DIST_ARUCO = 0.30 / DISTANCE_CAL_SCALE
     TARG_ANG_ARUCO = 0
@@ -251,7 +251,7 @@ class ArucoExplorerNode(Node):
             d = dist(self.robot_pos.position.x, self.robot_pos.position.y,
                      self.control_now[1][0], self.control_now[1][1])
 
-            if d <= 0.05:
+            if d <= self.THRESHOLD_DISTANCE:
                 self.motion_state.state = State.IDLE
                 self.twist = make_twist()
                 return
