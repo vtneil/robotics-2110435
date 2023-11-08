@@ -1,0 +1,34 @@
+[0.536s] Invoking command in '/home/vt/robotics-2110435/challenge_2/src/challenge_2': PYTHONPATH=/home/vt/robotics-2110435/challenge_2/build/challenge_2/prefix_override:/home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/challenge_2 build --build-base /home/vt/robotics-2110435/challenge_2/build/challenge_2/build install --record /home/vt/robotics-2110435/challenge_2/build/challenge_2/install.log --single-version-externally-managed
+[0.676s] running egg_info
+[0.683s] writing ../../build/challenge_2/challenge_2.egg-info/PKG-INFO
+[0.684s] writing dependency_links to ../../build/challenge_2/challenge_2.egg-info/dependency_links.txt
+[0.684s] writing entry points to ../../build/challenge_2/challenge_2.egg-info/entry_points.txt
+[0.684s] writing requirements to ../../build/challenge_2/challenge_2.egg-info/requires.txt
+[0.684s] writing top-level names to ../../build/challenge_2/challenge_2.egg-info/top_level.txt
+[0.698s] reading manifest file '../../build/challenge_2/challenge_2.egg-info/SOURCES.txt'
+[0.698s] writing manifest file '../../build/challenge_2/challenge_2.egg-info/SOURCES.txt'
+[0.698s] running build
+[0.698s] running build_py
+[0.698s] running install
+[0.699s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.699s] !!
+[0.699s] 
+[0.699s]         ********************************************************************************
+[0.699s]         Please avoid running ``setup.py`` directly.
+[0.699s]         Instead, use pypa/build, pypa/installer or other
+[0.699s]         standards-based tools.
+[0.699s] 
+[0.699s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.699s]         ********************************************************************************
+[0.699s] 
+[0.700s] !!
+[0.700s]   self.initialize_options()
+[0.702s] running install_lib
+[0.709s] running install_data
+[0.716s] running install_egg_info
+[0.724s] removing '/home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/python3.10/site-packages/challenge_2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.724s] Copying ../../build/challenge_2/challenge_2.egg-info to /home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/python3.10/site-packages/challenge_2-0.0.0-py3.10.egg-info
+[0.724s] running install_scripts
+[0.800s] Installing aruco_explorer script to /home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/challenge_2
+[0.800s] writing list of installed files to '/home/vt/robotics-2110435/challenge_2/build/challenge_2/install.log'
+[0.819s] Invoked command in '/home/vt/robotics-2110435/challenge_2/src/challenge_2' returned '0': PYTHONPATH=/home/vt/robotics-2110435/challenge_2/build/challenge_2/prefix_override:/home/vt/robotics-2110435/challenge_2/install/challenge_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/challenge_2 build --build-base /home/vt/robotics-2110435/challenge_2/build/challenge_2/build install --record /home/vt/robotics-2110435/challenge_2/build/challenge_2/install.log --single-version-externally-managed

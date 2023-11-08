@@ -29,6 +29,9 @@ class StateMachine(Generic[StateT]):
         if fn is not None:
             return fn(*args, **kwargs)
 
+    def __call__(self, *args, **kwargs):
+        return self.execute(*args, **kwargs)
+
     def set_func(self, state: StateT, func: Callable):
         self.func_map[state] = func
 
@@ -69,6 +72,9 @@ class Controller:
 
         def send(self, args):
             return self._controller.send(args)
+
+        def __call__(self, *args):
+            return self.send(args)
 
         def _make_controller(self):
             while True:
@@ -138,7 +144,7 @@ class MyQuaternion:
         yield self.z
         yield self.w
 
-    def to_quaternion(self):
+    def to_ros2(self):
         return geometry_msgs.msg.Quaternion(
             x=self.x,
             y=self.y,
@@ -147,7 +153,7 @@ class MyQuaternion:
         )
 
     @staticmethod
-    def from_quaternion(quaternion: geometry_msgs.msg.Quaternion):
+    def from_ros2(quaternion: geometry_msgs.msg.Quaternion):
         return MyQuaternion(
             quaternion.x,
             quaternion.y,
@@ -202,6 +208,10 @@ def euler_to_quaternion(euler: MyEuler):
     return MyQuaternion(qx, qy, qz, qw)
 
 
+quaternion_from_euler = euler_to_quaternion
+euler_from_quaternion = quaternion_to_euler
+
+
 def get_next_coordinate(x0, y0,
                         xm, zm,
                         heading_ref):
@@ -211,12 +221,13 @@ def get_next_coordinate(x0, y0,
 
 
 def staticvar(**kwargs):
-    def decorate(func):
-        for k in kwargs:
-            setattr(func, k, kwargs[k])
-        return func
+    raise DeprecationWarning('Deprecated')
+    # def decorate(func):
+    #     for k in kwargs:
+    #         setattr(func, k, kwargs[k])
+    #     return func
 
-    return decorate
+    # return decorate
 
 
 def make_twist(x=0.0, y=0.0, z=0.0,
@@ -239,7 +250,16 @@ def dist(x1, y1, x2, y2):
     return math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2)
 
 
+def max_mag(a, b):
+    return sgn(a) * max(abs(a), abs(b))
+
+
+def min_mag(a, b):
+    return sgn(a) * min(abs(a), abs(b))
+
+
 __all__ = [
+    'math',
     'StateMachine',
     'Controller',
     'sgn',
@@ -247,7 +267,9 @@ __all__ = [
     'MyEuler',
     'MyQuaternion',
     'quaternion_to_euler',
+    'euler_from_quaternion',
     'euler_to_quaternion',
+    'quaternion_from_euler',
     'Enum',
     'rclpy',
     'Node',
@@ -257,5 +279,6 @@ __all__ = [
     'staticvar',
     'make_twist',
     'get_next_coordinate',
-    'dist'
+    'dist',
+    'max_mag'
 ]
